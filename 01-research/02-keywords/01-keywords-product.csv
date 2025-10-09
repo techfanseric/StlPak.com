@@ -1,0 +1,19 @@
+id,keyword,intent,monthly_search_volume,competition_percent,cpc_cost,category
+1,egg cartons,Transactional,14800,23,0.93,Egg
+2,egg carton,Commercial,8100,21,0.93,Egg
+3,carton of eggs,Informational,Transactional,5400,57,0.61,Egg
+4,cake container,Commercial,2400,32,1.00,Cake
+5,cake in a container,Informational,Transactional,2400,21,1.00,Cake
+6,clamshell packaging,Informational,Transactional,2400,27,2.27,CATEGORY
+7,cake containers,Informational,Transactional,1900,31,1.00,Cake
+8,deviled egg container,Informational,Transactional,1900,30,0.37,Egg
+9,Egg tray,Informational,Transactional,1900,26,1.64,Egg
+10,clamshell containers,Informational,Transactional,1300,25,1.57,CATEGORY
+11,Cookie container,Informational,Transactional,1300,26,1.09,Snack
+12,Salad container,Informational,Transactional,1300,12,0.52,Salad
+13,blueberry container,Informational,Commercial,480,32,32.00,Blueberry
+14,blueberry packaging,Informational,Commercial,260,0,2.20,Blueberry
+15,berry containers,Informational,Transactional,260,7,,Blueberry
+16,carton of blueberries,Informational,Transactional,140,0,0.00,Blueberry
+17,blueberry containers,Transactional,110,23,23.00,Blueberry
+18,blueberry tray,Informational,Commercial,50,10,10.00,Blueberry

@@ -1,0 +1,9 @@
+id,keyword,intent,monthly_search_volume,competition_percent,cpc_cost,category
+1,to go containers,Commercial,5400,27,1.15,品类词
+2,go to containers,Commercial,1300,18,1.15,品类词
+3,to go container,Informational,Commercial,880,28,1.15,品类词
+4,food containers to go,Commercial,590,17,1.12,品类词
+5,plastic to go containers,Informational,Commercial,590,7,0.92,品类词
+6,to go food containers,Commercial,590,25,1.23,品类词
+7,to-go containers,Transactional,390,30,0.00,品类词
+8,restaurant to go containers,Informational,Transactional,260,17,1.61,品类词
