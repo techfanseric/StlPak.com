@@ -21,7 +21,7 @@
         </p>
 
         <div class="hero-actions">
-          <a href="become-dealer.html" class="btn btn-primary btn-lg">Get Free Samples</a>
+          <a href="../contact.html" class="btn btn-primary btn-lg">Get Free Samples</a>
           <a href="../products/index.html" class="btn btn-outline btn-lg">View Products</a>
         </div>
       </div>
@@ -62,7 +62,7 @@
               </ul>
 
               <div class="mt-md">
-                <a href="become-dealer.html" class="btn btn-primary btn-sm">Learn Partnership Details</a>
+                <a href="../contact.html" class="btn btn-primary btn-sm">Learn Partnership Details</a>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@
               </ul>
 
               <div class="mt-md">
-                <a href="become-dealer.html" class="btn btn-primary btn-sm">Learn Business Value</a>
+                <a href="../contact.html" class="btn btn-primary btn-sm">Learn Business Value</a>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@
         </div>
 
         <div class="text-center mt-xl">
-          <a href="become-dealer.html" class="btn btn-primary btn-lg">Get Free Samples</a>
+          <a href="../contact.html" class="btn btn-primary btn-lg">Get Free Samples</a>
           <a href="../contact.html" class="btn btn-outline btn-lg ml-md">Consult Details</a>
         </div>
       </div>
@@ -402,9 +402,7 @@
           </div>
         </div>
 
-        <div class="text-center mt-xl">
-          <a href="success-cases.html" class="btn btn-outline">View More Cases</a>
-        </div>
+        <!-- Success cases are displayed above -->
       </div>
     </section>
 
@@ -476,7 +474,7 @@
                 <div class="action-icon">Consult</div>
                 <h3>Online Consultation</h3>
                 <p>Fill out a simple inquiry form, our professional team will contact you promptly</p>
-                <a href="become-dealer.html" class="btn btn-primary">Get Free Samples</a>
+                <a href="../contact.html" class="btn btn-primary">Get Free Samples</a>
               </div>
 
               <!-- View Products -->
@@ -565,6 +563,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // Set current page active state
       const partnersLink = document.querySelector('a[href="../dealer/index.html"], a[href="dealer/index.html"]');
       if (partnersLink) partnersLink.classList.add('active');
+
+      // Fix resources link for dealer subdirectory
+      const resourcesLink = document.querySelector('a[href="resources/index.html"]');
+      if (resourcesLink) resourcesLink.href = '../resources/index.html';
     });
 
   // Load footer
