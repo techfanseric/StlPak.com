@@ -92,7 +92,9 @@ define( 'WP_MEMORY_LIMIT', '512M' );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+// Override site URL for local development
+define('WP_HOME', 'http://localhost:8080');
+define('WP_SITEURL', 'http://localhost:8080');
 
 define( 'FS_METHOD', 'direct' );
 define( 'WP_AUTO_UPDATE_CORE', false );
