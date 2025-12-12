@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   wordpress:
-    image: wordpress:6.5-php8.2-apache
+    image: wordpress:php7.4-apache
     container_name: stlpak-wordpress
     ports:
       - "8080:80"

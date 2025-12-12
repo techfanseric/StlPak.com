@@ -31,7 +31,7 @@ define( 'DB_USER', 'u577823813_b75Zt' );
 define( 'DB_PASSWORD', '1Tf2Ixcrve' );
 
 /** Database hostname */
-define( 'DB_HOST', '127.0.0.1' );
+define( 'DB_HOST', 'db:3306' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -85,6 +85,10 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+/**
+ * Increase PHP memory limit
+ */
+define( 'WP_MEMORY_LIMIT', '512M' );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
