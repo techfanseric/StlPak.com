@@ -58,6 +58,7 @@ define( 'AUTH_SALT',         'M^=pvwg~<&):TE?]sb3B6yH/cQvP1;&/nZt/h{UN%vfPVkHI6z
 define( 'SECURE_AUTH_SALT',  '-C.Hra4-r^VZyE ~dyRx@`aHXb=mn~<%8Q+^k4qo&KBS70|ChRE[?1vDiS`MrUmA' );
 define( 'LOGGED_IN_SALT',    'Ki;jWzC#zro/Zdapog.c[pi&66*E_`1*4oU&)llf]|c-%rC,y)(R%_.%6U O#ES7' );
 define( 'NONCE_SALT',        'f~Dp#P1NiOm4>h~$yoC9Ch$Fr|DB3,k~7T2~Ln&2 JD%,;n!hI*0&nW#22m&`/|)' );
+define( 'WP_CACHE', true );
 define( 'WP_CACHE_KEY_SALT', 'X{&lUC7,QkEhXu& xzDdQs<0aU?^1|;Q~Kunp+VyOllmSH:jJ~+L^ N#$g/%CdcL' );
 
 
@@ -83,7 +84,27 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+
+// Disable external HTTP requests
+define( 'WP_HTTP_BLOCK_EXTERNAL', true );
+define( 'WP_ACCESSIBLE_HOSTS', 'localhost,127.0.0.1' );
+
+// Debug queries
+define( 'SAVEQUERIES', false ); // Disable query debugging for performance
+
+// Performance optimizations
+define('WP_POST_REVISIONS', false);
+define('AUTOSAVE_INTERVAL', 300);
+define('DISABLE_WP_CRON', true);
+define('WP_CACHE', true);
+
+// Disable unnecessary features
+define('WP_DEBUG', false);
+define('WP_DEBUG_LOG', false);
+define('SAVEQUERIES', false);
 
 /**
  * Increase PHP memory limit
