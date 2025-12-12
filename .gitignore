@@ -3,3 +3,4 @@
 
 # WordPress plugin logs
 06-public_html/wp-content/plugins/*/logs/
+06-public_html/wp-content/debug.log
