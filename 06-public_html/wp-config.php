@@ -119,6 +119,13 @@ define('WP_SITEURL', 'http://localhost:8080');
 
 define( 'FS_METHOD', 'direct' );
 define( 'WP_AUTO_UPDATE_CORE', false );
+/* Redis Object Cache */
+define('WP_REDIS_HOST', 'redis');
+define('WP_REDIS_PORT', 6379);
+define('WP_REDIS_PASSWORD', 'redis123');
+define('WP_REDIS_DATABASE', 0);
+define('WP_REDIS_PREFIX', 'wp_');
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

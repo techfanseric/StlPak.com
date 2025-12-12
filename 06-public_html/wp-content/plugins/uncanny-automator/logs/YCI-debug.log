@@ -138,3 +138,101 @@ Options Migration V1 results: {"migrated":0,"skipped":7,"errors":["Failed to mig
 ===========================<<<< TRACE MESSAGE END >>>>==========================
 
 
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: 6.5_nested_tokens 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Starting the migration
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: 6.5_nested_tokens 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Migration completed
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: 66_migrate_option_types 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Starting the migration
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: 66_migrate_option_types 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Migration completed
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: automator_options_migration_v1 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Starting the migration
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: automator_options_migration_v1 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Migration completed
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
+
+
+===========================<<<< 2025-12-12 10:03:29 AM >>>>=======================
+
+* Heading: automator_options_migration_v1 
+* Current Page: https://localhost:8080/wp-admin/admin-ajax.php 
+
+===========================<<<< TRACE MESSAGE START >>>>=========================
+
+Options Migration V1 results: {"migrated":0,"skipped":8,"errors":["Failed to migrate AUTOMATOR_PLUGIN_VERSION","Failed to migrate uncannyautomator_source","Failed to migrate automator_settings_debug_enabled","Failed to migrate automator_settings_debug_notices_enabled","Failed to migrate load_automator","Failed to migrate automator_last_updated","Failed to migrate automator_reporting","Failed to migrate automator_over_time","Failed to migrate uap_automator_free_license_status","Failed to migrate uap_automator__license_key","Failed to migrate automator_open_ai_secret","Failed to migrate automator_telegram_bot_info","Failed to migrate _uncannyowl_twitter_settings","Failed to migrate uap_zoom_api_connected_user","Failed to migrate _uncannyowl_zoom_settings","Failed to migrate uap_zoom_webinar_api_connected_user","Failed to migrate _uncannyowl_zoom_webinar_settings","Failed to migrate _uncannyowl_gtt_settings","Failed to migrate _uncannyowl_gtw_settings","Failed to migrate uap_automator_twilio_api_account_sid","Failed to migrate uap_automator_twilio_api_auth_token","Failed to migrate uap_twilio_connected_user","Failed to migrate automator_helpscout_client","Failed to migrate uap_helpscout_enable_webhook","Failed to migrate uap_active_campaign_api_url","Failed to migrate uap_active_campaign_api_key","Failed to migrate uap_active_campaign_connected_user","Failed to migrate uap_active_campaign_enable_webhook","Failed to migrate uap_mailchimp_enable_webhook","Failed to migrate _uncannyowl_mailchimp_settings","Failed to migrate automator_linkedin_client","Failed to migrate automator_drip_credentials","Failed to migrate automator_microsoft_teams_credentials","Failed to migrate _automator_hubspot_settings","Failed to migrate automator_mautic_resource_owner","Failed to migrate automator_whatsapp_client","Failed to migrate automator_google_contacts_credentials","Failed to migrate automator_google_calendar_credentials","Failed to migrate automator_google_sheets_migrate_58","Failed to migrate _uncannyowl_google_sheet_settings","Failed to migrate uncanny_automator_google_sheets_migrated","Failed to migrate automator_clickup_client","Failed to migrate _uncannyowl_facebook_group_settings","Failed to migrate _uncannyowl_facebook_pages_settings","Failed to migrate _uncannyowl_facebook_settings","Failed to migrate automator_facebook_group_token_info","Failed to migrate ua_facebook_group_saved_groups","Failed to migrate automator_popup_maker_migrated","Failed to migrate automator_tin_canny_trigger_moved","Failed to migrate uncanny_automator_background_actions","Failed to migrate uncanny_automator_advanced_automator_cache","Failed to migrate automator_settings_debug_enabled","Failed to migrate automator_settings_debug_notices_enabled","Failed to migrate uap_automator_free_license_status","Failed to migrate automator_brevo_api_key","Failed to migrate automator_getresponse_api_key","Failed to migrate automator_linkedin_client","Failed to migrate automator_sendy_api","Failed to migrate automator_trello_token","Failed to migrate automator_triggers_has_migrated","Failed to migrate automator_wp_send_email_action_moved__4.3","Failed to migrate automator_wpwebhooks_action_moved","Failed to migrate uoa_recipenumtimes_changed_to_numtimes","Failed to migrate USERROLEADDED_migrated","Failed to migrate zoho_campaigns_credentials","Failed to migrate _uncanny_automator_tracking_reminder","Failed to migrate _uncanny_automator_tracking_reminder_date"]}
+
+===========================<<<< TRACE MESSAGE END >>>>==========================
+
+
