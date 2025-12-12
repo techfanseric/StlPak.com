@@ -1,0 +1,2337 @@
+# Translation of Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-12 12:56:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider - Stable (latest release)\n"
+
+#: app/Services/TransStrings.php:352
+msgid "force_sender_tooltip"
+msgstr "force_sender_tooltip"
+
+#: app/Services/TransStrings.php:351
+msgid "delete_logs_info"
+msgstr "delete_logs_info"
+
+#: app/Services/TransStrings.php:346
+msgid "change"
+msgstr "更改"
+
+#: app/Services/TransStrings.php:328
+msgid "Please view the %1$s first. If you still can't find the answer, %2$s and we will be happy to assist you with any problems."
+msgstr "请先查看%1$s。如果您仍找不到答案，%2$s，我们将很乐意帮助您解决任何问题。"
+
+#: app/Services/TransStrings.php:320
+msgid "Get real-time notification on your favorite messaging channel on any email sending failure. Configure any of the following channel to start getting real time notifications."
+msgstr "当任何电子邮件发送失败时，在您最喜欢的消息渠道上获取实时通知。配置以下任何渠道以开始获取实时通知。"
+
+#: app/Services/TransStrings.php:294
+msgid "__DEFAULT_MAIl_WARNING"
+msgstr "__DEFAULT_MAIl_WARNING"
+
+#: app/Services/TransStrings.php:276
+msgid "Wednesday"
+msgstr "周三"
+
+#: app/Services/TransStrings.php:271
+msgid "Tuesday"
+msgstr "周二"
+
+#: app/Services/TransStrings.php:263
+msgid "Thursday"
+msgstr "周四"
+
+#: app/Services/TransStrings.php:254
+msgid "Sunday"
+msgstr "周日"
+
+#: app/Services/TransStrings.php:226
+msgid "Send To"
+msgstr "发送至"
+
+#: app/Services/TransStrings.php:212
+msgid "Saturday"
+msgstr "周六"
+
+#: app/Services/TransStrings.php:210
+msgid "SMTP2GO API Settings"
+msgstr "SMTP2GO API 设置"
+
+#: app/Services/TransStrings.php:198
+msgid "Recommended Plugin"
+msgstr "插件推荐"
+
+#: app/Services/TransStrings.php:196
+msgid "Real-Time Email Failure Notifications"
+msgstr "实时电子邮件失败通知"
+
+#: app/Services/TransStrings.php:179
+msgid "Oops!"
+msgstr "糟糕！"
+
+#: app/Services/TransStrings.php:171
+msgid "Monday"
+msgstr "周一"
+
+#: app/Services/TransStrings.php:165
+msgid "Mailer"
+msgstr "发件人"
+
+#: app/Services/TransStrings.php:153
+msgid "Installing... Please wait"
+msgstr "正在安装...请稍等"
+
+#: app/Services/TransStrings.php:145
+msgid "Great!"
+msgstr "太棒了！"
+
+#: app/Services/TransStrings.php:143
+msgid "Getting Started"
+msgstr "开始设置"
+
+#: app/Services/TransStrings.php:137
+msgid "Functionalities"
+msgstr "功能"
+
+#: app/Services/TransStrings.php:133
+msgid "Friday"
+msgstr "周五"
+
+#: app/Services/TransStrings.php:128
+msgid "Follow this link to get an API Key from SMTP2GO:"
+msgstr "点击此链接从 SMTP2GO 获取 API 密钥："
+
+#: app/Services/TransStrings.php:84
+msgid "Delete All Logs"
+msgstr "删除所有日志"
+
+#: app/Services/TransStrings.php:79
+msgid "Cumulative"
+msgstr "累计"
+
+#: app/Services/TransStrings.php:70
+msgid "Connect With Your Email Providers"
+msgstr "与您的电子邮件提供商联系"
+
+#: app/Services/TransStrings.php:68
+msgid "Community"
+msgstr "社区"
+
+#: app/Services/TransStrings.php:34
+msgid "Add Multi-Part Plain Text for HTML Emails (beta)"
+msgstr "为 HTML 电子邮件添加多部分纯文本（测试版）"
+
+#: app/Services/TransStrings.php:22
+msgid "Access Data: Active SMTP Connection Provider, installed plugin names, php & mysql version"
+msgstr "访问数据：激活的 SMTP 连接提供程序、已安装的插件名称、php 和 mysql 版本"
+
+#: app/Services/TransStrings.php:16
+msgid "(Optional) Share Non - Sensitive Data.It will help us to improve the integrations"
+msgstr "（可选）共享非敏感数据。这将有助于我们改善集成"
+
+#: app/Services/TransStrings.php:11
+msgid " - Simulated"
+msgstr " - 模拟"
+
+#: app/Services/Mailer/Providers/Smtp2Go/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SMTP2GO_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SMTP2GO_API_KEY。"
+
+#: app/Services/Mailer/Providers/config.php:179
+msgid "SMTP2GO"
+msgstr "SMTP2GO"
+
+#: app/Services/Mailer/Providers/config.php:29
+msgid " for how to configure any SMTP with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置任何 SMTP。"
+
+#: app/Http/Controllers/SettingsController.php:489
+msgid "You are subscribed to plugin update and monthly tips"
+msgstr "您已订阅插件更新和每月提示"
+
+#: app/Http/Controllers/SettingsController.php:473
+msgid "Sorry! The provider email is not valid"
+msgstr "抱歉！提供商电子邮件无效"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:369
+msgid "Loading data..."
+msgstr "加载数据中..."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:236
+msgid "Write a review ★★★★★"
+msgstr "写点评 ★★★★★"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:235
+msgid "(Learn why it's free)"
+msgstr "（了解为什么它是免费的）"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:233
+msgid "%1$s is a free plugin & it will be always free %2$s. %3$s"
+msgstr "%1$s 是一个免费插件并且将永远免费 %2$s。%3$s"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:96
+msgid "You do not have permission to see this data"
+msgstr "您无权查看此数据"
+
+#: app/Services/NotificationHelper.php:314
+#: app/Services/NotificationHelper.php:378
+msgid "[%s] Failed to send email"
+msgstr "[%s] 发送电子邮件失败"
+
+#: app/Models/Traits/SendTestEmailTrait.php:13
+msgid "Fluent SMTP: Test Email - %s"
+msgstr "Fluent SMTP：测试电子邮件 - %s"
+
+#: app/Http/Controllers/LoggerController.php:109
+msgid " And %d emails are failed to init the emails"
+msgstr " 和 %d 封电子邮件无法初始化"
+
+#: app/Http/Controllers/LoggerController.php:105
+msgid " But %d emails are reported to failed to send."
+msgstr " 但报告称 %d 封电子邮件发送失败。"
+
+#: app/Http/Controllers/LoggerController.php:46
+msgid "%s deleted successfully."
+msgstr "%s 已成功删除。"
+
+#: app/Services/TransStrings.php:310
+msgid "If you are operating under EU laws, you may be required to use the EU region. %s."
+msgstr "如果您按照欧盟法律开展业务，则可能需要使用欧盟地区。%s。"
+
+#: app/Services/TransStrings.php:306
+msgid "Google API version has been upgraded. Please %s."
+msgstr "Google API 版本已升级。请 %s。"
+
+#: app/Services/TransStrings.php:305
+msgid "Please %s to create API keys on the Google Cloud Platform."
+msgstr "请 %s 在 Google Cloud Platform 上创建 API 密钥。"
+
+#: app/Services/TransStrings.php:333
+msgid "I agree to the %s of this Telegram integration."
+msgstr "我同意此 Telegram 集成的 %s。"
+
+#: app/Services/TransStrings.php:331
+msgid "Please find %s on Telegram and send the following text to activate this connection."
+msgstr "请在 Telegram 上找到 %s 并发送以下文本以激活此连接。"
+
+#: app/Services/TransStrings.php:307
+msgid "If you are a developer and would like to contribute to the project, please %s"
+msgstr "如果你是开发者并且愿意为该项目做出贡献，请 %s"
+
+#: app/Services/TransStrings.php:325
+msgid "I agree to the %1$s of this Slack integration."
+msgstr "我同意此 Slack 集成的 %1$s。"
+
+#: app/Services/TransStrings.php:330
+msgid "Get real-time notifications on your %1$s for any email sending failures. Configure notifications with FluentSMTP's official %2$s to start receiving real-time alerts."
+msgstr "当任何电子邮件发送失败时，在您的 %1$s 上获取实时通知。使用 FluentSMTP 的官方 %2$s 配置通知以开始接收实时警报。"
+
+#: app/Services/TransStrings.php:329
+msgid "Your FluentSMTP plugin is currently integrated with Telegram. Receive timely notifications from %s on Telegram for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "您的 FluentSMTP 插件目前已与 Telegram 集成。如果您的网站出现任何电子邮件发送问题，可及时从 Telegram 上的 %s 收到通知。这种持续连接可确保您始终了解电子邮件的递送状态。"
+
+#: app/Services/TransStrings.php:322
+msgid "Return Path indicates where non-delivery receipts—or bounce messages—%1$s are to be sent. If unchecked, bounce messages may be lost. With this enabled, %2$s you'll be emailed using \"From Email\" if any messages bounce due to issues with the recipient's email."
+msgstr "返回路径表示未送达收据（或退回邮件）%1$s 将被发送到哪里。如果不选中，退回邮件可能会丢失。启用此功能后，%2$s 如果由于收件人的电子邮件问题而导致任何邮件被退回，您将收到使用“发件人电子邮件”的电子邮件。"
+
+#: app/views/admin/ses_connection_info.php:59
+msgid "Increase Sending Limits"
+msgstr "提高发送限制"
+
+#: app/views/admin/ses_connection_info.php:56
+msgid "Read More here."
+msgstr "点击这里了解更多。"
+
+#: app/views/admin/ses_connection_info.php:56
+msgid "Looks like you are in sandbox mode. Please apply to Amazon AWS to approve your account. "
+msgstr "您似乎处于沙盒模式。请向 Amazon AWS 申请批准您的帐户。 "
+
+#: app/views/admin/ses_connection_info.php:43
+msgid "Valid Sending Emails"
+msgstr "有效发送邮件"
+
+#: app/views/admin/ses_connection_info.php:26
+msgid "Max Sending Rate"
+msgstr "最大发送速率"
+
+#: app/views/admin/ses_connection_info.php:20
+msgid "Sent in last 24 hours"
+msgstr "过去 24 小时内发送"
+
+#: app/views/admin/ses_connection_info.php:14
+msgid "Max Send in 24 hours"
+msgstr "24 小时内最多发送"
+
+#: app/views/admin/ses_connection_info.php:4
+msgid "Connection Error: "
+msgstr "连接错误： "
+
+#: app/views/admin/general_connection_info.php:8
+#: app/views/admin/ses_connection_info.php:31
+msgid "Sender Email"
+msgstr "发件人邮箱"
+
+#: app/views/admin/general_connection_info.php:4
+#: app/views/admin/ses_connection_info.php:9
+msgid "Connection Type"
+msgstr "连接类型"
+
+#: app/views/admin/email_html.php:53
+msgid "PS: if you have a minute please "
+msgstr "附言：如果你有时间的话请 "
+
+#: app/views/admin/email_html.php:42
+msgid "This email was sent from "
+msgstr "此电子邮件来自 "
+
+#: app/views/admin/email_html.php:30
+msgid "Learn why it's free"
+msgstr "了解免费的原因"
+
+#: app/views/admin/email_html.php:30
+msgid "FluentSMTP is a free opensource plugin and it will be always free "
+msgstr "FluentSMTP 是一个免费的开源插件，它将永远免费 "
+
+#: app/views/admin/email_html.php:30
+msgid "Thank you for using Fluent SMTP Plugin. The ultimate SMTP plugin you need for making sure your emails are delivered."
+msgstr "感谢您使用 Fluent SMTP 插件。这是您确保电子邮件送达所需的终极 SMTP 插件。"
+
+#: app/views/admin/email_html.php:27
+msgid "Congrats, test email was sent successfully!"
+msgstr "恭喜，测试邮件已成功发送！"
+
+#: app/views/admin/email_html.php:7
+msgid "FluentSMTP Test Email"
+msgstr "FluentSMTP 测试邮件"
+
+#: app/views/admin/digest_email.php:200
+msgid "You received this email because the Email Sending Health Report is enabled in your FluentSMTP settings. Simply turn it off to stop these emails at "
+msgstr "您收到这封电子邮件是因为您在 FluentSMTP 设置中启用了电子邮件发送健康报告。只需在这里关闭它即可停止发送这些电子邮件： "
+
+#: app/views/admin/digest_email.php:82
+msgid "Email Sending Health"
+msgstr "电子邮件发送健康"
+
+#: app/views/admin/digest_email.php:7
+msgid "FluentSMTP Email Health Report"
+msgstr "FluentSMTP 电子邮件健康报告"
+
+#: app/Services/NotificationHelper.php:386
+msgid "[View Failed Email(s)]("
+msgstr "[查看失败的电子邮件]("
+
+#: app/Services/NotificationHelper.php:385
+msgid "**Error Message:** ```"
+msgstr "**Error Message:** ```"
+
+#: app/Services/NotificationHelper.php:384
+msgid "**Email Subject:** "
+msgstr "**Email Subject:** "
+
+#: app/Services/NotificationHelper.php:383
+msgid "**To Email Address:** "
+msgstr "**To Email Address:** "
+
+#: app/Services/NotificationHelper.php:382
+msgid "**Sending Driver:** "
+msgstr "**Sending Driver:** "
+
+#: app/Services/NotificationHelper.php:381
+msgid "**Website URL:** "
+msgstr "**Website URL:** "
+
+#: app/Services/Mailer/Providers/SparkPost/Handler.php:79
+msgid "SparkPost API Error"
+msgstr "SparkPost API 错误"
+
+#: app/Services/Mailer/Providers/Simulator/Handler.php:28
+msgid "Email sending was simulated, No Email was sent originally"
+msgstr "模拟发送电子邮件，最初没有发送电子邮件"
+
+#: app/Services/Mailer/Providers/SendInBlue/Handler.php:90
+msgid "SendInBlueError API Error"
+msgstr "SendInBlueError API 错误"
+
+#: app/Services/Mailer/Providers/Outlook/API.php:76
+msgid "Something with wrong with Outlook API. Please check your API Settings"
+msgstr "Outlook API 出现问题。请检查您的 API 设置"
+
+#: app/Services/Mailer/Providers/Mailgun/Handler.php:108
+#: app/Services/Mailer/Providers/TransMail/Handler.php:113
+msgid "Mailgun API Error"
+msgstr "Mailgun API 错误"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:323
+msgid "Invalid. Please re-authenticate"
+msgstr "无效。请重新验证"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:282
+msgid "Failed to renew token with Gmail Api"
+msgstr "无法使用 Gmail Api 更新令牌"
+
+#: app/Services/Mailer/Providers/Factory.php:45
+msgid "There is no matching provider found by email: "
+msgstr "通过电子邮件未找到匹配的提供商： "
+
+#: app/Services/Mailer/Providers/config.php:175
+msgid " for how to configure Elastic Email with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Elastic Email。"
+
+#: app/Services/Mailer/Providers/config.php:160
+msgid " for how to configure Postmark with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Postmark。"
+
+#: app/Services/Mailer/Providers/config.php:143
+msgid " for how to configure Netcore (formerly Pepipost) with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Netcore（以前称为 Pepipost）。"
+
+#: app/Services/Mailer/Providers/config.php:129
+msgid " for how to configure SparkPost with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 SparkPost。"
+
+#: app/Services/Mailer/Providers/config.php:115
+msgid " for how to configure Sendinblue with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Sendinblue。"
+
+#: app/Services/Mailer/Providers/config.php:101
+msgid " for how to configure SendGrid with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 SendGrid。"
+
+#: app/Services/Mailer/Providers/config.php:87
+msgid " for how to configure Mailgun with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Mailgun。"
+
+#: app/Services/Mailer/Providers/config.php:70
+msgid " for how to configure Amazon SES with FluentSMTP."
+msgstr " 了解如何使用 FluentSMTP 配置 Amazon SES。"
+
+#: app/Services/Mailer/Providers/AmazonSes/Validator.php:50
+msgid "The from email is not verified"
+msgstr "发件人邮箱未经验证"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:283
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:288
+msgid "Email does not exists. Please try again."
+msgstr "邮箱地址不存在。请重试。"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:276
+msgid "Sorry! you can not remove this email from this connection"
+msgstr "抱歉！您无法从此连接中删除此电子邮件"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:251
+msgid "Email address already exists with another connection. Please choose a different email."
+msgstr "邮箱地址已存在于另一个连接中。请选择其他邮箱地址。"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:244
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:272
+msgid "Invalid email address! Please use a verified domain."
+msgstr "邮箱地址无效！请使用经过验证的域名。"
+
+#: app/Services/Mailer/Providers/AmazonSes/Handler.php:26
+#: app/Services/Mailer/Providers/DefaultMail/Handler.php:16
+#: app/Services/Mailer/Providers/ElasticMail/Handler.php:24
+#: app/Services/Mailer/Providers/Gmail/Handler.php:18
+#: app/Services/Mailer/Providers/Mailgun/Handler.php:27
+#: app/Services/Mailer/Providers/Outlook/Handler.php:20
+#: app/Services/Mailer/Providers/PepiPost/Handler.php:26
+#: app/Services/Mailer/Providers/Postmark/Handler.php:22
+#: app/Services/Mailer/Providers/SendGrid/Handler.php:26
+#: app/Services/Mailer/Providers/SendInBlue/Handler.php:34
+#: app/Services/Mailer/Providers/Smtp/Handler.php:23
+#: app/Services/Mailer/Providers/Smtp2Go/Handler.php:24
+#: app/Services/Mailer/Providers/SparkPost/Handler.php:26
+#: app/Services/Mailer/Providers/TransMail/Handler.php:23
+msgid "Something went wrong!"
+msgstr "出错了！"
+
+#: app/Services/Mailer/BaseHandler.php:438
+#: app/Services/Mailer/BaseHandler.php:443
+msgid "Not implemented"
+msgstr "未实施"
+
+#: app/Services/Mailer/BaseHandler.php:305
+msgid "Tried to send using fallback but failed. "
+msgstr "尝试使用备用发送但失败。 "
+
+#: app/Services/Mailer/BaseHandler.php:302
+msgid "Sent using fallback connection "
+msgstr "使用备用连接发送 "
+
+#: app/Services/Converter.php:404
+msgid "Import From Easy WP SMTP"
+msgstr "从 Easy WP SMTP 导入"
+
+#: app/Services/Converter.php:400
+msgid "Import data from your current plugin (Easy WP SMTP)"
+msgstr "从当前插件 (Easy WP SMTP) 导入数据"
+
+#: app/Services/Converter.php:111
+msgid "Import From WP Mail SMTP"
+msgstr "从 WP Mail SMTP 导入"
+
+#: app/Services/Converter.php:109 app/Services/Converter.php:401
+msgid "We have detected other SMTP plugin's settings available on your site. Click bellow to pre-populate the values"
+msgstr "我们检测到您的网站上有其他可用的 SMTP 插件设置。点击下方来预填充现有的值"
+
+#: app/Services/Converter.php:108
+msgid "Import data from your current plugin (WP Mail SMTP)"
+msgstr "从当前插件 (WP Mail SMTP) 导入数据"
+
+#: app/Http/Controllers/SettingsController.php:683
+msgid "Settings has been updated successfully"
+msgstr "设置已成功更新"
+
+#: app/Http/Controllers/SettingsController.php:614
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_SECRET in your wp-config.php file"
+msgstr "请在您的 wp-config.php 文件中定义 FLUENTMAIL_OUTLOOK_CLIENT_SECRET"
+
+#: app/Http/Controllers/SettingsController.php:605
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_ID in your wp-config.php file"
+msgstr "请在您的 wp-config.php 文件中定义 FLUENTMAIL_OUTLOOK_CLIENT_ID"
+
+#: app/Http/Controllers/SettingsController.php:568
+#: app/Http/Controllers/SettingsController.php:636
+msgid "Please provide application client secret"
+msgstr "请提供应用程序客户端密钥"
+
+#: app/Http/Controllers/SettingsController.php:560
+#: app/Http/Controllers/SettingsController.php:628
+msgid "Please provide application client id"
+msgstr "请提供应用程序客户端 ID"
+
+#: app/Http/Controllers/SettingsController.php:551
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_SECRET in your wp-config.php file"
+msgstr "请在您的 wp-config.php 文件中定义 FLUENTMAIL_GMAIL_CLIENT_SECRET"
+
+#: app/Http/Controllers/SettingsController.php:542
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_ID in your wp-config.php file"
+msgstr "请在您的 wp-config.php 文件中定义 FLUENTMAIL_GMAIL_CLIENT_ID"
+
+#: app/Http/Controllers/SettingsController.php:202
+#: app/Services/Mailer/ValidatorTrait.php:36
+msgid "Unprocessable Entity"
+msgstr "无法处理的实体"
+
+#: app/Http/Controllers/LoggerController.php:102
+msgid "Selected Emails have been proceed to send."
+msgstr "选定的电子邮件已继续发送。"
+
+#: app/Http/Controllers/LoggerController.php:73
+msgid "Something went wrong"
+msgstr "出错了"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:250
+msgid "Failed to renew the token"
+msgstr "更新令牌失败"
+
+#: app/Services/TransStrings.php:358 app/views/admin/email_html.php:53
+msgid "write a review for FluentSMTP"
+msgstr "为 FluentSMTP 撰写评论"
+
+#: app/Services/TransStrings.php:355
+msgid "read the documentation here"
+msgstr "阅读此处的文档"
+
+#: app/Services/TransStrings.php:354
+msgid "provider for the connection."
+msgstr "连接提供者。"
+
+#: app/Services/TransStrings.php:353
+msgid "open an issue on GitHub"
+msgstr "在 GitHub 上反馈问题"
+
+#: app/Services/TransStrings.php:350
+msgid "copy"
+msgstr "复制"
+
+#: app/Services/TransStrings.php:348
+msgid "click here"
+msgstr "点击这里"
+
+#: app/Services/TransStrings.php:347
+msgid "check the documentation first to create API keys at Microsoft"
+msgstr "首先查看 Microsoft 的文档以创建 API 密钥"
+
+#: app/Services/TransStrings.php:344
+msgid "activate "
+msgstr "启用 "
+
+#: app/Services/TransStrings.php:315
+msgid "If you change your WordPress SALT Keys, this credential will become invalid. Please update this credential whenever the WP SALTS are modified."
+msgstr "如果您更改 WordPress SALT 密钥，此凭证将失效。每当 WP SALTS 发生修改时，请更新此凭证。"
+
+#: app/Services/TransStrings.php:314
+msgid "This input will be securely encrypted using WP SALTS as encryption keys before saving."
+msgstr "此输入将在保存之前使用 WP SALTS 作为加密密钥进行安全加密。"
+
+#: app/Services/TransStrings.php:301
+msgid "Enable Multi-Part Plain Text version of your HTML Emails. This feature is in beta"
+msgstr "启用 HTML 电子邮件的多部分纯文本版本。此功能处于测试阶段"
+
+#: app/Services/TransStrings.php:310
+msgid "More information on Mailgun.com"
+msgstr "有关 Mailgun.com 的更多信息"
+
+#: app/Services/TransStrings.php:306
+msgid "read the doc and upgrade your API connection"
+msgstr "阅读文档并升级你的 API 连接"
+
+#: app/Services/TransStrings.php:305
+msgid "check the documentation"
+msgstr "查看文档"
+
+#: app/Services/TransStrings.php:319
+msgid "If you enable this then open tracking header will be added to the email for Postmark."
+msgstr "如果启用此功能，则开放的跟踪标头将添加到 Postmark 的电子邮件中。"
+
+#: app/Services/TransStrings.php:317
+msgid "If you enable this then link tracking header will be added to the email for Postmark."
+msgstr "如果启用此功能，则链接跟踪标头将被添加到 Postmark 的电子邮件中。"
+
+#: app/Services/TransStrings.php:307
+msgid "contribute on GitHub"
+msgstr "在 GitHub 上做出贡献"
+
+#: app/Services/TransStrings.php:325 app/Services/TransStrings.php:333
+msgid "terms and conditions"
+msgstr "条款和条件"
+
+#: app/Services/TransStrings.php:318
+msgid "Follow this link to get an API Key from Postmark (Your API key is in the API Tokens tab of your):"
+msgstr "点击此链接从 Postmark 获取 API 密钥（您的 API 密钥位于您的 API 令牌选项卡中）："
+
+#: app/Services/TransStrings.php:316
+msgid "Follow this link to get an API Key from Pepipost (Click Show button on Settings Page):"
+msgstr "点击此链接从 Pepipost 获取 API 密钥（单击“设置”页面上的“显示”按钮）："
+
+#: app/Services/TransStrings.php:311
+msgid "Define which endpoint you want to use for sending messages."
+msgstr "定义您想要使用哪个端点来发送消息。"
+
+#: app/Services/TransStrings.php:292
+msgid "Default and Fallback connection cannot be the same. Please select different connections."
+msgstr "默认连接和备用连接不能相同。请选择不同的连接。"
+
+#: app/Services/TransStrings.php:328
+msgid "open a GitHub issue"
+msgstr "在 GitHub 提交问题"
+
+#: app/Services/TransStrings.php:328
+msgid "documentation"
+msgstr "文档"
+
+#: app/Services/TransStrings.php:332
+msgid "We could not fetch the Telegram notification status. Here is the server response: "
+msgstr "我们无法获取 Telegram 通知状态。以下是服务器响应： "
+
+#: app/Services/TransStrings.php:293
+msgid "The Default(none) option does not use SMTP and will not improve email delivery on your site."
+msgstr "默认（无）选项不使用 SMTP，并且不会改善您网站上的电子邮件传递效果。"
+
+#: app/Services/TransStrings.php:327
+msgid "Subscribe with your email to know about this plugin updates, releases and useful tips."
+msgstr "通过您的电子邮件订阅来了解此插件的更新、发布和有用的提示。"
+
+#: app/Services/TransStrings.php:298
+msgid "Email summary is useful for getting weekly or daily emails about all the email sending stats for this site."
+msgstr "电子邮件摘要对于获取有关该网站所有电子邮件发送统计数据的每周或每日电子邮件很有用。"
+
+#: app/Services/TransStrings.php:297
+msgid "Email Logging is currently turned off. Only Failed and resent emails will be shown here"
+msgstr "电子邮件日志记录目前已关闭。此处仅显示失败和重新发送的电子邮件"
+
+#: app/Services/TransStrings.php:291
+msgid "Another connection with same email address exists. This connection will replace that connection"
+msgstr "存在另一个具有相同邮箱地址的连接。此连接将取代该连接"
+
+#: app/Services/TransStrings.php:326
+msgid "(If you need to provide your SMTP server's credentials (username and password) enable the authentication, in most cases this is required.)"
+msgstr "（如果您需要提供 SMTP 服务器的凭据（用户名和密码），请启用身份验证，大多数情况下这是必需的。）"
+
+#: app/Services/TransStrings.php:335
+msgid "(By default, the TLS encryption would be used if the server supports it. On some servers, it could be a problem and may need to be disabled.)"
+msgstr "（默认情况下，如果服务器支持，则会使用 TLS 加密。在某些服务器上，这可能是一个问题，可能需要禁用。）"
+
+#: app/Services/TransStrings.php:313
+msgid "the best WP table plugin that comes with all the solutions to the problems you face while creating tables on your posts/pages."
+msgstr "最好的 WP 表格插件，它提供了您在文章/页面上创建表格时遇到的所有问题的解决方案。"
+
+#: app/Services/TransStrings.php:312
+msgid "Looking for a WordPress table plugin for your website? Then you’re in the right place."
+msgstr "正在为您的网站寻找 WordPress 表格插件？那么您来对地方了。"
+
+#: app/Services/TransStrings.php:303
+msgid "is the ultimate user-friendly, fast, customizable drag-and-drop WordPress Contact Form Plugin that offers you all the premium features, plus many more completely unique additional features."
+msgstr "是一款终极用户友好、快速、可定制的拖放式 WordPress 联系表单插件，为您提供所有高级功能以及更多完全独特的附加功能。"
+
+#: app/Services/TransStrings.php:302
+msgid "is the best and complete feature-rich Email Marketing & CRM solution. It is also the simplest and fastest CRM and Marketing Plugin on WordPress. Manage your customer relationships, build your email lists, send email campaigns, build funnels, and make more profit and increase your conversion rates. (Yes, It’s Free!)"
+msgstr "是最好的、功能最全、功能最丰富的电子邮件营销和 CRM 解决方案。它也是 WordPress 上最简单、最快捷的 CRM 和营销插件。管理您的客户关系、建立您的电子邮件列表、发送电子邮件活动、构建渠道，并赚取更多利润并提高您的转化率。（是的，它是免费的！）"
+
+#: app/Services/TransStrings.php:295
+msgid "Get real-time notification on your Discord Channel on any email sending failure. Configure notification with Discord to start getting real time notifications."
+msgstr "当任何电子邮件发送失败时，在您的 Discord 频道上获取实时通知。使用 Discord 配置通知以开始获取实时通知。"
+
+#: app/Services/TransStrings.php:323
+msgid "Get real-time notification on your Slack Channel on any email sending failure. Configure notification with Slack Bot to start getting real time notifications."
+msgstr "当任何电子邮件发送失败时，在您的 Slack Channel 上获取实时通知。使用 Slack Bot 配置通知以开始获取实时通知。"
+
+#: app/Services/TransStrings.php:308 app/Services/TransStrings.php:336
+msgid "Simply copy the following snippet and replace the stars with the corresponding credential. Then simply paste to wp-config.php file of your WordPress installation"
+msgstr "只需复制以下代码片段，并将星号替换为相应的凭证。然后只需粘贴到 WordPress 安装的 wp-config.php 文件中即可"
+
+#: app/Services/TransStrings.php:296
+msgid "Your FluentSMTP plugin is currently integrated with your Discord Channel. Receive timely notifications on Discord for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "您的 FluentSMTP 插件目前已与您的 Discord 频道集成。如果您的网站出现任何电子邮件发送问题，您会在 Discord 上及时收到通知。这种持续的连接可确保您始终了解电子邮件的递送状态。"
+
+#: app/Services/TransStrings.php:324
+msgid "Your FluentSMTP plugin is currently integrated with your Slack Channel. Receive timely notifications on Slack for any email sending issues from your website. This ongoing connection ensures you're always informed about your email delivery status."
+msgstr "您的 FluentSMTP 插件目前已与您的 Slack 频道集成。如果您的网站出现任何电子邮件发送问题，您会在 Slack 上及时收到通知。这种持续的连接可确保您始终了解电子邮件的递送状态。"
+
+#: app/Services/TransStrings.php:309
+msgid "Your Gmail / Google Workspace Authentication has been enabled. No further action is needed. If you want to re-authenticate,"
+msgstr "您的 Gmail/Google Workspace 身份验证已启用。无需进一步操作。如果您想重新进行身份验证，"
+
+#: app/Services/TransStrings.php:289
+msgid "Join our communities and participate in great conversations."
+msgstr "加入我们的社区并参与精彩的对话。"
+
+#: app/Services/TransStrings.php:287
+msgid "FluentSMTP is powered by community. We listen to our community users and build products that add value to businesses and save time."
+msgstr "FluentSMTP 由社区提供支持。我们倾听社区用户的意见，打造能够为企业增值并节省时间的产品。"
+
+#: app/Services/TransStrings.php:290
+msgid "FluentSMTP is powered by its users like you. Feel free to contribute on Github. Thanks to all of our contributors."
+msgstr "FluentSMTP 由像您这样的用户提供支持。欢迎在 Github 上做出贡献。感谢我们所有的贡献者。"
+
+#: app/Services/TransStrings.php:286
+msgid "FluentSMTP is free and will be always free. This is our pledge to WordPress community from WPManageNinja LLC."
+msgstr "FluentSMTP 是免费的，并且将永远免费。这是 WPManageNinja LLC 对 WordPress 社区的承诺。"
+
+#: app/Services/TransStrings.php:288
+msgid "is a free and open-source WordPress Plugin. Our mission is to provide the ultimate email delivery solution with your favorite Email sending service. FluentSMTP is built for performance and speed."
+msgstr "是一款免费的开源 WordPress 插件。我们的使命是利用您最喜欢的电子邮件发送服务提供终极电子邮件传递解决方案。FluentSMTP 专为性能和速度而打造。"
+
+#: app/Services/TransStrings.php:334
+msgid "Enter email address where test email will be sent (By default, logged in user email will be used if email address is not provided)."
+msgstr "输入将发送测试电子邮件的邮箱地址（默认情况下，如果未提供邮箱地址，将使用登录用户的邮箱地址）。"
+
+#: app/Services/TransStrings.php:321
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent. If unchecked, bounce messages may be lost. With this enabled, you'll be emailed using \"From Email\" if any messages bounce as a result of issues with the recipient’s email."
+msgstr "返回路径表示未送达收据（或退回邮件）的发送位置。如果不选中，退回邮件可能会丢失。启用此选项后，如果由于收件人的电子邮件问题而导致任何邮件退回，您将收到使用“发件人邮箱”的电子邮件。"
+
+#: app/Services/TransStrings.php:285
+msgid "Your SMTP Username"
+msgstr "您的 SMTP 用户名"
+
+#: app/Services/TransStrings.php:284
+msgid "Your Name"
+msgstr "您的名字"
+
+#: app/Services/TransStrings.php:283
+msgid "Your Email Address"
+msgstr "您的邮箱地址"
+
+#: app/Services/TransStrings.php:282
+msgid "Your Email"
+msgstr "您的邮箱"
+
+#: app/Services/TransStrings.php:281
+msgid "Your Discord Channel Webhook URL"
+msgstr "您的 Discord 频道 Webhook URL"
+
+#: app/Services/TransStrings.php:280
+msgid "Your Discord Channel Name (For Internal Use)"
+msgstr "您的 Discord 频道名称（供内部使用）"
+
+#: app/Services/TransStrings.php:279
+msgid "You may add additional sending emails in this"
+msgstr "您可以在此添加其他发送邮箱"
+
+#: app/Services/TransStrings.php:278
+msgid "Yes, Disconnect"
+msgstr "是的，断开连接"
+
+#: app/Services/TransStrings.php:277
+msgid "Write a review (really appreciated 😊)"
+msgstr "写评论（非常感谢😊）"
+
+#: app/Services/TransStrings.php:274
+msgid "Use Auto TLS"
+msgstr "使用自动 TLS"
+
+#: app/Services/TransStrings.php:270
+msgid "Try Again"
+msgstr "重试"
+
+#: app/Services/TransStrings.php:269
+msgid "Transactional"
+msgstr "交易性"
+
+#: app/Services/TransStrings.php:268
+msgid "Track Opens"
+msgstr "开启追踪"
+
+#: app/Services/TransStrings.php:265
+msgid "To send emails you will need only a Mail Send access level for this API key."
+msgstr "要发送电子邮件，您只需要一个 Mail Send 访问级别的 API 密钥。"
+
+#: app/Services/TransStrings.php:262
+msgid "The name which emails are sent from."
+msgstr "发件人名称。"
+
+#: app/Services/TransStrings.php:261
+msgid "The email address which emails are sent from."
+msgstr "用于发送邮件的邮箱地址。"
+
+#: app/Services/TransStrings.php:260
+msgid "The email address must match the domain: "
+msgstr "邮箱地址必须与域名匹配： "
+
+#: app/Services/TransStrings.php:259
+msgid "The email address already exists in the list"
+msgstr "此邮箱地址已存在列表中"
+
+#: app/Services/TransStrings.php:258
+msgid "Test Email Has been successfully sent"
+msgstr "测试邮件已成功发送"
+
+#: app/Services/TransStrings.php:257
+msgid "Telegram Notifications Enable"
+msgstr "启用 Telegram 通知"
+
+#: app/Services/TransStrings.php:256
+msgid "Telegram Connection Status: "
+msgstr "Telegram 连接状态： "
+
+#: app/Services/TransStrings.php:255
+msgid "TLS"
+msgstr "TLS"
+
+#: app/Services/TransStrings.php:253
+msgid "Summary Email"
+msgstr "摘要邮件"
+
+#: app/Services/TransStrings.php:249
+msgid "Store Application Keys in DB"
+msgstr "将应用程序密钥存储在数据库中"
+
+#: app/Services/TransStrings.php:248
+msgid "Store Access Keys in DB"
+msgstr "将访问密钥存储在数据库中"
+
+#: app/Services/TransStrings.php:247
+msgid "Store API Keys in DB"
+msgstr "将 API 密钥存储在数据库中"
+
+#: app/Services/TransStrings.php:246
+msgid "Store API Keys in Config File"
+msgstr "将 API 密钥存储在配置文件中"
+
+#: app/Services/TransStrings.php:245
+msgid "Status:"
+msgstr "状态："
+
+#: app/Services/TransStrings.php:242
+msgid "SparkPost API Settings"
+msgstr "SparkPost API 设置"
+
+#: app/Services/TransStrings.php:241
+msgid "Sorry! No docs found"
+msgstr "抱歉！未找到文档"
+
+#: app/Services/TransStrings.php:240
+msgid "Slack Notifications Enabled"
+msgstr "已启用 Slack 通知"
+
+#: app/Services/TransStrings.php:239
+msgid "Slack Channel Details: "
+msgstr "Slack 频道详细信息： "
+
+#: app/Services/TransStrings.php:236
+msgid "Server Response"
+msgstr "服务器响应"
+
+#: app/Services/TransStrings.php:233
+msgid "Sendinblue API Settings"
+msgstr "Sendinblue API 设置"
+
+#: app/Services/TransStrings.php:231
+#: app/views/admin/general_connection_info.php:12
+#: app/views/admin/ses_connection_info.php:35
+msgid "Sender Name"
+msgstr "发件人名称"
+
+#: app/Services/TransStrings.php:230
+msgid "Sender Email Address"
+msgstr "发件人邮箱地址"
+
+#: app/Services/TransStrings.php:229
+msgid "Sender Email "
+msgstr "发件人邮箱 "
+
+#: app/Services/TransStrings.php:228
+msgid "SendGrid API Settings"
+msgstr "SendGrid API 设置"
+
+#: app/Services/TransStrings.php:227
+msgid "Send this email in HTML or in plain text format."
+msgstr "以 HTML 或纯文本格式发送此电子邮件。"
+
+#: app/Services/TransStrings.php:225
+msgid "Send Test Message"
+msgstr "发送测试消息"
+
+#: app/Services/TransStrings.php:224
+msgid "Send Test Email"
+msgstr "发送测试邮件"
+
+#: app/Services/TransStrings.php:222
+msgid "Select Region"
+msgstr "选择区域"
+
+#: app/Services/TransStrings.php:221
+msgid "Select Provider"
+msgstr "选择提供商"
+
+#: app/Services/TransStrings.php:220
+msgid "Select Email or Type"
+msgstr "选择电子邮件或类型"
+
+#: app/Services/TransStrings.php:218
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: app/Services/TransStrings.php:217
+msgid "Search Type and Enter..."
+msgstr "搜索类型并输入..."
+
+#: app/Services/TransStrings.php:211
+msgid "SSL"
+msgstr "SSL"
+
+#: app/Services/TransStrings.php:209
+msgid "SMTP Username"
+msgstr "SMTP 用户名"
+
+#: app/Services/TransStrings.php:208
+msgid "SMTP Port"
+msgstr "SMTP 端口"
+
+#: app/Services/TransStrings.php:207
+msgid "SMTP Password"
+msgstr "SMTP 密码"
+
+#: app/Services/TransStrings.php:206
+msgid "SMTP Host"
+msgstr "SMTP 主机"
+
+#: app/Services/TransStrings.php:205
+msgid "Run Another Test Email"
+msgstr "运行另一个测试电子邮件"
+
+#: app/Services/TransStrings.php:200
+msgid "Remove"
+msgstr "删除"
+
+#: app/Services/TransStrings.php:199
+msgid "Region "
+msgstr "地区 "
+
+#: app/Services/TransStrings.php:197
+msgid "Receiver's Telegram Username: "
+msgstr "接收者的 Telegram 用户名： "
+
+#: app/Services/Mailer/Providers/config.php:29
+#: app/Services/Mailer/Providers/config.php:70
+#: app/Services/Mailer/Providers/config.php:87
+#: app/Services/Mailer/Providers/config.php:101
+#: app/Services/Mailer/Providers/config.php:115
+#: app/Services/Mailer/Providers/config.php:129
+#: app/Services/Mailer/Providers/config.php:143
+#: app/Services/Mailer/Providers/config.php:160
+#: app/Services/Mailer/Providers/config.php:175
+#: app/Services/TransStrings.php:195
+msgid "Read the documentation"
+msgstr "阅读文档"
+
+#: app/Services/TransStrings.php:192
+msgid "Private API Key"
+msgstr "私有 API 密钥"
+
+#: app/Services/TransStrings.php:190
+msgid "Postmark API Settings"
+msgstr "Postmark API 设置"
+
+#: app/Services/TransStrings.php:189
+msgid "Please send test email to confirm if the connection is working or not."
+msgstr "请发送测试电子邮件以确认连接是否正常。"
+
+#: app/Services/TransStrings.php:188
+msgid "Please enter a valid email address"
+msgstr "请输入有效的邮箱地址"
+
+#: app/Services/TransStrings.php:187
+msgid "Please authenticate with Office365 to get "
+msgstr "请通过 Office365 进行身份验证以获取 "
+
+#: app/Services/TransStrings.php:186
+msgid "Please authenticate with Google to get "
+msgstr "请通过 Google 验证以获取 "
+
+#: app/Services/TransStrings.php:184
+msgid "Please Provide an email"
+msgstr "请输入邮箱地址"
+
+#: app/Services/TransStrings.php:183
+msgid "Please "
+msgstr "请 "
+
+#: app/Services/TransStrings.php:182
+msgid "Pin copied to clipboard"
+msgstr "Pin 已复制到剪贴板"
+
+#: app/Services/TransStrings.php:181
+msgid "Pepipost API Settings"
+msgstr "Pepipost API 设置"
+
+#: app/Services/TransStrings.php:180
+msgid "Outlook / Office365 API Settings"
+msgstr "Outlook/Office365 API 设置"
+
+#: app/Services/TransStrings.php:178
+msgid "On"
+msgstr "开"
+
+#: app/Services/TransStrings.php:177
+msgid "Off"
+msgstr "关"
+
+#: app/Services/TransStrings.php:174
+msgid "None"
+msgstr "无"
+
+#: app/Services/TransStrings.php:170
+msgid "Message Stream"
+msgstr "消息流"
+
+#: app/Services/TransStrings.php:169
+msgid "Meet "
+msgstr "查看 "
+
+#: app/Services/TransStrings.php:168
+msgid "Marketing"
+msgstr "营销"
+
+#: app/Services/TransStrings.php:167
+msgid "Manage Additional Senders"
+msgstr "管理其他发件人"
+
+#: app/Services/TransStrings.php:166
+msgid "Mailgun API Settings"
+msgstr "Mailgun API 设置"
+
+#: app/Services/TransStrings.php:164
+msgid "Log Emails"
+msgstr "邮件日志"
+
+#: app/Services/TransStrings.php:160
+msgid "Last step!"
+msgstr "最后一步！"
+
+#: app/Services/TransStrings.php:155
+msgid "Join FluentForms Facebook Community"
+msgstr "加入 FluentForms Facebook 社区"
+
+#: app/Services/TransStrings.php:154
+msgid "Join FluentCRM Facebook Community"
+msgstr "加入 FluentCRM Facebook 社区"
+
+#: app/Services/TransStrings.php:152
+msgid "Install Ninja Tables (Free)"
+msgstr "安装 Ninja Tables（免费）"
+
+#: app/Services/TransStrings.php:151
+msgid "Install FluentCRM (Free)"
+msgstr "安装 FluentCRM（免费）"
+
+#: app/Services/TransStrings.php:150
+msgid "Install Fluent Forms (Free)"
+msgstr "安装 Fluent Forms（免费）"
+
+#: app/Services/TransStrings.php:149
+msgid "If you have a minute, consider "
+msgstr "如果你有时间，考虑一下 "
+
+#: app/Services/TransStrings.php:148
+msgid "If you find an issue or have a suggestion please "
+msgstr "如果你发现问题或有建议，请 "
+
+#: app/Services/TransStrings.php:147
+msgid "I have sent the code"
+msgstr "我已经发送代码"
+
+#: app/Services/TransStrings.php:146
+msgid "How can we help you?"
+msgstr "我们能为您做什么？"
+
+#: app/Services/TransStrings.php:144
+msgid "Gmail / Google Workspace API Settings"
+msgstr "Gmail/Google Workspace API 设置"
+
+#: app/Services/TransStrings.php:142
+msgid "Get v3 API Key."
+msgstr "获取 v3 API 密钥。"
+
+#: app/Services/TransStrings.php:141
+msgid "Get a Private API Key."
+msgstr "获取私人 API 密钥。"
+
+#: app/Services/TransStrings.php:140
+msgid "Get a Domain Name."
+msgstr "获取域名。"
+
+#: app/Services/TransStrings.php:139
+msgid "Get API Key."
+msgstr "获取 API 密钥。"
+
+#: app/Services/TransStrings.php:134
+msgid "From"
+msgstr "发件人"
+
+#: app/Services/TransStrings.php:130
+msgid "Follow this link to get an API Key:"
+msgstr "点击此链接获取 API 密钥："
+
+#: app/Services/TransStrings.php:129
+msgid "Follow this link to get an API Key from SendGrid:"
+msgstr "点击此链接从 SendGrid 获取 API 密钥："
+
+#: app/Services/TransStrings.php:127
+msgid "Follow this link to get an API Key from Mailgun:"
+msgstr "点击此链接从 Mailgun 获取 API 密钥："
+
+#: app/Services/TransStrings.php:126
+msgid "Follow this link to get an API Key from ElasticEmail: "
+msgstr "点击此链接从 ElasticEmail 获取 API 密钥： "
+
+#: app/Services/TransStrings.php:125
+msgid "Follow this link to get a Domain Name from Mailgun:"
+msgstr "点击此链接从 Mailgun 获取域名："
+
+#: app/Services/TransStrings.php:124
+msgid "FluentSMTP is built using the following open-source libraries and software"
+msgstr "FluentSMTP 使用以下开源库和软件构建"
+
+#: app/Services/TransStrings.php:123
+msgid "FluentSMTP does not store your email notifications data. "
+msgstr "FluentSMTP 不存储您的电子邮件通知数据。 "
+
+#: app/Services/TransStrings.php:122
+msgid "FluentSMTP does not store your email notifications data."
+msgstr "FluentSMTP 不存储您的电子邮件通知数据。"
+
+#: app/Services/TransStrings.php:119
+msgid "Fastest Contact Form Builder Plugin for WordPress"
+msgstr "适用于 WordPress 的最快联系表单生成器插件"
+
+#: app/Services/TransStrings.php:116
+msgid "Enter the sender email address(optional)."
+msgstr "输入发件人邮箱地址（可选）。"
+
+#: app/Services/TransStrings.php:115
+msgid "Enter new email address ex: new_sender@"
+msgstr "输入新的邮箱地址，例如：new_sender@"
+
+#: app/Services/TransStrings.php:112
+msgid "Encryption"
+msgstr "加密"
+
+#: app/Services/TransStrings.php:111
+msgid "Enable link tracking on postmark (For HTML Emails only)."
+msgstr "在 postmark  上启用链接跟踪（仅适用于 HTML 电子邮件）。"
+
+#: app/Services/TransStrings.php:110
+msgid "Enable email opens tracking on postmark(For HTML Emails only)."
+msgstr "在 postmark 上启用电子邮件打开跟踪（仅适用于 HTML 电子邮件）。"
+
+#: app/Services/TransStrings.php:108
+msgid "Email Type"
+msgstr "邮件类型"
+
+#: app/Services/TransStrings.php:105
+msgid "Email Sending Error Notifications"
+msgstr "电子邮件发送错误通知"
+
+#: app/Services/TransStrings.php:104
+msgid "Email Marketing Automation and CRM Plugin for WordPress"
+msgstr "适用于 WordPress 的电子邮件营销自动化和 CRM 插件"
+
+#: app/Services/TransStrings.php:102
+msgid "Email Log"
+msgstr "邮件日志"
+
+#: app/Services/TransStrings.php:101
+msgid "Email Headers"
+msgstr "电子邮件标题"
+
+#: app/Services/TransStrings.php:97
+msgid "ElasticEmail API Settings"
+msgstr "ElasticEmail API 设置"
+
+#: app/Services/TransStrings.php:95
+msgid "Domain Name"
+msgstr "域名"
+
+#: app/Services/TransStrings.php:94
+msgid "Documentation"
+msgstr "文档"
+
+#: app/Services/TransStrings.php:93
+msgid "Discord Webhook URL"
+msgstr "Discord Webhook URL"
+
+#: app/Services/TransStrings.php:92
+msgid "Discord Notifications Enabled"
+msgstr "已启用 Discord 通知"
+
+#: app/Services/TransStrings.php:91
+msgid "Discord Channel Details: "
+msgstr "Discord 频道详情： "
+
+#: app/Services/TransStrings.php:90
+msgid "Disconnect & Reconnect"
+msgstr "断开连接并重新连接"
+
+#: app/Services/TransStrings.php:89
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: app/Services/TransStrings.php:87
+msgid "Delete Selected"
+msgstr "删除所选"
+
+#: app/Services/TransStrings.php:80
+msgid "Current verified senders:"
+msgstr "当前已验证的发件人："
+
+#: app/Services/TransStrings.php:78
+msgid "Create API Key."
+msgstr "创建 API 密钥。"
+
+#: app/Services/TransStrings.php:77
+msgid "Contributors"
+msgstr "贡献者"
+
+#: app/Services/TransStrings.php:76
+msgid "Continue to Slack"
+msgstr "继续使用 Slack"
+
+#: app/Services/TransStrings.php:75
+msgid "Continue"
+msgstr "继续"
+
+#: app/Services/TransStrings.php:74
+msgid "Connection deleted Successfully."
+msgstr "连接已成功删除。"
+
+#: app/Services/TransStrings.php:73
+msgid "Connection Provider"
+msgstr "连接提供者"
+
+#: app/Services/TransStrings.php:72
+msgid "Connection Name "
+msgstr "连接名称 "
+
+#: app/Services/TransStrings.php:69
+msgid "Configure Discord Notification"
+msgstr "配置 Discord 通知"
+
+#: app/Services/TransStrings.php:66
+msgid "Cancel"
+msgstr "取消"
+
+#: app/Services/TransStrings.php:63
+msgid "Best WP DataTables Plugin for WordPress"
+msgstr "适用于 WordPress 的最佳 WP DataTables 插件"
+
+#: app/Services/TransStrings.php:62
+msgid "Awesome! Please check your email inbox and confirm your subscription."
+msgstr "太棒了！请检查您的电子邮件收件箱并确认您的订阅。"
+
+#: app/Services/TransStrings.php:61
+msgid "Authorized Redirect URIs"
+msgstr "授权重定向 URI"
+
+#: app/Services/TransStrings.php:60
+msgid "Authorized Redirect URI"
+msgstr "授权重定向 URI"
+
+#: app/Services/TransStrings.php:59
+msgid "Authentication"
+msgstr "验证"
+
+#: app/Services/TransStrings.php:58
+msgid "Authenticate with Office365 & Get Access Token"
+msgstr "使用 Office365 进行身份验证并获取访问令牌"
+
+#: app/Services/TransStrings.php:57
+msgid "Authenticate with Google & Get Access Token"
+msgstr "使用 Google 进行身份验证并获取访问令牌"
+
+#: app/Services/TransStrings.php:55
+msgid "Are you sure, you want to delete all the logs?"
+msgstr "您确定要删除所有日志吗？"
+
+#: app/Services/TransStrings.php:54
+msgid "Are you sure you want to remove this email address?"
+msgstr "您确定要删除该电子邮件地址吗？"
+
+#: app/Services/TransStrings.php:53
+msgid "Are you sure you want to disconnect Telegram notifications?"
+msgstr "您确定要断开 Telegram 通知吗？"
+
+#: app/Services/TransStrings.php:52
+msgid "Are you sure you want to disconnect Slack notifications?"
+msgstr "您确定要断开 Slack 通知吗？"
+
+#: app/Services/TransStrings.php:51
+msgid "Are you sure you want to disconnect Discord notifications?"
+msgstr "您确定要断开 Discord 通知吗？"
+
+#: app/Services/TransStrings.php:49
+msgid "Application Keys in Config File"
+msgstr "配置文件中的应用程序密钥"
+
+#: app/Services/TransStrings.php:48
+msgid "Application Client Secret"
+msgstr "应用程序客户端密钥"
+
+#: app/Services/TransStrings.php:47
+msgid "Application Client ID"
+msgstr "应用程序客户端 ID"
+
+#: app/Services/TransStrings.php:46
+msgid "App Callback URL(Use this URL to your APP)"
+msgstr "应用程序回调 URL（使用此 URL 到您的应用程序）"
+
+#: app/Services/TransStrings.php:44
+msgid "All Statuses"
+msgstr "所有状态"
+
+#: app/Services/TransStrings.php:42
+msgid "After 90 Days"
+msgstr "90 天后"
+
+#: app/Services/TransStrings.php:41
+msgid "After 7 Days"
+msgstr "7 天后"
+
+#: app/Services/TransStrings.php:40
+msgid "After 60 Days"
+msgstr "60 天后"
+
+#: app/Services/TransStrings.php:39
+msgid "After 6 Months"
+msgstr "6 个月后"
+
+#: app/Services/TransStrings.php:38
+msgid "After 30 Days"
+msgstr "30 天后"
+
+#: app/Services/TransStrings.php:37
+msgid "After 2 Years"
+msgstr "2 年后"
+
+#: app/Services/TransStrings.php:36
+msgid "After 14 Days"
+msgstr "14 天后"
+
+#: app/Services/TransStrings.php:35
+msgid "After 1 Year"
+msgstr "1 年后"
+
+#: app/Services/TransStrings.php:32
+msgid "Add Additional Senders"
+msgstr "添加其他发件人"
+
+#: app/Services/TransStrings.php:31
+msgid "Add"
+msgstr "添加"
+
+#: app/Services/TransStrings.php:27
+msgid "Activation Pin"
+msgstr "激活 Pin"
+
+#: app/Services/TransStrings.php:25
+msgid "Access Token"
+msgstr "访问令牌"
+
+#: app/Services/TransStrings.php:24
+msgid "Access Keys in Config File"
+msgstr "配置文件中的访问密钥"
+
+#: app/Services/TransStrings.php:23
+msgid "Access Key"
+msgstr "访问密钥"
+
+#: app/Services/TransStrings.php:21
+msgid "About"
+msgstr "关于"
+
+#: app/Services/TransStrings.php:20
+msgid "API Key"
+msgstr "API 密钥"
+
+#: app/Services/TransStrings.php:19
+msgid "A name for the connection."
+msgstr "连接的名称。"
+
+#: app/Services/TransStrings.php:18
+msgid "*** It is very important to put "
+msgstr "*** 重要的是要 "
+
+#: app/Services/TransStrings.php:17
+msgid "(Re Authentication Required)"
+msgstr "（需重新认证）"
+
+#: app/Services/TransStrings.php:15
+msgid "(Default: US East(N.Virginia) / us - east - 1)"
+msgstr "（默认：美国东部（弗吉尼亚北部）/ us - east - 1）"
+
+#: app/Services/TransStrings.php:14
+msgid " option in the Google Cloud Project."
+msgstr " Google Cloud Project 中的选项。"
+
+#: app/Services/TransStrings.php:13
+msgid " in the "
+msgstr " 在 "
+
+#: app/Services/TransStrings.php:12
+msgid " connection."
+msgstr " 连接"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:86
+msgid ""
+"This notice is from FluentSMTP plugin to prevent plugin\n"
+"                    conflict."
+msgstr "此通知来自 FluentSMTP 插件，用于防止插件冲突。"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:85
+msgid "Go To FluentSMTP Settings"
+msgstr "转到 FluentSMTP 设置"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:83
+msgid ". It's compatible with various SMTP services, including Amazon SES, SendGrid, MailGun, ElasticEmail, SendInBlue, Google, Microsoft, and others, providing you with a wide range of options for your email needs."
+msgstr "。它与各种 SMTP 服务兼容，包括 Amazon SES、SendGrid、MailGun、ElasticEmail、SendInBlue、Google、Microsoft 等，为您的电子邮件需求提供广泛的选择。"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:83
+msgid "learn why it's free"
+msgstr "了解免费的原因"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:82
+msgid "You seem to be looking for an SMTP plugin, but there's no need for another one — FluentSMTP is already installed on your site. FluentSMTP is a comprehensive, free, and open-source plugin with full features available without any upsell"
+msgstr "您似乎正在寻找 SMTP 插件，但不需要另一个插件 — FluentSMTP 已安装在您的网站上。FluentSMTP 是一款全面、免费且开源的插件，具有完整功能，无需任何附加销售"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:81
+msgid "For SMTP, you already have FluentSMTP Installed"
+msgstr "对于 SMTP，您已经安装了 FluentSMTP"
+
+#: app/Services/TransStrings.php:45
+msgid "All Time"
+msgstr "所有时间"
+
+#: app/Services/TransStrings.php:157
+msgid "Last 30 Days"
+msgstr "最近 30 天"
+
+#: app/Services/TransStrings.php:158
+msgid "Last 7 Days"
+msgstr "最近 7 天"
+
+#: app/Services/TransStrings.php:162
+msgid "Less"
+msgstr "更少"
+
+#: app/Services/TransStrings.php:172
+msgid "More"
+msgstr "更多"
+
+#: app/Services/TransStrings.php:235
+msgid "Sending by time of day"
+msgstr "按一天中的时间发送"
+
+#: app/Http/Controllers/TelegramController.php:160
+msgid "Telegram connection has been disconnected successfully"
+msgstr "Telegram 连接已成功断开"
+
+#: app/Http/Controllers/TelegramController.php:99
+#: app/Http/Controllers/TelegramController.php:129
+#: app/Http/Controllers/TelegramController.php:153
+msgid "Telegram notification is not enabled"
+msgstr "Telegram 通知未启用"
+
+#: app/Http/Controllers/TelegramController.php:87
+msgid "Connection successful"
+msgstr "连接成功"
+
+#: app/Http/Controllers/TelegramController.php:59
+msgid "Please provide site token"
+msgstr "请提供站点令牌"
+
+#: app/Http/Controllers/TelegramController.php:45
+msgid "Awesome! Please activate the connection from your telegram account."
+msgstr "超棒！ 请从您的 Telegram 帐户激活连接。"
+
+#: app/Http/Controllers/SlackController.php:103
+msgid "Slack connection has been disconnected successfully"
+msgstr "Slack 连接已成功断开"
+
+#: app/Http/Controllers/SlackController.php:58
+msgid "Awesome! You are redirecting to slack"
+msgstr "超棒！ 您正在重定向到 Slack"
+
+#: app/Http/Controllers/SettingsController.php:297
+msgid "Email has been removed successfully"
+msgstr "邮箱已成功删除"
+
+#: app/Http/Controllers/SettingsController.php:259
+msgid "Email has been added successfully"
+msgstr "邮箱已添加成功"
+
+#: app/Http/Controllers/SettingsController.php:246
+#: app/Http/Controllers/SettingsController.php:284
+#: app/Http/Controllers/SlackController.php:22
+#: app/Http/Controllers/TelegramController.php:22
+msgid "Please provide a valid email address"
+msgstr "请提供有效的邮箱地址"
+
+#: app/Http/Controllers/DiscordController.php:91
+msgid "Discord connection has been disconnected successfully"
+msgstr "Discord 连接已成功断开"
+
+#: app/Http/Controllers/DiscordController.php:71
+#: app/Http/Controllers/SlackController.php:86
+#: app/Http/Controllers/TelegramController.php:143
+msgid "Test message sent successfully"
+msgstr "测试消息发送成功"
+
+#: app/Http/Controllers/DiscordController.php:55
+#: app/Http/Controllers/SlackController.php:70
+msgid "Slack notification is not enabled"
+msgstr "Slack 通知未启用"
+
+#: app/Http/Controllers/DiscordController.php:44
+msgid "Your settings has been saved"
+msgstr "您的设置已经保存"
+
+#: app/Http/Controllers/DiscordController.php:26
+msgid "Channel Name required"
+msgstr "频道名称必填"
+
+#: app/Http/Controllers/DiscordController.php:20
+msgid "Webhook URL is required"
+msgstr "Webhook URL 是必需的"
+
+#: app/Services/TransStrings.php:43
+msgid "Alerts"
+msgstr "警报"
+
+#: app/Services/Mailer/Providers/config.php:230
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: app/Services/Mailer/Providers/config.php:211
+msgid "Outlook or Office 365"
+msgstr "Outlook 或 Office 365"
+
+#: app/Services/Mailer/Providers/config.php:133
+msgid "Netcore Email API, formerly Pepipost"
+msgstr "Netcore 邮件 API，以前称为 Pepipost"
+
+#: app/Services/Mailer/Providers/config.php:9
+msgid "SMTP server"
+msgstr "SMTP 服务器"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:287
+msgid "FluentSMTP needs to be configured for it to work."
+msgstr "FluentSMTP 需要进行配置才能正常工作。"
+
+#: app/Services/Mailer/Providers/config.php:164
+msgid "Elastic Email"
+msgstr "弹性邮件"
+
+#: app/Hooks/filters.php:6
+msgid "SMTP/Mail Settings"
+msgstr "SMTP/邮件设置"
+
+#: app/Services/Mailer/Providers/ElasticMail/ValidatorTrait.php:23
+msgid "Please define FLUENTMAIL_ELASTICMAIL_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_ELASTICMAIL_API_KEY。"
+
+#: app/Services/Mailer/Providers/Postmark/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_POSTMARK_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_POSTMARK_API_KEY。"
+
+#: app/Services/Mailer/Providers/config.php:147
+msgid "Postmark"
+msgstr "Postmark"
+
+#: app/views/admin/digest_email.php:182
+msgid "Your email sending health is perfect"
+msgstr "您的邮件发送状况非常完美"
+
+#: app/views/admin/digest_email.php:180
+msgid "Awesome! no failures! 🎉"
+msgstr "非常棒！没有失败！ 🎉"
+
+#: app/views/admin/digest_email.php:165
+msgid "Failed Count"
+msgstr "失败统计"
+
+#: app/views/admin/digest_email.php:133
+msgid "If this is unusual you should probably check if your site is broken."
+msgstr "如果这是不寻常的情况，您可能应该检查您的网站是否已损坏。"
+
+#: app/views/admin/digest_email.php:131
+msgid "Looks like no email has been sent to the time period"
+msgstr "看起来该时间段还没有发送邮件"
+
+#: app/Services/Mailer/Providers/Outlook/Handler.php:96
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_SECRET in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_OUTLOOK_CLIENT_SECRET。"
+
+#: app/Services/Mailer/Providers/Outlook/Handler.php:90
+msgid "Please define FLUENTMAIL_OUTLOOK_CLIENT_ID in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_OUTLOOK_CLIENT_ID。"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:318
+#: app/Services/Mailer/Providers/Outlook/Handler.php:192
+msgid "Token Validity"
+msgstr "令牌有效性"
+
+#: app/Services/Mailer/Providers/config.php:226
+msgid "Outlook/Office365 is not recommended for sending mass marketing emails."
+msgstr "不建议使用 Outlook/Office365 发送大量营销邮件。"
+
+#: app/Services/Mailer/Providers/config.php:68
+msgid "China (Ningxia)"
+msgstr "中国（宁夏）"
+
+#: app/Services/Mailer/Providers/config.php:67
+msgid "Africa (Cape Town)"
+msgstr "非洲（开普敦）"
+
+#: app/Services/Mailer/Providers/config.php:57
+msgid "Europe (Milan)"
+msgstr "欧洲（米兰）"
+
+#: app/Http/Controllers/Controller.php:59
+msgid "Security Failed. Please reload the page"
+msgstr "安全失败。请重新加载页面"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:124
+msgid "Email Failures"
+msgstr "邮件失败"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:120
+#: app/views/admin/digest_email.php:115
+msgid "Emails Sent"
+msgstr "邮件已发送"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:114
+msgid "Showing %1$s of %2$s different subject lines failed in the past %3$s"
+msgstr "过去 %3$s 显示 %1$s 个不同主题行失败，共 %2$s 个"
+
+#: app/Hooks/Handlers/SchedulerHandler.php:107
+msgid "Showing %1$s of %2$s different subject lines sent in the past %3$s"
+msgstr "显示过去 %3$s 发送的 %1$s 个不同主题行（共 %2$s 个）"
+
+#: app/Services/TransStrings.php:300
+msgid "No Emails will be sent from your WordPress."
+msgstr "您的 WordPress 不会发送任何邮件。"
+
+#: app/Services/TransStrings.php:299
+msgid "Disable sending all emails. If you enable this, no email will be sent."
+msgstr "禁用发送所有邮件。如果启用此功能，则不会发送邮件。"
+
+#: app/Services/TransStrings.php:106
+msgid "Email Simulation"
+msgstr "邮件模拟"
+
+#: app/Services/TransStrings.php:185
+msgid "Please add another connection to use fallback feature"
+msgstr "请添加另一个连接以使用备用功能"
+
+#: app/Services/TransStrings.php:338
+msgid "Fallback Connection will be used if an email is failed to send in one connection. Please select a different connection than the default connection"
+msgstr "如果在一个连接中发送邮件失败，将使用备用连接。请选择与默认连接不同的连接"
+
+#: app/Services/TransStrings.php:337
+msgid "Select which connection will be used for sending transactional emails from your WordPress. If you use multiple connection then email will be routed based on source from email address"
+msgstr "选择用于从 WordPress 发送交易邮件的连接。如果您使用多个连接，则邮件将根据邮件地址的来源进行路由"
+
+#: app/Services/TransStrings.php:118
+msgid "Fallback Connection"
+msgstr "备用连接"
+
+#: app/Services/TransStrings.php:83
+msgid "Default Connection"
+msgstr "默认连接"
+
+#: app/Services/TransStrings.php:85
+msgid "Delete Logs"
+msgstr "删除日志"
+
+#: app/Services/TransStrings.php:121
+msgid "FluentCRM Email Logging"
+msgstr "FluentCRM 邮件日志"
+
+#: app/Services/TransStrings.php:88
+msgid "Disable Logging for FluentCRM Emails"
+msgstr "禁用 FluentCRM 邮件的日志记录"
+
+#: app/Services/TransStrings.php:163
+msgid "Log All Emails for Reporting"
+msgstr "记录所有邮件以进行报告"
+
+#: app/Services/TransStrings.php:215
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: app/Services/TransStrings.php:175
+msgid "Notification Days"
+msgstr "通知日"
+
+#: app/Services/TransStrings.php:98
+msgid "Email Address"
+msgstr "邮箱地址"
+
+#: app/Services/TransStrings.php:176
+msgid "Notification Email Addresses"
+msgstr "通知邮件地址"
+
+#: app/Services/TransStrings.php:109
+msgid "Enable Email Summary"
+msgstr "启用邮件摘要"
+
+#: app/Services/TransStrings.php:340
+msgid "Your emails will be routed automatically based on From email address. No additional configuration is required."
+msgstr "您的邮件将根据发件人邮箱地址自动路由。无需额外配置。"
+
+#: app/Services/TransStrings.php:96
+msgid "Edit Connection"
+msgstr "编辑连接"
+
+#: app/Services/TransStrings.php:138
+msgid "General Settings"
+msgstr "常规设置"
+
+#: app/Services/TransStrings.php:67
+msgid "Close"
+msgstr "关闭"
+
+#: app/Services/TransStrings.php:71
+msgid "Connection Details"
+msgstr "连接详情"
+
+#: app/Services/TransStrings.php:193
+msgid "Provider"
+msgstr "提供者"
+
+#: app/Services/TransStrings.php:33
+msgid "Add Another Connection"
+msgstr "添加另一个连接"
+
+#: app/Services/TransStrings.php:29
+msgid "Active Email Connections"
+msgstr "活跃邮件连接"
+
+#: app/Services/TransStrings.php:275
+msgid "Validating Data. Please wait..."
+msgstr "正在验证数据。请稍候..."
+
+#: app/Services/TransStrings.php:304
+msgid "When checked, the From Name setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "选中后，上面的“发件人姓名”设置将用于所有邮件，忽略其他插件设置的值。"
+
+#: app/Services/TransStrings.php:357
+msgid "Credential Verification Failed. Please check your inputs"
+msgstr "凭证验证失败。请检查您的输入"
+
+#: app/Services/TransStrings.php:356
+msgid "Please select your email service provider"
+msgstr "请选择您的邮件服务提供商"
+
+#: app/Services/TransStrings.php:213
+msgid "Save Connection Settings"
+msgstr "保存连接设置"
+
+#: app/Services/TransStrings.php:132
+#: app/views/admin/general_connection_info.php:16
+#: app/views/admin/ses_connection_info.php:39
+msgid "Force Sender Name"
+msgstr "强制发件人姓名"
+
+#: app/Services/TransStrings.php:136
+msgid "From Name"
+msgstr "发件人名字"
+
+#: app/Services/TransStrings.php:237
+msgid "Set the return-path to match the From Email"
+msgstr "设置返回路径以匹配发件人邮箱"
+
+#: app/Services/TransStrings.php:339
+msgid "If checked, the From Email setting above will be used for all emails (It will check if the from email is listed to available connections)."
+msgstr "如果选中，上面的发件人邮箱设置将用于所有邮件（它将检查发件人邮箱是否已列出到可用连接）。"
+
+#: app/Services/TransStrings.php:131
+msgid "Force From Email (Recommended Settings: Enable)"
+msgstr "强制发件人邮箱（推荐设置：启用）"
+
+#: app/Services/TransStrings.php:135
+msgid "From Email"
+msgstr "发件人邮箱"
+
+#: app/Services/TransStrings.php:232
+msgid "Sender Settings"
+msgstr "发件人设置"
+
+#: app/Services/TransStrings.php:216
+msgid "Search Results for"
+msgstr "搜索结果"
+
+#: app/Services/TransStrings.php:191
+msgid "Prev"
+msgstr "上一个"
+
+#: app/Services/TransStrings.php:173
+msgid "Next"
+msgstr "下一个"
+
+#: app/Services/TransStrings.php:56
+msgid "Attachments"
+msgstr "附件"
+
+#: app/Services/TransStrings.php:99
+msgid "Email Body"
+msgstr "邮件正文"
+
+#: app/Services/TransStrings.php:203
+msgid "Resent Count"
+msgstr "重新发送计数"
+
+#: app/Services/TransStrings.php:272
+msgid "Turn On"
+msgstr "打开"
+
+#: app/Services/TransStrings.php:201
+msgid "Resend"
+msgstr "重新发送"
+
+#: app/Services/TransStrings.php:204
+msgid "Retry"
+msgstr "重试"
+
+#: app/Services/TransStrings.php:26
+msgid "Actions"
+msgstr "操作"
+
+#: app/Services/TransStrings.php:81
+msgid "Date-Time"
+msgstr "日期时间"
+
+#: app/Services/TransStrings.php:264
+msgid "To"
+msgstr "到"
+
+#: app/Services/TransStrings.php:250 app/views/admin/digest_email.php:114
+#: app/views/admin/digest_email.php:164
+msgid "Subject"
+msgstr "主题"
+
+#: app/Services/TransStrings.php:273
+msgid "Type & press enter..."
+msgstr "输入并按 Enter 键..."
+
+#: app/Services/TransStrings.php:120
+msgid "Filter"
+msgstr "筛选"
+
+#: app/Services/TransStrings.php:113
+msgid "End date"
+msgstr "结束日期"
+
+#: app/Services/TransStrings.php:243
+msgid "Start date"
+msgstr "开始日期"
+
+#: app/Services/TransStrings.php:223
+msgid "Select date and time"
+msgstr "选择日期和时间"
+
+#: app/Services/TransStrings.php:252
+msgid "Successful"
+msgstr "成功"
+
+#: app/Services/TransStrings.php:219
+msgid "Select"
+msgstr "选择"
+
+#: app/Services/TransStrings.php:244
+msgid "Status"
+msgstr "当前状态"
+
+#: app/Services/TransStrings.php:114
+msgid "Enter Full Screen"
+msgstr "进入全屏"
+
+#: app/Services/TransStrings.php:64
+msgid "Bulk Action"
+msgstr "批量操作"
+
+#: app/Services/TransStrings.php:202
+msgid "Resend Selected Emails"
+msgstr "重新发送选定的邮件"
+
+#: app/Services/TransStrings.php:50
+msgid "Apply"
+msgstr "应用"
+
+#: app/Services/TransStrings.php:65
+msgid "By Date"
+msgstr "按日期"
+
+#: app/Services/TransStrings.php:156
+msgid "Last 3 months"
+msgstr "近三个月"
+
+#: app/Services/TransStrings.php:159
+msgid "Last month"
+msgstr "上个月"
+
+#: app/Services/TransStrings.php:161
+msgid "Last week"
+msgstr "上周"
+
+#: app/Services/TransStrings.php:251
+msgid "Subscribe To Updates"
+msgstr "订阅更新"
+
+#: app/Services/TransStrings.php:82
+msgid "Days"
+msgstr "天"
+
+#: app/Services/TransStrings.php:86
+msgid "Delete Logs:"
+msgstr "删除日志："
+
+#: app/Services/TransStrings.php:214
+msgid "Save Email Logs:"
+msgstr "保存邮件日志："
+
+#: app/Services/TransStrings.php:30
+msgid "Active Senders:"
+msgstr "活跃发件人："
+
+#: app/Services/TransStrings.php:28
+msgid "Active Connections:"
+msgstr "活跃连接："
+
+#: app/Services/TransStrings.php:100
+msgid "Email Failed:"
+msgstr "邮件发送失败："
+
+#: app/Services/TransStrings.php:267
+msgid "Total Email Sent (Logged):"
+msgstr "发送的邮件总数（已记录）："
+
+#: app/Services/TransStrings.php:194
+msgid "Quick Overview"
+msgstr "快速预览"
+
+#: app/Services/TransStrings.php:234
+msgid "Sending Stats"
+msgstr "发送统计数据"
+
+#: app/Services/TransStrings.php:341
+msgid "Please configure your first email service provider connection"
+msgstr "请配置您的第一个邮件服务提供商连接"
+
+#: app/Services/TransStrings.php:342
+msgid "Thank you for installing FluentSMTP - The ultimate SMTP & Email Service Connection Plugin for WordPress"
+msgstr "感谢您安装 FluentSMTP - 适用于 WordPress 的终极 SMTP 和邮件服务连接插件"
+
+#: app/Services/TransStrings.php:343
+msgid "Welcome to FluentSMTP"
+msgstr "欢迎使用 FluentSMTP"
+
+#: app/Services/TransStrings.php:349
+msgid "confirm"
+msgstr "确认"
+
+#: app/Services/TransStrings.php:345
+msgid "cancel"
+msgstr "取消"
+
+#: app/Services/TransStrings.php:103
+msgid "Email Logs"
+msgstr "邮件日志"
+
+#: app/Services/TransStrings.php:107
+msgid "Email Test"
+msgstr "邮件测试"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:447
+msgid "View All"
+msgstr "查看全部"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:432
+#: app/Services/TransStrings.php:117
+msgid "Failed"
+msgstr "失败"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:431
+msgid "Sent"
+msgstr "已发送"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:430
+msgid "Date"
+msgstr "日期"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:421
+msgid "All"
+msgstr "所有"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:415
+msgid "Last 7 days"
+msgstr "最近7天"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:408
+#: app/Services/TransStrings.php:266
+msgid "Today"
+msgstr "今天"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:312
+msgid "Email Disabled"
+msgstr "邮件已禁用"
+
+#: app/Services/Mailer/Providers/config.php:207
+msgid "Gmail/Google Workspace is not recommended for sending mass marketing emails."
+msgstr "不建议使用 Gmail/Google Workspace 发送大量营销邮件。"
+
+#: app/Services/Mailer/Providers/config.php:192
+msgid "Gmail or Google Workspace"
+msgstr "Gmail 或 Google Workspace"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:177
+#: app/Services/Mailer/Providers/Outlook/Handler.php:133
+msgid "Please Provide Auth Token."
+msgstr "请提供身份验证令牌。"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:131
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_SECRET in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_GMAIL_CLIENT_SECRET。"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:125
+msgid "Please define FLUENTMAIL_GMAIL_CLIENT_ID in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_GMAIL_CLIENT_ID。"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:121
+#: app/Services/Mailer/Providers/Outlook/Handler.php:86
+msgid "Application Client Secret key is required."
+msgstr "需要应用程序客户端密钥。"
+
+#: app/Services/Mailer/Providers/Gmail/Handler.php:117
+#: app/Services/Mailer/Providers/Outlook/Handler.php:82
+msgid "Application Client ID is required."
+msgstr "需要应用程序客户端 ID。"
+
+#: app/Functions/helpers.php:864
+msgid "Possible Conflict: "
+msgstr "可能的冲突： "
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:33
+msgid "Please define FLUENTMAIL_SMTP_PASSWORD in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SMTP_PASSWORD。"
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:29
+msgid "Please define FLUENTMAIL_SMTP_USERNAME in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SMTP_USERNAME。"
+
+#: app/Hooks/filters.php:18 app/Services/TransStrings.php:238
+msgid "Settings"
+msgstr "设置"
+
+#: app/Hooks/filters.php:17
+msgid "Go to Fluent SMTP Settings page"
+msgstr "转到 Fluent SMTP 设置页面"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:292
+msgid "Configure FluentSMTP"
+msgstr "配置 FluentSMTP"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:280
+msgid "WordPress version 5.5 or greater is required for FluentSMTP. You are using version %s currently. Please update your WordPress Core to use FluentSMTP Plugin."
+msgstr "FluentSMTP 需要 WordPress 版本 5.5 或更高版本。您当前使用的是版本 %s。请更新您的 WordPress 核心以使用 FluentSMTP 插件。"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:350
+msgid "Fluent SMTP"
+msgstr "Fluent SMTP"
+
+#: app/Http/Controllers/Controller.php:51
+msgid "You do not have permission to do this action"
+msgstr "您没有执行此操作的权限"
+
+#: app/Http/Controllers/LoggerController.php:69
+msgid "Email sent successfully."
+msgstr "邮件发送成功."
+
+#: app/Http/Controllers/SettingsController.php:336
+msgid "Plugin has been successfully installed."
+msgstr "插件已成功安装。"
+
+#: app/Http/Controllers/SettingsController.php:329
+msgid "Sorry, You can not install this plugin"
+msgstr "抱歉，您无法安装此插件"
+
+#: app/Http/Controllers/SettingsController.php:323
+msgid "Go to Ninja Tables Dashboard"
+msgstr "转到 Ninja Tables 仪表板"
+
+#: app/Http/Controllers/SettingsController.php:319
+msgid "Go to FluentCRM Dashboard"
+msgstr "转到 FluentCRM 仪表板"
+
+#: app/Http/Controllers/SettingsController.php:315
+msgid "Go to Fluent Forms Dashboard"
+msgstr "转到 Fluent Forms 仪表板"
+
+#: app/Http/Controllers/SettingsController.php:215
+#: app/Http/Controllers/SettingsController.php:235
+#: app/Http/Controllers/SettingsController.php:273
+msgid "Sorry no connection found. Please reload the page and try again"
+msgstr "抱歉，没有找到连接。请刷新页面，然后再试一次"
+
+#: app/Http/Controllers/SettingsController.php:167
+msgid "Email delivered successfully."
+msgstr "邮件已成功发送。"
+
+#: app/Http/Controllers/SettingsController.php:156
+msgid "The email field is required."
+msgstr "邮件字段是必需的。"
+
+#: app/Http/Controllers/SettingsController.php:95
+#: app/Http/Controllers/SettingsController.php:140
+msgid "Settings saved successfully."
+msgstr "设置已成功保存。"
+
+#: app/Http/Controllers/SettingsController.php:117
+msgid "General Settings has been updated"
+msgstr "常规设置已更新"
+
+#: app/Services/Mailer/Providers/SendInBlue/ValidatorTrait.php:23
+msgid "Please define FLUENTMAIL_SENDINBLUE_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SENDINBLUE_API_KEY。"
+
+#: app/Services/Mailer/Providers/SparkPost/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SPARKPOST_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SPARKPOST_API_KEY。"
+
+#: app/Services/Mailer/Providers/SendGrid/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_SENDGRID_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_SENDGRID_API_KEY。"
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:31
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:31
+msgid "Please define FLUENTMAIL_MAILGUN_DOMAIN in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_MAILGUN_DOMAIN。"
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:27
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:27
+msgid "Please define FLUENTMAIL_MAILGUN_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_MAILGUN_API_KEY。"
+
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:23
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:23
+msgid "Domain name is required."
+msgstr "域名为必填项。"
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:32
+msgid "Please define FLUENTMAIL_AWS_SECRET_ACCESS_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_AWS_SECRET_ACCESS_KEY。"
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:28
+msgid "Please define FLUENTMAIL_AWS_ACCESS_KEY_ID in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_AWS_ACCESS_KEY_ID。"
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:24
+msgid "Secret key is required."
+msgstr "需要密钥。"
+
+#: app/Services/Mailer/Providers/AmazonSes/ValidatorTrait.php:20
+msgid "Access key is required."
+msgstr "需要访问密钥。"
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:41
+msgid "SMTP password is required."
+msgstr "需要 SMTP 密码。"
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:37
+msgid "SMTP username is required."
+msgstr "需要 SMTP 用户名。"
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:23
+msgid "SMTP port is required."
+msgstr "需要 SMTP 端口。"
+
+#: app/Services/Mailer/Providers/Smtp/ValidatorTrait.php:19
+msgid "SMTP host is required."
+msgstr "需要 SMTP 主机。"
+
+#: app/Services/Mailer/Providers/config.php:241
+msgid "The Default option does not use SMTP or any Email Service Providers so it will not improve email delivery on your site."
+msgstr "默认选项不使用 SMTP 或任何邮件服务提供商，因此不会改善您网站上的邮件传送。"
+
+#: app/Services/Mailer/Providers/config.php:119
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: app/Services/Mailer/Providers/config.php:105
+msgid "Sendinblue"
+msgstr "Sendinblue"
+
+#: app/Services/Mailer/Providers/config.php:91
+msgid "SendGrid"
+msgstr "发送网格"
+
+#: app/Services/Mailer/Providers/config.php:74
+msgid "Mailgun"
+msgstr "邮寄"
+
+#: app/Services/Mailer/Providers/config.php:66
+msgid "AWS GovCloud (US)"
+msgstr "AWS 政府云（美国）"
+
+#: app/Services/Mailer/Providers/config.php:65
+msgid "Middle East (Bahrain)"
+msgstr "中东（巴林）"
+
+#: app/Services/Mailer/Providers/config.php:64
+msgid "South America (São Paulo)"
+msgstr "南美洲（圣保罗）"
+
+#: app/Services/Mailer/Providers/config.php:63
+msgid "Asia Pacific (Tokyo)"
+msgstr "亚太地区（东京）"
+
+#: app/Services/Mailer/Providers/config.php:62
+msgid "Asia Pacific (Sydney)"
+msgstr "亚太地区（悉尼）"
+
+#: app/Services/Mailer/Providers/config.php:61
+msgid "Asia Pacific (Singapore)"
+msgstr "亚太地区（新加坡）"
+
+#: app/Services/Mailer/Providers/config.php:60
+msgid "Asia Pacific (Seoul)"
+msgstr "亚太地区（首尔）"
+
+#: app/Services/Mailer/Providers/config.php:59
+msgid "Asia Pacific (Mumbai)"
+msgstr "亚太地区（孟买）"
+
+#: app/Services/Mailer/Providers/config.php:58
+msgid "Europe (Stockholm)"
+msgstr "欧洲（斯德哥尔摩）"
+
+#: app/Services/Mailer/Providers/config.php:56
+msgid "EU (Frankfurt)"
+msgstr "欧洲地区（法兰克福）"
+
+#: app/Services/Mailer/Providers/config.php:55
+msgid "Europe (Paris)"
+msgstr "欧洲（巴黎）"
+
+#: app/Services/Mailer/Providers/config.php:54
+msgid "EU (London)"
+msgstr "欧洲地区（ 伦敦 ）"
+
+#: app/Services/Mailer/Providers/config.php:53
+msgid "EU (Ireland)"
+msgstr "欧盟（爱尔兰）"
+
+#: app/Services/Mailer/Providers/config.php:52
+msgid "Canada (Central)"
+msgstr "加拿大（中部）"
+
+#: app/Services/Mailer/Providers/config.php:51
+msgid "US West (Oregon)"
+msgstr "美国西部（俄勒冈州）"
+
+#: app/Services/Mailer/Providers/config.php:50
+msgid "US West (N. California)"
+msgstr "美国西部（加利福尼亚州）"
+
+#: app/Services/Mailer/Providers/config.php:49
+msgid "US East (Ohio)"
+msgstr "美国东部（俄亥俄州）"
+
+#: app/Services/Mailer/Providers/config.php:48
+msgid "US East (N. Virginia)"
+msgstr "美国东部（弗吉尼亚州北部）"
+
+#: app/Services/Mailer/Providers/config.php:33
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: app/Services/Mailer/Providers/PepiPost/ValidatorTrait.php:24
+msgid "Please define FLUENTMAIL_PEPIPOST_API_KEY in wp-config.php file."
+msgstr "请在 wp-config.php 文件中定义 FLUENTMAIL_PEPIPOST_API_KEY。"
+
+#: app/Services/Mailer/Providers/ElasticMail/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/Mailgun/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/PepiPost/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/Postmark/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SendGrid/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SendInBlue/ValidatorTrait.php:19
+#: app/Services/Mailer/Providers/Smtp2Go/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/SparkPost/ValidatorTrait.php:20
+#: app/Services/Mailer/Providers/TransMail/ValidatorTrait.php:19
+msgid "Api key is required."
+msgstr "需要 API 密钥。"
+
+#: app/Services/Mailer/ValidatorTrait.php:20
+msgid "Invalid email address."
+msgstr "无效的邮件地址。"
+
+#: app/Services/Mailer/ValidatorTrait.php:16
+msgid "Sender email is required."
+msgstr "发件人邮箱是必需的。"
+
+#. Author of the plugin
+#: fluent-smtp.php
+msgid "FluentSMTP & WPManageNinja Team"
+msgstr "FluentSMTP 和 WPManageNinja 团队"
+
+#. Description of the plugin
+#: fluent-smtp.php
+msgid "The Ultimate SMTP Connection Plugin for WordPress."
+msgstr "WordPress 的终极 SMTP 连接插件。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fluent-smtp.php
+msgid "https://fluentsmtp.com"
+msgstr "https://fluentsmtp.com"
+
+#. Plugin Name of the plugin
+#: fluent-smtp.php app/Hooks/Handlers/AdminMenuHandler.php:109
+msgid "FluentSMTP"
+msgstr "FluentSMTP"

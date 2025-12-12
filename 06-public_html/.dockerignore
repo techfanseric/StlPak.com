@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+docker-compose.yml
+.DS_Store
+wp-content/ai1wm-backups/*
+wp-content/cache/*
+wp-content/wflogs/*
+wp-content/upgrade/*
+wp-content/upgrade-temp-backup/*

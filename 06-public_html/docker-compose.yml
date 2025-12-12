@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress:6.5-php8.2-apache
+    container_name: stlpak-wordpress
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: u577823813_7HMer
+      WORDPRESS_DB_USER: u577823813_b75Zt
+      WORDPRESS_DB_PASSWORD: 1Tf2Ixcrve
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    container_name: stlpak-db
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword123
+      MYSQL_DATABASE: u577823813_7HMer
+      MYSQL_USER: u577823813_b75Zt
+      MYSQL_PASSWORD: 1Tf2Ixcrve
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: stlpak-phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: rootpassword123
+    depends_on:
+      - db
+
+volumes:
+  db_data:

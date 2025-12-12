@@ -1,0 +1,43 @@
+<?php
+/**
+ * STLPAK Child Theme functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package STLPAK Child
+ * @since 1.0.0
+ */
+
+/**
+ * Define Constants
+ */
+define( 'CHILD_THEME_STLPAK_VERSION', '1.0.0' );
+
+/**
+ * Enqueue styles
+ */
+function stlpak_enqueue_styles() {
+
+	wp_enqueue_style( 'stlpak-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'stlpak_enqueue_styles', 15 );
+// diable comment
+function filter_media_comment_status( $open, $post_id ) {
+    $post = get_post( $post_id );
+    if( $post->post_type == 'attachment' || $post->post_type == 'post') {
+        return false;
+    }
+    return $open;
+}
+add_filter( 'comments_open', 'filter_media_comment_status', 10 , 2 );
+// Limit Text
+function limit_text($text, $limit) {
+    if (str_word_count($text, 0) > $limit) {
+        $words = str_word_count($text, 2);
+        $pos   = array_keys($words);
+        $text  = substr($text, 0, $pos[$limit]) . '...';
+    }
+    return $text;
+}
