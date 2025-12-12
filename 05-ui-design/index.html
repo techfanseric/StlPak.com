@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StlPak - Professional Food Packaging Manufacturer | Global Partner Solutions</title>
   <meta name="description" content="StlPak professional food packaging manufacturer, 8 years of manufacturing excellence, serving global brands like Costco, supporting small batch orders with wholesale pricing and custom services">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -14,350 +14,377 @@
   />
 </head>
 <body>
+  <!-- Canvas Background -->
+  <div id="canvas-container"></div>
 
   <!-- Header -->
   <header class="header">
-    <div class="container header-container">
-      <a href="#" class="logo">
-        <img src="assets/logo.png" alt="StlPak Logo" />
-      </a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#products" class="nav-link">Products</a></li>
-          <li><a href="#resources" class="nav-link">Resources</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">StlPak</a>
+        </div>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <span>Menu</span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle">Products</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                  <li class="dropdown-category">
+                    <h4 class="category-title">By Product Type</h4>
+                    <div class="category-items">
+                      <a href="products/egg-packaging.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Egg Packaging</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Cake Containers</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Clamshell Packaging</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Cookie Containers</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Salad Containers</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Blueberry Packaging</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Strawberry Packaging</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="dropdown-category">
+                    <h4 class="category-title">By Application</h4>
+                    <div class="category-items">
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Supermarket Retail</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Fresh E-commerce</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Gift Packaging</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Farmers' Market</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Food Service</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="dropdown-category">
+                    <h4 class="category-title">By Material</h4>
+                    <div class="category-items">
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">PET Transparent</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">PP Colored</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Paper Packaging</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Composite Materials</span>
+                      </a>
+                      <a href="products/index.html" class="dropdown-item with-image">
+                        <div class="item-image"></div>
+                        <span class="item-text">Recyclable Plastic</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a href="products/index.html" class="dropdown-item">View All Products</a></li>
+                  <li><a href="products/index.html" class="dropdown-item">Custom Design Service</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="dealer/index.html" class="nav-link">Partners</a></li>
+          <li><a href="resources/index.html" class="nav-link">Resources</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
+
+        <div class="nav-actions md-hidden">
+          <div class="language-selector">
+            <select class="form-control" onchange="changeLanguage(this.value)">
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="fr">Français</option>
+              <option value="ja">日本語</option>
+              <option value="ko">한국어</option>
+              <option value="th">ไทย</option>
+            </select>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-sm btn-magnetic">Get Free Samples</a>
+        </div>
       </nav>
-      <a href="#contact" class="btn btn-primary">Get Free Samples</a>
     </div>
   </header>
 
   <main>
-    <!-- Value Proposition Banner -->
-    <section id="home" class="hero">
+    <!-- Value Proposition Banner (Hero) -->
+    <section id="home" class="hero" style="min-height: 40vh; padding-top: 120px;">
       <div class="hero-bg"></div>
-      <div class="container hero-content">
-        <h1 class="hero-title">
-          <span class="reveal-text">Professional Food Packaging</span><br />
-          <span class="reveal-text highlight">Manufacturer | Global Partner Solutions</span>
+      <div class="container hero-content text-center">
+        <h1 class="hero-title reveal-on-scroll">
+          <span class="highlight">Professional Food Packaging</span><br />
+          Global Partner Solutions
         </h1>
-        <p class="hero-subtitle">
-          8 Years Manufacturing Excellence | Serving Global Brands like Costco | Supporting Small Batch Orders
+        <p class="hero-subtitle reveal-on-scroll stagger-delay-1 mx-auto">
+          8 Years Manufacturing Excellence <span class="separator">•</span> Serving Global Brands like Costco <span class="separator">•</span> Supporting Small Batch Orders
         </p>
-        <div class="hero-actions">
-          <a href="#products" class="btn btn-primary">View Products</a>
-          <a href="#contact" class="btn btn-outline">Get Free Samples</a>
+        <div class="hero-actions justify-center reveal-on-scroll stagger-delay-2">
+          <a href="#products" class="btn btn-primary btn-magnetic">View Products</a>
+          <a href="#contact" class="btn btn-outline btn-magnetic">Get Free Samples</a>
         </div>
-      </div>
-      <div class="scroll-indicator">
-        <span>SCROLL</span>
-        <div class="line"></div>
       </div>
     </section>
 
-    <!-- Core Value Proposition -->
-    <section id="products" class="section section-tertiary">
-      <div class="container container-wide">
-        <div class="value-proposition-container">
-          <!-- Left Side - Visual Numbers -->
-          <div class="value-visual">
-            <div class="big-number-container">
-              <div class="big-number" data-value="8">8</div>
-              <div class="big-number-label">Years of Excellence</div>
-            </div>
-            <div class="value-metrics">
-              <div class="metric-item">
-                <span class="metric-value">1B+</span>
-                <span class="metric-label">Annual Capacity</span>
+    <!-- Core Value Proposition (Bento Grid) -->
+    <section id="values" class="section section-tertiary">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-label">WHY CHOOSE US</span>
+          <h2 class="section-title">Factory Direct<br/>Value Proposition</h2>
+          <p class="section-subtitle">
+            Premium manufacturing capabilities with competitive advantages for global partners
+          </p>
+        </div>
+
+        <div class="grid-bento">
+          <!-- Item 1: Years of Excellence (Large Feature) -->
+          <div class="bento-item col-span-4 row-span-2 reveal-on-scroll">
+            <div class="card-body h-full flex flex-col justify-between">
+              <div>
+                <div class="icon icon-lg"><span class="counter" data-target="8">0</span></div>
+                <h3 class="card-title">Years of Excellence</h3>
+                <p class="card-text">
+                  Dedicated to manufacturing excellence and serving global brands with consistency and quality.
+                </p>
               </div>
-              <div class="metric-item">
-                <span class="metric-value">6</span>
-                <span class="metric-label">Production Lines</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">100+</span>
-                <span class="metric-label">Global Partners</span>
+              <div class="mt-8">
+                <div class="text-5xl font-bold text-primary opacity-20">2017-2025</div>
               </div>
             </div>
           </div>
 
-          <!-- Right Side - Split Content -->
-          <div class="value-content">
-            <div class="value-header">
-              <div class="section-label">WHY CHOOSE US</div>
-              <h2 class="section-title">Factory Direct<br/>Value Proposition</h2>
-              <p class="section-subtitle">
-                Premium manufacturing capabilities with competitive advantages for global partners
+          <!-- Item 2: Annual Capacity -->
+          <div class="bento-item col-span-4 reveal-on-scroll stagger-delay-1">
+            <div class="card-body text-center">
+              <div class="text-4xl font-bold text-primary mb-2"><span class="counter" data-target="1">0</span>B+</div>
+              <div class="text-sm text-secondary uppercase tracking-wider">Annual Capacity</div>
+            </div>
+          </div>
+
+          <!-- Item 3: Production Lines -->
+          <div class="bento-item col-span-4 reveal-on-scroll stagger-delay-2">
+            <div class="card-body text-center">
+              <div class="text-4xl font-bold text-primary mb-2"><span class="counter" data-target="6">0</span></div>
+              <div class="text-sm text-secondary uppercase tracking-wider">Advanced Lines</div>
+            </div>
+          </div>
+
+          <!-- Item 4: Factory Direct Pricing -->
+          <div class="bento-item col-span-5 reveal-on-scroll">
+            <div class="card-body">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="icon">FD</div>
+                <h3 class="card-title mb-0">Factory Direct Pricing</h3>
+              </div>
+              <p class="card-text">
+                Purchase directly from the source. No middlemen, just competitive pricing with volume discounts for bulk orders.
               </p>
             </div>
+          </div>
 
-            <div class="value-features">
-              <!-- Feature 1 -->
-              <div class="value-feature">
-                <div class="feature-visual">
-                  <div class="feature-icon-bg"></div>
-                  <div class="feature-icon">FD</div>
-                </div>
-                <div class="feature-content">
-                  <h3 class="feature-title">Factory Direct Pricing</h3>
-                  <p class="feature-desc">
-                    Purchase directly from factory, get competitive pricing with volume discounts for bulk orders
-                  </p>
-                </div>
+          <!-- Item 5: Global Partners -->
+          <div class="bento-item col-span-3 reveal-on-scroll stagger-delay-1">
+            <div class="card-body flex flex-col items-center justify-center h-full">
+              <div class="text-4xl font-bold text-accent mb-2"><span class="counter" data-target="100">0</span>+</div>
+              <div class="text-sm text-secondary uppercase tracking-wider">Global Partners</div>
+            </div>
+          </div>
+
+          <!-- Item 6: Free Samples -->
+          <div class="bento-item col-span-4 reveal-on-scroll stagger-delay-2">
+            <div class="card-body">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="icon">FS</div>
+                <h3 class="card-title mb-0">Free Samples</h3>
               </div>
+              <p class="card-text">
+                Test our quality before you commit. Free product samples available for all standard items.
+              </p>
+            </div>
+          </div>
 
-              <!-- Feature 2 -->
-              <div class="value-feature">
-                <div class="feature-visual">
-                  <div class="feature-icon-bg"></div>
-                  <div class="feature-icon">FS</div>
-                </div>
-                <div class="feature-content">
-                  <h3 class="feature-title">Free Samples</h3>
-                  <p class="feature-desc">
-                    Free product samples available, test quality and suitability before placing your order
-                  </p>
-                </div>
+          <!-- Item 7: Quality Certified -->
+          <div class="bento-item col-span-6 reveal-on-scroll">
+            <div class="card-body">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="icon">QC</div>
+                <h3 class="card-title mb-0">Quality Certified</h3>
               </div>
-
-              <!-- Feature 3 -->
-              <div class="value-feature">
-                <div class="feature-visual">
-                  <div class="feature-icon-bg"></div>
-                  <div class="feature-icon">SS</div>
-                </div>
-                <div class="feature-content">
-                  <h3 class="feature-title">Stable Supply</h3>
-                  <p class="feature-desc">
-                    1 billion units annual capacity, 6 advanced production lines, sufficient inventory for timely delivery
-                  </p>
-                </div>
-              </div>
-
-              <!-- Feature 4 -->
-              <div class="value-feature">
-                <div class="feature-visual">
-                  <div class="feature-icon-bg"></div>
-                  <div class="feature-icon">QC</div>
-                </div>
-                <div class="feature-content">
-                  <h3 class="feature-title">Quality Certified</h3>
-                  <p class="feature-desc">
-                    ISO9001/ISO14001 certified, strict quality control system ensuring every product meets international standards
-                  </p>
-                </div>
+              <p class="card-text">
+                ISO9001/ISO14001 certified. Strict quality control system ensuring every product meets international standards.
+              </p>
+              <div class="flex gap-4 mt-4 opacity-60">
+                <span class="badge">ISO9001</span>
+                <span class="badge">ISO14001</span>
+                <span class="badge">FDA</span>
               </div>
             </div>
+          </div>
 
-            <!-- Trust Indicators -->
-            <div class="trust-indicators">
-              <div class="trust-item">
-                <div class="trust-icon">AW</div>
-                <span>Global Excellence Award 2024</span>
+          <!-- Item 8: Stable Supply -->
+          <div class="bento-item col-span-6 reveal-on-scroll stagger-delay-1">
+            <div class="card-body">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="icon">SS</div>
+                <h3 class="card-title mb-0">Stable Supply</h3>
               </div>
-              <div class="trust-item">
-                <div class="trust-icon">TR</div>
-                <span>Costco Trusted Supplier</span>
-              </div>
-              <div class="trust-item">
-                <div class="trust-icon">GL</div>
-                <span>50+ Countries Served</span>
-              </div>
+              <p class="card-text">
+                Sufficient inventory and efficient production planning ensure timely delivery for all your orders.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Featured Products Showcase -->
-    <section class="section section-secondary">
+    <!-- Featured Products Showcase (Carousel) -->
+    <section id="products" class="section">
       <div class="container container-wide">
-        <div class="products-showcase">
-          <!-- Products Header -->
-          <div class="products-header">
-            <div class="products-intro">
-              <span class="section-label">PRODUCTS</span>
-              <h2 class="section-title">Featured Product<br/>Series</h2>
-              <p class="section-desc">
-                Premium packaging solutions based on global market demands and customer feedback
-              </p>
-            </div>
-
-            <!-- Product Stats -->
-            <div class="product-stats">
-              <div class="stat-item">
-                <span class="stat-number">4</span>
-                <span class="stat-label">Main Series</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">50+</span>
-                <span class="stat-label">Product Variants</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">100%</span>
-                <span class="stat-label">Customizable</span>
-              </div>
-            </div>
+        <div class="flex justify-between items-end mb-12">
+          <div class="section-header text-left mb-0" style="margin: 0; text-align: left;">
+            <span class="section-label">PRODUCTS</span>
+            <h2 class="section-title">Featured Product Series</h2>
+            <p class="section-subtitle" style="margin: 0;">
+              Premium packaging solutions based on global market demands
+            </p>
           </div>
-
-          <!-- Product Showcase Grid -->
-          <div class="products-grid-enhanced">
-          <!-- Egg Packaging Series -->
-          <div class="product-enhanced-card">
-            <div class="product-visual">
-              <div class="product-number">01</div>
-              <div class="product-image-container">
-                <div class="product-image">
-                  <div class="image-placeholder">Egg Packaging Image</div>
-                </div>
-                <div class="product-overlay">
-                  <div class="product-popularity">
-                    <span class="popularity-label">Most Popular</span>
-                    <div class="popularity-bar">
-                      <div class="popularity-fill" style="width: 85%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">EGG PACKAGING</div>
-              <h3 class="product-title">Egg Packaging Series</h3>
-              <p class="product-description">
-                6, 12, 18, 24, 30-piece varieties available in PET, PP, paper materials. Custom designs welcome.
-              </p>
-              <div class="product-specs">
-                <span class="spec-tag">FDA Approved</span>
-                <span class="spec-tag">Food Grade</span>
-                <span class="spec-tag">Custom Logo</span>
-              </div>
-              <div class="product-actions">
-                <a href="#" class="btn btn-primary">View Details</a>
-                <a href="#contact" class="btn btn-outline">Get Free Samples</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bakery Packaging Series -->
-          <div class="product-enhanced-card">
-            <div class="product-visual">
-              <div class="product-number">02</div>
-              <div class="product-image-container">
-                <div class="product-image">
-                  <div class="image-placeholder">Bakery Packaging Image</div>
-                </div>
-                <div class="product-overlay">
-                  <div class="product-popularity">
-                    <span class="popularity-label">Growing Fast</span>
-                    <div class="popularity-bar">
-                      <div class="popularity-fill" style="width: 70%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">BAKERY PACKAGING</div>
-              <h3 class="product-title">Bakery Packaging Series</h3>
-              <p class="product-description">
-                Cake boxes, bread bags, cookie packaging, pastry containers with custom branding and small batch support
-              </p>
-              <div class="product-specs">
-                <span class="spec-tag">Food Safe</span>
-                <span class="spec-tag">Custom Design</span>
-                <span class="spec-tag">Eco-Friendly</span>
-              </div>
-              <div class="product-actions">
-                <a href="#" class="btn btn-primary">View Details</a>
-                <a href="#contact" class="btn btn-outline">Get Free Samples</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Fruit Packaging Series -->
-          <div class="product-enhanced-card">
-            <div class="product-visual">
-              <div class="product-number">03</div>
-              <div class="product-image-container">
-                <div class="product-image">
-                  <div class="image-placeholder">Fruit Packaging Image</div>
-                </div>
-                <div class="product-overlay">
-                  <div class="product-popularity">
-                    <span class="popularity-label">Premium Choice</span>
-                    <div class="popularity-bar">
-                      <div class="popularity-fill" style="width: 65%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">FRUIT PACKAGING</div>
-              <h3 class="product-title">Fruit Packaging Series</h3>
-              <p class="product-description">
-                Blueberry boxes, strawberry containers, grape packaging with clear design and excellent freshness preservation
-              </p>
-              <div class="product-specs">
-                <span class="spec-tag">Freshness Lock</span>
-                <span class="spec-tag">Clear Design</span>
-                <span class="spec-tag">Durable</span>
-              </div>
-              <div class="product-actions">
-                <a href="#" class="btn btn-primary">View Details</a>
-                <a href="#contact" class="btn btn-outline">Get Free Samples</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Takeout Packaging Series -->
-          <div class="product-enhanced-card">
-            <div class="product-visual">
-              <div class="product-number">04</div>
-              <div class="product-image-container">
-                <div class="product-image">
-                  <div class="image-placeholder">Takeout Packaging Image</div>
-                </div>
-                <div class="product-overlay">
-                  <div class="product-popularity">
-                    <span class="popularity-label">High Demand</span>
-                    <div class="popularity-bar">
-                      <div class="popularity-fill" style="width: 90%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">TAKEOUT PACKAGING</div>
-              <h3 class="product-title">Takeout Packaging Series</h3>
-              <p class="product-description">
-                Food containers, beverage cups, salad boxes with eco-friendly materials, waterproof and oil-resistant design
-              </p>
-              <div class="product-specs">
-                <span class="spec-tag">Waterproof</span>
-                <span class="spec-tag">Oil-Resistant</span>
-                <span class="spec-tag">Eco-Friendly</span>
-              </div>
-              <div class="product-actions">
-                <a href="#" class="btn btn-primary">View Details</a>
-                <a href="#contact" class="btn btn-outline">Get Free Samples</a>
-              </div>
-            </div>
+          
+          <!-- Carousel Navigation -->
+          <div class="carousel-nav">
+            <button class="nav-btn prev-btn" aria-label="Previous">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <button class="nav-btn next-btn" aria-label="Next">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
           </div>
         </div>
 
-        <!-- Product CTA -->
-        <div class="product-cta">
-          <div class="cta-content">
-            <h3>Ready to Find Your Perfect Packaging Solution?</h3>
-            <p>Explore our complete catalog or get personalized recommendations from our experts</p>
-          </div>
-          <div class="cta-actions">
-            <a href="#" class="btn btn-primary btn-lg">View All Products</a>
-            <a href="#contact" class="btn btn-outline btn-lg">Get Expert Consultation</a>
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <!-- Egg Packaging -->
+            <div class="product-card">
+              <div class="product-image">
+                <span>Egg Packaging</span>
+              </div>
+              <div class="product-info">
+                <div class="product-category">EGG PACKAGING</div>
+                <h3 class="product-title">Egg Packaging Series</h3>
+                <p class="product-desc">
+                  6, 12, 18, 24, 30-piece varieties available in PET, PP, paper materials. Custom designs welcome.
+                </p>
+                <a href="#" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+
+            <!-- Bakery Packaging -->
+            <div class="product-card">
+              <div class="product-image">
+                <span>Bakery Packaging</span>
+              </div>
+              <div class="product-info">
+                <div class="product-category">BAKERY PACKAGING</div>
+                <h3 class="product-title">Bakery Packaging Series</h3>
+                <p class="product-desc">
+                  Cake boxes, bread bags, cookie packaging, pastry containers with custom branding support.
+                </p>
+                <a href="#" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+
+            <!-- Fruit Packaging -->
+            <div class="product-card">
+              <div class="product-image">
+                <span>Fruit Packaging</span>
+              </div>
+              <div class="product-info">
+                <div class="product-category">FRUIT PACKAGING</div>
+                <h3 class="product-title">Fruit Packaging Series</h3>
+                <p class="product-desc">
+                  Blueberry boxes, strawberry containers, grape packaging with clear design and freshness preservation.
+                </p>
+                <a href="#" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+
+            <!-- Takeout Packaging -->
+            <div class="product-card">
+              <div class="product-image">
+                <span>Takeout Packaging</span>
+              </div>
+              <div class="product-info">
+                <div class="product-category">TAKEOUT PACKAGING</div>
+                <h3 class="product-title">Takeout Packaging Series</h3>
+                <p class="product-desc">
+                  Food containers, beverage cups, salad boxes with eco-friendly materials and oil-resistant design.
+                </p>
+                <a href="#" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+
+            <!-- Salad Containers -->
+            <div class="product-card">
+              <div class="product-image">
+                <span>Salad Containers</span>
+              </div>
+              <div class="product-info">
+                <div class="product-category">FRESH FOOD</div>
+                <h3 class="product-title">Salad Container Series</h3>
+                <p class="product-desc">
+                  High-transparency PET bowls and boxes, perfect for fresh salads and cold cuts display.
+                </p>
+                <a href="#" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -714,47 +741,51 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <img src="assets/logo.png" alt="StlPak Logo" class="footer-logo" />
-          <p>Professional Food Packaging Manufacturer</p>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>StlPak</h3>
+          <p class="text-secondary">
+            Professional food packaging manufacturer supporting partner customization, 8 years of manufacturing excellence, serving renowned global brands.
+          </p>
         </div>
-        <div class="footer-links">
-          <div class="link-group">
-            <h4>Products</h4>
-            <a href="#">Egg Packaging</a>
-            <a href="#">Bakery Packaging</a>
-            <a href="#">Fruit Packaging</a>
-            <a href="#">Takeout Packaging</a>
-          </div>
-          <div class="link-group">
-            <h4>Company</h4>
-            <a href="#">About Us</a>
-            <a href="#">Success Stories</a>
-            <a href="#">Certifications</a>
-            <a href="#">News</a>
-          </div>
-          <div class="link-group">
-            <h4>Support</h4>
-            <a href="#">Contact Us</a>
-            <a href="#">Get Samples</a>
-            <a href="#">Resource Center</a>
-            <a href="#">FAQ</a>
-          </div>
-          <div class="link-group">
-            <h4>Contact</h4>
-            <a href="mailto:global@stlpak.com">global@stlpak.com</a>
-            <a href="tel:+18558887888">+1-855-888-7888</a>
-            <a href="#">International Hotline</a>
-          </div>
+
+        <div class="footer-section">
+          <h3>Products</h3>
+          <ul class="footer-links">
+            <li><a href="products/egg-packaging.html">Egg Packaging</a></li>
+            <li><a href="products/bakery-packaging.html">Bakery Packaging</a></li>
+            <li><a href="products/fruit-packaging.html">Fruit Packaging</a></li>
+            <li><a href="products/index.html">All Products</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Partnership</h3>
+          <ul class="footer-links">
+            <li><a href="dealer/become-dealer.html">Become Partner</a></li>
+            <li><a href="dealer/dealer-policy.html">Partnership Benefits</a></li>
+            <li><a href="dealer/success-cases.html">Success Stories</a></li>
+            <li><a href="dealer/index.html">Partner Program</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Global Contact</h3>
+          <ul class="footer-links">
+            <li>Global: +1-855-888-7888</li>
+            <li>Email: global@stlpak.com</li>
+            <li>Shanghai Office: Qingpu District</li>
+            <li>Factory: Yangzhou Economic Zone</li>
+          </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <p>&copy; 2025 StlPak Inc. All rights reserved.</p>
+        <p>&copy; 2025 StlPak. All rights reserved. <span class="separator">•</span> Global Food Packaging Manufacturer</p>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js?v=2"></script>
 </body>
 </html>
