@@ -38,13 +38,10 @@ get_header();
                 <div class="col-lg-9 col-md-11 col-sm-12">
                     <!-- Seamless Glass Container -->
                     <div class="hero-text-container" style="pointer-events: auto; background: rgba(255, 255, 255, 0.0); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 40px; border-radius: 30px; margin-right: auto;">
-                        
-                        <!-- AI Accent Line -->
-                        <div class="anim-entry delay-1" style="width: 60px; height: 4px; background: linear-gradient(90deg, #4ecdc4, transparent); margin-bottom: 25px; border-radius: 2px;"></div>
 
                         <h1 class="anim-entry delay-2" style="color: #0b1e3b; font-family: 'Helvetica Neue', sans-serif; font-weight: 700; font-size: 3.5rem; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1.5px; text-align: left;">
                             Leading Food-Grade <br> Packaging Manufacturer <br>
-                            <span style="background: linear-gradient(120deg, #16529b, #4ecdc4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Trusted Global Partner</span>
+                            <span class="gradient-text-anim">Trusted Global Partner</span>
                         </h1>
                         
                         <div class="anim-entry delay-3" style="display: flex; gap: 30px; margin-bottom: 40px; justify-content: flex-start;">
@@ -86,6 +83,23 @@ get_header();
 </div>
 
 <style>
+    /* Gradient Animation */
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 200% 50%; }
+    }
+    .gradient-text-anim {
+        /* Seamless A -> B -> A pattern for continuous looping */
+        background: linear-gradient(120deg, #16529b 0%, #4ecdc4 50%, #16529b 100%);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        /* Linear 6s = Slow, steady liquid flow, no back-and-forth sway */
+        animation: gradientMove 6s linear infinite;
+    }
+
     /* Entrance Animations */
     @keyframes fadeInUp {
         from { opacity: 0; transform: translateY(30px); }
@@ -160,9 +174,10 @@ document.addEventListener('DOMContentLoaded', function() {
         uniforms: {
             uTime: { value: 0 },
             uResolution: { value: new THREE.Vector2(container.offsetWidth, container.offsetHeight) },
-            uColor1: { value: new THREE.Color('#ffffff') }, 
-            uColor2: { value: new THREE.Color('#e0f7fa') }, // Very pale cyan
-            uColor3: { value: new THREE.Color('#f0f4f8') }  // Pale blue-grey
+            uColor1: { value: new THREE.Color('#ffffff') },
+            uColor2: { value: new THREE.Color('#e6f0fa') }, // Very pale brand blue
+            uColor3: { value: new THREE.Color('#e0f7fa') }, // Very pale cyan
+            uColor4: { value: new THREE.Color('#f0f4f8') }  // Pale blue-grey
         },
         vertexShader: `
             varying vec2 vUv;
@@ -190,15 +205,24 @@ document.addEventListener('DOMContentLoaded', function() {
             uniform vec3 uColor1;
             uniform vec3 uColor2;
             uniform vec3 uColor3;
+            uniform vec3 uColor4;
 
             void main() {
-                // Soft gradient mix
+                // Create multi-layer color mixing
                 float mixstrength = (vElevation + 2.0) * 0.25;
-                vec3 color = mix(uColor1, uColor2, mixstrength);
-                color = mix(color, uColor3, sin(mixstrength * 3.14));
-                
+
+                // Mix brand blue and cyan based on position
+                float positionFactor = vUv.x + vUv.y;
+                vec3 midColor = mix(uColor2, uColor3, sin(positionFactor * 3.14159) * 0.5 + 0.5);
+
+                // Blend with white and grey
+                vec3 color = mix(uColor1, midColor, mixstrength);
+                color = mix(color, uColor4, sin(mixstrength * 3.14159 * 2.0) * 0.3);
+
+                // Dynamic sheen with both blue and cyan hints
                 float sheen = smoothstep(0.4, 0.6, abs(fract(vElevation * 0.5) - 0.5));
-                color += vec3(0.02, 0.05, 0.08) * sheen;
+                vec3 sheenColor = mix(vec3(0.02, 0.04, 0.10), vec3(0.02, 0.06, 0.08), vUv.x);
+                color += sheenColor * sheen;
 
                 gl_FragColor = vec4(color, 1.0);
             }
