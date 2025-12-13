@@ -6,7 +6,8 @@ get_header();
 // Template Name: Home 3
 ?>
 
-<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+<!-- 暂时不显示滑块 -->
+<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
 <?php if( get_field('certificates') || get_field('video_image') || get_field('page_heading')):?>
 <div class="MThomeSection1 ltBlueSection paddBottom90">
 	<div class="container">

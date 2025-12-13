@@ -1,0 +1,41 @@
+/*
+Theme Name: STLPAK - Global Packaging Solutions
+Author: STLPAK
+Author URI: https://stlpak.com/
+Description: Custom child theme for STLPAK Global Packaging Solutions website. Based on Astra theme with custom styling and functionality.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-stlpak
+Template: astra
+*/
+
+/* Base Reset & Global Styles */
+.ast-search-menu-icon.slide-search input.search-field {
+    width: inherit;
+}
+
+* {box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+a:empty {visibility: none;}
+.gallery:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.gallery-item{float: left;}
+.gallery-caption {
+    background: transparent;
+    border: none;
+}
+
+/* Utility Classes */
+.greySection {background: #f6f6f6;}
+.darkGreySection {background: #e9e9e9;}
+.blueSection {background: #16529b;}
+.ltBlueSection {background: #f4f6f9;}
+.clrWhite {color: #fff;}
+.clrBlue {color: #16529b;}
+
+/* Old Header Styles - Kept for reference only */
+/* Note: These styles are for the old header design and may be removed when implementing new design */

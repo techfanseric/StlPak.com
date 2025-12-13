@@ -1,0 +1,307 @@
+/*
+Theme Name: STLPAK - Global Packaging Solutions
+Author: STLPAK
+Author URI: https://stlpak.com/
+Description: Custom child theme for STLPAK Global Packaging Solutions website. Based on Astra theme with custom styling and functionality.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-stlpak
+Template: astra
+*/
+
+/* Base Reset & Global Styles */
+.ast-search-menu-icon.slide-search input.search-field {
+    width: inherit ;
+}
+
+* {box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+a:empty {visibility: none;}
+.gallery:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+.gallery-item{float: left;}
+.gallery-caption {
+    background: transparent ;
+    border: none ;
+}
+
+/* Utility Classes */
+.greySection {background: #f6f6f6;}
+.darkGreySection {background: #e9e9e9;}
+.blueSection {background: #16529b;}
+.ltBlueSection {background: #f4f6f9;}
+.clrWhite {color: #fff ;}
+.clrBlue {color: #16529b ;}
+
+
+/* Contact */
+.cu4banner {padding-bottom: 150px;}
+.cu4BannerHeading {
+	font-size: 33px;
+	line-height: 38px;
+	font-weight: 500;
+	color: #233645;
+	padding-bottom: 20px;
+}
+.cu4contactWrapper {
+    margin-top: -100px;
+    background: #fff;
+}
+.cu4contactForm {
+	width: 660px;
+	float: left;
+	padding: 60px 35px 80px;
+	box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+}
+.cu4contactDetails {
+	width: 506px;
+	float: left;
+}
+.cu4contactDetails {
+	padding: 50px 30px 40px;
+	background: #16529b;
+}
+.cu4formTitle {
+	font-size: 33px;
+	color: #333333;
+	font-weight: 500;
+	padding-bottom: 40px;
+}
+.cu4contactForm input[type="text"], .cu4contactForm input[type="email"], .cu4contactForm textarea {
+	box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 10%);
+}
+.cu4contactForm textarea {
+	height: 215px;
+	padding: 15px;
+}
+.cu4contactDetailHeading {
+	font-size: 33px;
+	font-weight: 500;
+}
+.cu4contactDetails ul {
+	padding: 0 ;
+	margin: 60px 0 30px ;
+	list-style-type: none;
+	position: relative;
+}
+.cu4contactDetails ul li {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	padding-left: 50px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.cu4contactDetails ul li:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 36px;
+	background: url(/wp-content/uploads/2021/03/cu4Sprite.png);
+}
+.cu4contactDetails ul li.cu4contactDetail1:before {background-position: 0px 0px;}
+.cu4contactDetails ul li.cu4contactDetail2:before {background-position: 0 -36px;}
+.cu4contactDetails ul li.cu4contactDetail3:before {background-position: 0 -71px;}
+.cu4contactDetails ul li.cu4contactDetail4:before {background-position: 0 -108px;}
+.cu4contactDetails ul li span {
+	display: block;
+	font-weight: 300;
+}
+.cu4contactDetails ul li a {color: #fff;}
+.cu4contactDetails ul li a:hover {text-decoration: underline;}
+.cu4ceoBox {
+	padding: 20px 0 13px;
+	border-radius: 5px;
+	background: #ff7b10;
+}
+.cu4ceoQuote {
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+	padding: 0 20px;
+}
+.cu4ceoName {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #228dc3;
+	background: #f4f4f4;
+	padding: 5px 20px;
+}
+.cu4ceoDesignation {
+	font-size: 14px;
+	color: #fff;
+	padding: 0 5px;
+}
+
+
+/* Contact 2 */
+.tcContactDetailWrapper {
+	border-radius: 5px;
+	background: #16529b;
+	min-height: 567px;
+}
+.tcContactDetailContent, .tcContactDetails {padding: 30px 20px 25px;}
+.tcContactDetailContent {border-bottom: 1px solid rgba(255,255,255, 0.5);}
+.tcContactDetailTitle {
+	font-size: 24px;
+	font-weight: 600;
+}
+.tcContactDetailWrapper ul {
+	padding: 0 ;
+	margin: 0 ;
+	list-style-type: none;
+	position: relative;
+}
+.tcContactDetailWrapper ul li {
+	position: relative;
+	padding: 2px 0 2px 45px;
+	margin-bottom: 15px;
+}
+.tcContactDetailWrapper ul li, .tcContactDetailWrapper ul li a {
+	font-size: 16px;
+	color: #fff;
+}
+.tcContactDetailWrapper ul li:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	background: url(/wp-content/uploads/2021/01/tcContactSprite-1.png) 0 0 no-repeat;
+}
+.tcContactDetailWrapper ul li.email:before {
+	width: 22px;
+	height: 21px;
+	background-position: 0px 0px;
+}
+.tcContactDetailWrapper ul li.whatsapp:before {
+	width: 24px;
+	height: 23px;
+	background-position: 0px -22px;
+}
+.tcContactDetailWrapper ul li.phone:before {
+	width: 22px;
+	height: 22px;
+	background-position: 0px -45px;
+}
+.tcContactDetailWrapper ul li.mobile:before {
+	width: 18px;
+	height: 32px;
+	background-position: -3px -67px;
+}
+.tcContactDetailWrapper ul li.location:before {
+	width: 24px;
+	height: 27px;
+	background-position: 0px -100px;
+}
+
+
+/* Contact */
+.cu4banner {padding-bottom: 150px;}
+.cu4BannerHeading {
+	font-size: 33px;
+	line-height: 38px;
+	font-weight: 500;
+	color: #233645;
+	padding-bottom: 20px;
+}
+.cu4contactWrapper {
+    margin-top: -100px;
+    background: #fff;
+}
+.cu4contactForm {
+	width: 660px;
+	float: left;
+	padding: 60px 35px 80px;
+	box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+}
+.cu4contactDetails {
+	width: 506px;
+	float: left;
+}
+.cu4contactDetails {
+	padding: 50px 30px 40px;
+	background: #16529b;
+}
+.cu4formTitle {
+	font-size: 33px;
+	color: #333333;
+	font-weight: 500;
+	padding-bottom: 40px;
+}
+.cu4contactForm input[type="text"], .cu4contactForm input[type="email"], .cu4contactForm textarea {
+	box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 10%);
+}
+.cu4contactForm textarea {
+	height: 215px;
+	padding: 15px;
+}
+.cu4contactDetailHeading {
+	font-size: 33px;
+	font-weight: 500;
+}
+.cu4contactDetails ul {
+	padding: 0 ;
+	margin: 60px 0 30px ;
+	list-style-type: none;
+	position: relative;
+}
+.cu4contactDetails ul li {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	padding-left: 50px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.cu4contactDetails ul li:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 36px;
+	background: url(/wp-content/uploads/2021/03/cu4Sprite.png);
+}
+.cu4contactDetails ul li.cu4contactDetail1:before {background-position: 0px 0px;}
+.cu4contactDetails ul li.cu4contactDetail2:before {background-position: 0 -36px;}
+.cu4contactDetails ul li.cu4contactDetail3:before {background-position: 0 -71px;}
+.cu4contactDetails ul li.cu4contactDetail4:before {background-position: 0 -108px;}
+.cu4contactDetails ul li span {
+	display: block;
+	font-weight: 300;
+}
+.cu4contactDetails ul li a {color: #fff;}
+.cu4contactDetails ul li a:hover {text-decoration: underline;}
+.cu4ceoBox {
+	padding: 20px 0 13px;
+	border-radius: 5px;
+	background: #ff7b10;
+}
+.cu4ceoQuote {
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+	padding: 0 20px;
+}
+.cu4ceoName {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #228dc3;
+	background: #f4f4f4;
+	padding: 5px 20px;
+}
+.cu4ceoDesignation {
+	font-size: 14px;
+	color: #fff;
+	padding: 0 5px;
+}

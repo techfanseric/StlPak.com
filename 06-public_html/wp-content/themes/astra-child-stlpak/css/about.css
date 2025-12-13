@@ -1,0 +1,621 @@
+/*
+Theme Name: STLPAK - Global Packaging Solutions
+Author: STLPAK
+Author URI: https://stlpak.com/
+Description: Custom child theme for STLPAK Global Packaging Solutions website. Based on Astra theme with custom styling and functionality.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child-stlpak
+Template: astra
+*/
+
+/* Base Reset & Global Styles */
+.ast-search-menu-icon.slide-search input.search-field {
+    width: inherit ;
+}
+
+* {box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+a:empty {visibility: none;}
+.gallery:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+.gallery-item{float: left;}
+.gallery-caption {
+    background: transparent ;
+    border: none ;
+}
+
+/* Utility Classes */
+.greySection {background: #f6f6f6;}
+.darkGreySection {background: #e9e9e9;}
+.blueSection {background: #16529b;}
+.ltBlueSection {background: #f4f6f9;}
+.clrWhite {color: #fff ;}
+.clrBlue {color: #16529b ;}
+
+
+/* About */
+.bannerWraper {position: relative;}
+.bannerImg {text-align: center;}
+.bannerImg img{width: 100%;}
+.bannerWraper .bannerContent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 6%;
+}
+.bannerOverlay {padding: 20px;}
+.bannerImg {text-align: center;}
+.bannerImg img {width: 100%;}
+.bannerText {
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+	color: #fff;
+}
+.bannerText ul, .bannerText ol{margin: 0 ;}
+.bannerHeading {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+	color: #fff;
+}
+.categoryBanner .bannerHeading{padding-bottom: 20px;}
+.bannerBtn a.commonBtn {min-width: 215px;}
+.aboutList ul {
+	padding: 0;
+	margin: 0 0 20px ;
+	list-style-type: none;
+	border-radius: 5px;
+	position: relative;
+}
+.aboutList ul li {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.aboutList ul li:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 15px;
+	height: 19px;
+	background: url(/wp-content/uploads/2020/09/abtListIcon.png);
+}
+.aboutProductDetails h2 {
+	margin-bottom: 20px;
+}
+.aboutContactForm {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.aboutContactForm input[type="textarea"] {
+	min-height: 360px;
+	max-height: 360px;
+}
+.wpcf7 form .wpcf7-response-output {
+    float: left;
+    width: 100%;
+}
+.wpcf7-not-valid-tip {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.wpcf7 form>div, .wpcf7 form>p {margin-bottom: 0 ;}
+.wpcf7 .ajax-loader{margin: 0 ;}
+
+/* About 2 */
+.about2Banner .bannerContent {
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 9%;
+}
+.bannerHeading {
+	font-weight: 600;
+}
+.about2Sec1Wrapper {
+	padding: 65px 10px 20px;
+	border: 1px solid #cccccc;
+	border-radius: 7px;
+	background: #e9e9e9;
+}
+.about2SecTitle {
+	font-size: 40px;
+	font-weight: 700;
+	color: #16529b;
+	padding-bottom: 20px;
+}
+.about2SecBoxWrapper {
+	position: relative;
+}
+.about2SecBoxWrapper:before {
+	position: absolute;
+	content: '';
+	top: -10px;
+	right: 0;
+	width: 1px;
+	height: 80px;
+	background: #cccccc;
+}
+.about2SecBoxWrapper4:before {display: none;}
+.timelineWrapper {
+	position: relative;
+}
+.timelineWrapper:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 50%;
+	margin-left: -3px;
+	width: 6px;
+	height: 100%;
+	background: rgba(22,82,155,.6);
+}
+.timelineBox {
+	padding: 20px 30px 30px;
+	position: relative;
+}
+.timelineBoxLeft {
+	box-shadow: 1px 8px 15px 0px rgba(0,0,0,.1);
+	margin-right: 20px;
+}
+.timelineBoxRight {
+	box-shadow: -3px 8px 15px 0px rgba(0,0,0,.1);
+	margin-left: 20px;
+}
+.timelineBoxLeft .timelineTitle, .timelineBoxLeft .timelineText {text-align: right;}
+.timelineBox:before {
+	position: absolute;
+	content: '';
+	top: 50%;
+	margin-top: -12px;
+}
+.timelineBoxLeft:before {
+	right: -12px;
+	border-left: 12px solid #fff;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+}
+.timelineBoxRight:before {
+	left: -12px;
+	border-right: 12px solid #fff;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+}
+.timelineBox:after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	background: #16529b;
+}
+.timelineBoxLeft:after {
+	right: -43px;
+}
+.timelineBoxRight:after {
+	left: -43px;
+}
+.timelineTitle {
+	font-weight: 600;
+	color: #16529b;
+	padding-bottom: 10px;
+}
+.about2Section4 {
+	position: relative;
+	background: #f1f1f1;
+}
+.about2Section4:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+.about2Sec5Box {
+    display: inline-block;
+    padding: 50px 20px 20px;
+    max-width: 370px;
+    min-height: 280px;
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,.1);
+    position: relative;
+}
+.about2Sec5Box:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 10px;
+	width: 32px;
+	height: 46px;
+	background: url(/wp-content/uploads/2020/12/checkFlag.jpg);
+}
+.about2Sec5Title {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+
+/* About 3 */
+ul.taAboutProductSlider {
+    margin: 0 auto ;
+	max-width: 363px;
+    padding: 0 ;
+    list-style-type: none;
+	position: relative;
+	z-index: 1;
+}
+ul.taAboutProductSlider li.slick-slide {
+	outline: none;
+	margin: 10px;
+}
+ul.taAboutProductSlider ul.slick-dots {
+    margin: 25px 0 0 ;
+    padding: 0 ;
+    list-style-type: none;
+    text-align: center;
+}
+ul.taAboutProductSlider ul.slick-dots li {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-indent: -999999px;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+	border: 1px solid #16529b;
+	background: transparent;
+    margin: 0 1px;
+}
+ul.taAboutProductSlider ul.slick-dots li.slick-active {
+    background: #16529b;
+}
+.taAboutSliderImg {
+	padding: 4px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.1);
+}
+.taAboutSliderTitle, .taAboutSec3SliderTitle, .taAboutVideoTitle {
+	font-size: 20px;
+	font-weight: 600;
+}
+.taAboutSection3 .youtube-player {padding-bottom: 76%;}
+.taAboutClientSection {border-top: 1px solid #cbcbcb;}
+.taAboutClientSlider {
+	margin: 0 ;
+	padding: 0 ;
+	position: relative;
+}
+.taAboutClientSlider .slick-slide{
+	outline: none;
+    max-width: 166px;
+    margin: 3px 15px;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0, 0.1);
+	text-align: center;
+}
+.taAboutClientSlider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	width: 13px;
+	height: 23px;
+	margin-top: -11px;
+	padding: 0;
+	background: url(/wp-content/uploads/2021/01/taSliderArrows.png) 0 0 no-repeat;
+	text-indent: -99999999px;
+	border: none;
+	z-index: 2;
+}
+.taAboutClientSlider .slick-prev {
+    background-position: 0px 0px;
+    left: -35px;
+}
+
+.taAboutClientSlider .slick-next{
+	background-position: -13px 0px;
+	right: -35px;
+}
+.taAboutClientSlider .slick-prev:hover, .taAboutClientSlider .slick-next:hover {background: url(/wp-content/uploads/2021/01/taSliderArrowsHvr.png);}
+.taAboutClientSlider .slick-next:hover {background-position: -13px 0px;}
+.taAboutTeamBox {
+	display: inline-block;
+	max-width: 270px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255, 0.8);
+	border-radius: 3px;
+	position: relative;
+	padding: 70px 15px 35px;
+}
+.taAboutTeamImg {
+	position: absolute;
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid rgba(255,255,255, 0.1);
+	border-radius: 100%;
+    top: -60px;
+    left: 50%;
+    margin-left: -60px;
+}
+.taAboutTeamImg img {border-radius: 100%;}
+.taTimelineBox {
+	position: relative;
+	margin-bottom: 70px;
+}
+.taAboutTeamTitle {
+	font-size: 20px;
+	font-weight: 600;
+}
+.taTimelineYear {
+	position:absolute;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.taTimelineYearRight {
+    top: 7px;
+    left: -110px;
+}
+.taTimelineYearLeft {
+    top: 7px;
+    right: -110px;
+}
+.taTimelineBoxLeft .taTimelineText {text-align: right;}
+.taTimelineBoxLeft {padding-right: 15px;}
+.taTimelineBoxRight {padding-left: 15px;}
+.taTimelineBox:before {
+	position: absolute;
+	content: '';
+	width: 167px;
+	height: 117px;
+	background: url(/wp-content/uploads/2021/01/timeLineSprite.png);
+}
+.taTimelineBoxLeft:before{
+	top: -30px;
+	right: -170px;
+}
+.taTimelineBoxRight:before{
+	top: -30px;
+	left: -166px;
+}
+.taTimelineBox1:before, .taTimelineBox14:before {background-position: 0 0;}
+.taTimelineBox2:before, .taTimelineBox8:before {background-position: 0 -117px;}
+.taTimelineBox3:before, .taTimelineBox9:before {background-position: 0 -237px;}
+.taTimelineBox4:before, .taTimelineBox10:before {background-position: 0 -355px;}
+.taTimelineBox5:before, .taTimelineBox11:before {background-position: 0 -474px;}
+.taTimelineBox6:before, .taTimelineBox12:before {background-position: 0 -593px;}
+.taTimelineBox7:before, .taTimelineBox13:before {background-position: 0 -711px;}
+
+
+/* About 6 */
+.about6Banner .bannerVideo a{display: inline-block;}
+.bannerVideo a:hover{transform: scale(1.1);}
+.about6Banner .bannerText {padding-top: 20px ;}
+.au6s2Box {
+    position: relative;
+    padding: 70px 20px 30px;
+    background: #f1f1f1;
+    border: 1px solid #dadadada;
+    border-radius: 20px;
+}
+.au6s2Img {
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 54px);
+    border-radius: 100%;
+    overflow: hidden;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 5px #dadada;
+}
+.au6s2Title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+}
+.au6s3Img {
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+.au6s3Text {font-size: 22px;}
+.au6s3Title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #16529b;
+}
+.au6s4Title {font-size: 26px;}
+.au6Section4 ul{
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none;
+	text-align: center;
+}
+.au6Section4 ul li{
+	display: inline-block;
+	margin: 0 8px 12px;
+}
+.au6s6Text {font-size: 22px;}
+.au6s6Img {
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.au6s6Title {
+    font-size: 22px;
+    font-weight: 600;
+	color: #16529b;
+}
+.au6s6Text, .au6s6Text b{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+}
+.au6s6Text b{
+	display: block;
+	color: #999;
+}
+
+/* about */
+.au5videoSection {border-top: 2px solid #bababa;}
+.au5sectionText {
+	padding: 10px;
+	position: relative;
+}
+.au5sectionText:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 42px;
+	height: 42px;
+	background: transparent;
+	border-top: 3px solid #16529b;
+	border-left: 3px solid #16529b;
+}
+.au5teamImg {
+	width: 200px;
+	float: left;
+	border: 4px solid #e8e8e8;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.au5teamTitle {
+	font-size: 22px;
+	line-height: 24px;
+	color: #112534;
+	font-weight: 600;
+}
+.au5teamContent {
+	width: calc(100% - 200px);
+	float: left;
+	padding: 15px 0 0 25px;
+}
+.au5contactForm {
+	max-width: 970px;
+	margin: 0 auto;
+}
+.au5contactForm input[type="text"], .au5contactForm input[type="email"], .au5contactForm textarea {
+	margin-bottom: 5px ;
+	box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 10%);
+}
+.au5contactForm textarea {
+	height: 215px ;
+	padding: 15px;
+	background: #fff;
+}
+ul.timelineSlider {
+    margin: 0 ;
+    padding: 0 ;
+	position: relative;
+}
+ul.timelineSlider:before{
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	width: 100%;
+	height: 10px;
+	background: #e8e8e8;
+}
+li.au5TimelineBox{
+	text-align: center;
+	margin: 0 5px;
+}
+.au5TimelineYear {
+    color: #233645;
+    font-size: 20px;
+    font-weight: 600;
+	margin-bottom: 10px;
+}
+.au5TimelineText{
+	color: #111111;
+	font-size: 14px;
+    line-height: 22px;
+}
+.au5TimelineImg { 
+	display: inline-block;
+    border: 7px solid;
+	position: relative;
+}
+.au5TimelineImg:before{
+	position: absolute;
+	content: '';
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -12px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}
+.imgUpper .au5TimelineImg:before{
+	bottom: -19px;
+	border-top: 12px solid;
+}
+.imgLower .au5TimelineImg:before{
+	top: -19px;
+	border-bottom: 12px solid;
+}
+.au5TimelineImg:after{
+	position: absolute;
+	content: '';
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	border: 3px solid;
+	background: #fff;
+	border-radius: 100%;
+}
+.imgUpper .au5TimelineImg:after{bottom: -65px;}
+.imgLower .au5TimelineImg:after{top: -56px;}
+.imgUpper .au5TimelineYear {
+    padding-top: 50px;
+    margin-top: 35px;
+}
+.imgLower .au5TimelineText {
+    padding-bottom: 60px;
+    min-height: 190px;
+}
+.imgLower .au5TimelineImg{
+	color: #fca601;
+	border-color: #fca601;
+}
+.imgUpper .au5TimelineImg{
+	color: #00c0ff;
+	border-color: #00c0ff;
+}
+ul.timelineSlider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	margin-top: -17px;
+	background: url(/wp-content/uploads/2021/04/timelineArrows.png) 0 0 no-repeat;
+	text-indent: -999999999px;
+	z-index: 4;
+	padding: 0;
+}
+ul.timelineSlider .slick-prev{left: -60px;}
+ul.timelineSlider .slick-next{
+	right: -60px;
+	background-position: -34px 0;
+}

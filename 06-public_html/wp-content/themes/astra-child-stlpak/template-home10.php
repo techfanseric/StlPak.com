@@ -6,7 +6,8 @@ get_header();
 // Template Name: Home 10
 ?>
 
-<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+<!-- 暂时不显示滑块 -->
+<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
 <?php if( get_field('section1') ):?>
 <div class="hp10Section1 paddTop15 paddBottom15">
 	<div class="container">

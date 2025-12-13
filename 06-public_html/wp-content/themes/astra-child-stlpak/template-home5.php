@@ -6,7 +6,8 @@ get_header();
 // Template Name: Home 5
 ?>
 
-<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+<!-- 暂时不显示滑块 -->
+<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
 <?php if(get_field('featured_boxes')):?>
 <div class="h5section1">
 	<div class="container">

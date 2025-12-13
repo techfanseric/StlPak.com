@@ -6,7 +6,8 @@ get_header();
 // Template Name: Home 11
 ?>
 
-<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+<!-- 暂时不显示滑块 -->
+<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
 <?php if( get_field('section1') ):?>
 <?php while ( have_rows('section1') ) : the_row();?>
 <?php if( get_sub_field('heading') || get_sub_field('brands')):?>

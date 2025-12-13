@@ -6,7 +6,8 @@ get_header();
 // Template Name: Home 4
 ?>
 
-<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+<!-- 暂时不显示滑块 -->
+<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
 <?php if(get_field('section1_heading') || get_field('section1_text')):?>
 <div class="hp4Section1 paddTop90 paddBottom70">
 	<div class="container">
@@ -140,7 +141,7 @@ get_header();
 </div>
 <?php endif;?>
 <?php if( get_field('section4_slider') || get_field('section4_heading')):?>
-<div class="hp4Section4 paddTop90 paddBottom90" style="background-image: url(/wp-content/uploads/2021/03/section4BG.jpg); ">
+<div class="hp4Section4 paddTop90 paddBottom90">
 	<div class="container">
 		<div class="row cust-row">
 			<div class="hp4SliderBox hp4QualityBox">

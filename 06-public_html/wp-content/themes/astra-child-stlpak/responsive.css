@@ -1,5 +1,5 @@
 a:empty{display: none;}
-a:focus{outline: none !important;}
+a:focus{outline: none ;}
 #content {overflow: hidden;}
 .text-center{text-align:center}
 .text-left{text-align:left}
@@ -7,15 +7,15 @@ a:focus{outline: none !important;}
 .text-justify{text-align:justify}
 p:empty{display:none}
 .clearfix{clear:both}
-.cust-row{margin:0 -30px !important}
+.cust-row{margin:0 -30px }
 .content-area ul, .content-area ol, #content ul, #content ol{
 	padding-left:20px;
 	margin: 20px 0;
 }
-a, button, input[type="submit"]{transition:all .3s!important}
+a, button, input[type="submit"]{transition:all .3}
 input, textarea, button, select{outline:none}
-h1, h2{margin-bottom: 20px !important;}
-h3, h4, h5, h6{margin-bottom: 15px !important;}
+h1, h2{margin-bottom: 20px ;}
+h3, h4, h5, h6{margin-bottom: 15px ;}
 .hidden{display: none;}
 .chapterGuide{
 	border: 3px solid #1490d7;
@@ -61,8 +61,8 @@ h3, h4, h5, h6{margin-bottom: 15px !important;}
 	.container{width:750px}
 }
 @media (max-width: 991px) {
-	.cust-row{margin:0 -15px !important;}
-	.main-header-menu .sub-menu {width: 100% !important;}
+	.cust-row{margin:0 -15px ;}
+	.main-header-menu .sub-menu {width: 100% ;}
 }
 @media (min-width: 992px) {
 	.container{width:970px}
@@ -335,7 +335,7 @@ h3, h4, h5, h6{margin-bottom: 15px !important;}
 	.col-lg-offset-1{margin-left:8.3333333333333%}
 	.col-lg-offset-0{margin-left:0}
 }
-.margin0{margin:0!important}
+.margin0{margin:0}
 .paddTop5{padding-top:5px}
 .paddBottom5{padding-bottom:5px}
 .paddTop10{padding-top:10px}

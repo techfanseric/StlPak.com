@@ -6,17 +6,20 @@ Description: Custom child theme for STLPAK Global Packaging Solutions website. B
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: astra-child-stlpk
+Text Domain: astra-child-stlpak
 Template: astra
 */
 
-/* Main CSS file - imports remaining modular styles */
-/* Note: header.css and footer.css are loaded via functions.php for better control */
+/* Home CSS - Modular Import */
 
-/* Import base styles */
-@import url('css/base.css');
+/* Load base home styles */
+@import url('css/home-base.css');
 
-/* Import component styles */
-@import url('css/components.css');
+/* Load feature-specific home styles */
+@import url('css/home-features.css');
 
-/* Page-specific styles will be loaded via functions.php */
+/* Load advanced home layouts */
+@import url('css/home-advanced.css');
+
+/* Load special home page designs */
+@import url('css/home-special.css');
