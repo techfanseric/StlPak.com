@@ -4,3 +4,7 @@
 # WordPress plugin logs
 06-public_html/wp-content/plugins/*/logs/
 06-public_html/wp-content/debug.log
+
+# Database files
+*.sql
+06-public_html/u577823813_7HMer.sql
