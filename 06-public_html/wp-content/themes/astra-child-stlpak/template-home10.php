@@ -39,12 +39,12 @@ get_header();
                     <!-- Seamless Glass Container -->
                     <div class="hero-text-container" style="pointer-events: auto; background: rgba(255, 255, 255, 0.0); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 40px; border-radius: 30px; margin-right: auto;">
 
-                        <h1 class="anim-entry delay-2" style="color: #0b1e3b; font-family: 'Helvetica Neue', sans-serif; font-weight: 700; font-size: 3.5rem; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1.5px; text-align: left;">
+                        <h1 class="anim-entry delay-2" style="color: #0b1e3b; font-family: 'Helvetica Neue', sans-serif; font-weight: 700; font-size: 3rem; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1.5px; text-align: left;">
                             Leading Food-Grade <br> Packaging Manufacturer <br>
                             <span class="gradient-text-anim">Trusted Global Partner</span>
                         </h1>
                         
-                        <div class="anim-entry delay-3" style="display: flex; gap: 30px; margin-bottom: 40px; justify-content: flex-start;">
+                        <div class="anim-entry delay-3" style="display: flex; gap: 30px; margin-bottom: 20px; justify-content: flex-start;">
                             <div class="feature-point">
                                 <div class="feature-icon" style="color: #8b92a0; opacity: 0.7; font-size: 20px; font-weight: 700; margin-bottom: 5px;"><span style="font-size: 24px;">8</span><span style="font-size: 16px; font-weight: 400;">YR</span></div>
                                 <div class="feature-text" style="color: #4a5a75; font-size: 0.85rem; font-weight: 300; line-height: 1.3;">
@@ -71,7 +71,7 @@ get_header();
                             </div>
                         </div>
                         
-                        <div class="hero-actions anim-entry delay-4" style="display: flex; gap: 20px; justify-content: flex-start;">
+                        <div class="hero-actions anim-entry delay-4" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
                             <a href="#products" class="btn-hero-primary" style="padding: 12px 35px; background: #0b1e3b; color: #fff; text-decoration: none; font-weight: 600; border-radius: 50px; transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1); letter-spacing: 0.5px; border: 1px solid #0b1e3b;">View Products</a>
                             <a href="#contact" class="btn-hero-outline" style="padding: 12px 35px; background: rgba(255,255,255,0.5); color: #0b1e3b; text-decoration: none; font-weight: 600; border-radius: 50px; transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1); letter-spacing: 0.5px; border: 1px solid rgba(11, 30, 59, 0.1);">Get Free Samples</a>
                         </div>
@@ -82,76 +82,6 @@ get_header();
     </div>
 </div>
 
-<style>
-    /* Gradient Animation */
-    @keyframes gradientMove {
-        0% { background-position: 0% 50%; }
-        100% { background-position: 200% 50%; }
-    }
-    .gradient-text-anim {
-        /* Seamless A -> B -> A pattern for continuous looping */
-        background: linear-gradient(120deg, #16529b 0%, #4ecdc4 50%, #16529b 100%);
-        background-size: 200% auto;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        color: transparent;
-        /* Linear 6s = Slow, steady liquid flow, no back-and-forth sway */
-        animation: gradientMove 6s linear infinite;
-    }
-
-    /* Entrance Animations */
-    @keyframes fadeInUp {
-        from { opacity: 0; transform: translateY(30px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-    .anim-entry {
-        opacity: 0;
-        animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    }
-    .delay-1 { animation-delay: 0.1s; }
-    .delay-2 { animation-delay: 0.2s; }
-    .delay-3 { animation-delay: 0.3s; }
-    .delay-4 { animation-delay: 0.4s; }
-
-    .btn-hero-primary:hover {
-        background: #16529b !important;
-        border-color: #16529b !important;
-        transform: translateY(-2px);
-        box-shadow: 0 15px 30px rgba(22, 82, 155, 0.15);
-    }
-    .btn-hero-outline:hover {
-        background: #fff !important;
-        border-color: #0b1e3b !important;
-        transform: translateY(-2px);
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
-    }
-    @media (max-width: 768px) {
-        #tech-hero-section { height: auto !important; padding: 60px 0; }
-        #tech-hero-section h1 { font-size: 2.2rem !important; }
-        #tech-hero-section p { font-size: 1rem !important; }
-        .hero-text-container { padding: 30px 20px !important; backdrop-filter: none !important; text-align: center !important; }
-        .hero-actions { flex-direction: column; }
-        .hero-content { padding: 0 20px !important; align-items: center !important; }
-        h1, p { text-align: center !important; } /* Center on mobile for balance */
-        .hero-actions { justify-content: center !important; }
-        .container { padding: 0 15px !important; } /* Ensure mobile padding */
-
-        /* Feature points mobile layout */
-        .anim-entry.delay-3 {
-            flex-direction: column !important;
-            gap: 20px !important;
-            max-width: 100% !important;
-        }
-        .feature-icon {
-            font-size: 18px !important;
-            margin-bottom: 3px !important;
-        }
-        .feature-text {
-            font-size: 0.8rem !important;
-        }
-    }
-</style>
 
 <!-- Load Three.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
