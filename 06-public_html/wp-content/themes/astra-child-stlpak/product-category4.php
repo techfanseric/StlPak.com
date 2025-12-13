@@ -44,18 +44,7 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if(get_field('section2_heading') || get_field('section2_text')):?>
-<div class="pc4Section2 paddTop85 paddBottom60">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12">
-				<h2><?php the_field('section2_heading');?></h2>
-				<div class="au5sectionText"><?php the_field('section2_text');?></div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
+<!-- Section 2 已移除 - 包含 section2_heading 和 section2_text 的产品分类页面部分，用于全新重新设计 -->
 <?php if(get_field('s3_video_image') || get_field('section3_heading') || get_field('section3_text') || get_field('section3_details')):?>
 <div class="pc4section3 paddTop90 paddBottom90">
 	<div class="container">

@@ -294,19 +294,7 @@ ul.hp9Brands li{
 
 /* Home 10 */
 .hp10Section1 {border-bottom:1px solid #dfdfdf;}
-.hp10s2Box {
-    display: inline-block;
-    max-width: 270px;
-}
-.hp10s2Img {
-    display: inline-block;
-    max-width: 88px;
-}
-.hp10s2Title, .hp10s3Title a{
-	font-size: 22px;
-	color: #000;
-	margin: 10px 0 5px;
-}
+/* hp10s2Box, hp10s2Img, hp10s2Title 样式已移除 - Section 2的特色优势展示组件已清理，用于全新重新设计 */
 .hp10CTA{text-align: right;}
 .hp10s3Box{
 	display: inline-block;

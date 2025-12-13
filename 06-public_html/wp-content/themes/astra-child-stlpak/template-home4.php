@@ -21,27 +21,7 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if(get_field('section2_heading') || get_field('section2_slider')):?>
-<div class="hp4Section2 paddTop80 paddBottom60" style="background-image: url(<?php the_field('section2_background');?>);">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-md-6">
-				<h3><?php the_field('section2_heading');?></h3>
-				<?php the_field('section2_text');?>
-				<div class="paddTop20"><a href="#contactPopUpForm" class="commonBtn fancybox-inline">Send Your Requirement &gt;&gt;</a></div>
-			</div>
-			<div class="col-sm-12 col-md-6 responsiveMargin">
-				<ul class="hp4Slider img1Slider">
-					<?php while ( have_rows('section2_slider') ) : the_row();?>
-						<?php $slider_image = get_sub_field('image') ?>
-						<li class="slide"><img src="<?php echo $slider_image['url']; ?>" alt="<?php echo $slider_image['alt']; ?>"></li>
-					<?php endwhile; ?>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
+<!-- Section 2 已移除 - 包含 section2_heading 和 section2_text 的专业食品包装供应商内容 -->
 <?php if( get_field('products') ):?>
 <div class="hp4Products paddTop90 paddBottom60">
 	<div class="container">

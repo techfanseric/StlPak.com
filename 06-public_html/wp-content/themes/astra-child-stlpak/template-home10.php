@@ -26,38 +26,11 @@ get_header();
 <?php endif; ?>
 <?php if( get_field('section2') ):?>
 <?php while ( have_rows('section2') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('featured_points')):?>
-<div class="hp10Section2 paddTop70 paddBottom40">
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12 col-lg-offset-1 col-lg-10 paddBottom50">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="hp10SubHeading"><?php the_sub_field('sub_heading');?></div>
-			</div>
-			<div class="clearfix"></div>
-			<?php $count = 0; ?>
-			<?php while ( have_rows('featured_points') ) : the_row();?>
-			<?php $count++; ?>
-			<?php $hp10s2Img = get_sub_field('image') ?>
-			<div class="col-sm-6 col-md-3 paddBottom30">
-				<div class="hp10s2Box">
-					<div class="hp10s2Img"><img src="<?php echo $hp10s2Img['url']; ?>" alt="<?php echo $hp10s2Img['alt']; ?>" width="<?php echo $hp10s2Img['width']; ?>" height="<?php echo $hp10s2Img['height']; ?>"></div>
-					<div class="hp10s2Title"><?php the_sub_field('title');?></div>
-					<div class="hp10s2Text"><?php the_sub_field('text');?></div>
-				</div>
-			</div>
-			<?php if($count == 2):?>
-				<div class="clearfix visible-sm"></div>
-			<?php endif; ?>
-			<?php if($count == 4):?>
-				<div class="clearfix"></div>
-				<?php $count = 0; ?>
-			<?php endif; ?>
-			<?php endwhile; ?>
-		</div>
-	</div>
+<!-- hp10Section2 已移除 - 包含 Professional Food Packaging Supplier in China 和特色优势展示部分，用于全新重新设计 -->
+<div class="design-placeholder" style="background: #4ecdc4; color: white; padding: 140px; text-align: center; border-radius: 8px;">
+    <h2 style="margin: 0 0 10px 0;">🎨 设计预留区域 - Home 10 Section 2</h2>
+    <p style="margin: 0; font-size: 16px;">原内容："Professional Food Packaging Supplier in China" 和4个特色优势展示已移除，等待全新设计</p>
 </div>
-<?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
 <?php if( get_field('section3') ):?>

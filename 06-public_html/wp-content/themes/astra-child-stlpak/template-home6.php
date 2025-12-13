@@ -21,23 +21,7 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if(get_field('section2_video_image') || get_field('section2_heading')): ?>
-<div class="hp6Section2 paddTop80 paddBottom70">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-md-6">
-				<?php $hp6s1VideoImg = get_field('section2_video_image'); ?>
-				<div class="videoImg"><a href="<?php the_field('section2_video_link'); ?>"><img src="<?php echo $hp6s1VideoImg['url']; ?>" alt="<?php echo $hp6s1VideoImg['alt']; ?>"></a></div>
-			</div>
-			<div class="col-sm-12 col-md-6 hp6Section2Details hp6ListArrow responsiveMargin">
-				<h2><?php the_field('section2_heading'); ?></h2>
-				<?php the_field('section2_text'); ?>
-				<div class="paddTop20"><a href="#contactPopUpForm" class="fancybox-inline hp6Btn blueBorder">Send Us Your Inquiry</a></div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
+<!-- Section 2 已移除 - 包含 section2_heading 和 section2_text 的Home 6模板部分，用于全新重新设计 -->
 <?php if( get_field('products') ):?>
 <div class="hp6Section3 greySection paddTop70 paddBottom40">
 	<div class="container">

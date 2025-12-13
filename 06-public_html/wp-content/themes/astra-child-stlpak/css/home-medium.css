@@ -19,30 +19,8 @@ Template: astra
     font-size: 20px;
 }
 h2 span, h3 span{color: #16529b;}
-.hp4Section2 {
-	background-size: cover;
-	background-position: center;
-}
-ul.hp4Slider, ul.hp4Slider ul.slick-dots{
-    margin: 0 ;
-    padding: 0 ;
-    list-style-type: none;
-}
-ul.hp4Slider ul.slick-dots{
-	margin: 8px 0 0 ;
-	text-align: center;
-}
-ul.hp4Slider .slick-dots li{
-	display: inline-block;
-	text-indent: -999999px;
-	padding: 0;
-	background: #fff;
-	border: 1px solid #16529b;
-	width: 20px;
-	height: 8px;
-	margin: 0 2px;
-}
-ul.hp4Slider .slick-dots li.slick-active{background: #16529b;}
+/* .hp4Section2 样式已移除 - 对应的DOM结构已清理，用于全新重新设计 */
+/* hp4Slider 样式已移除 - Section 2的滑块组件已清理，用于全新重新设计 */
 .hp4ProductBox{display: inline-block;}
 .hp4ProductBox .hp4Image{
 	overflow: hidden;

@@ -40,41 +40,7 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php $counter = 1; ?>
-<?php if( have_rows('section_2') ):?>
-<?php while ( have_rows('section_2') ) : the_row();?>
-<div class="c3RepeatSection paddTop70 paddBottom70 <?php if($counter%2 == 0) {echo 'greySection';} ?>">
-	<div class="container">
-		<div class="row cust-row">
-			<?php if($counter%2 == 1) : ?>
-			<div class="col-sm-12 col-md-6">
-				<h2><?php the_sub_field('section2_heading');?></h2>
-				<?php the_sub_field('section2_details');?>
-				<div><a href="#contactPopUpForm" class="commonBtn fancybox-inline"><?php the_sub_field('button_text');?></a></div>
-			</div>
-			<?php endif; ?>
-			<div class="col-sm-12 col-md-6 <?php if($counter%2 == 1){echo "responsiveMargin"; }?>">
-				<?php $section2Img = get_sub_field('section2_image') ?>
-				<?php $videoLink = get_sub_field('video_link') ?>
-				<?php if($videoLink != ''): ?>
-				<div class="videoImg"><a href="<?php echo $videoLink; ?>"><img src="<?php echo $section2Img['url']; ?>" alt="<?php echo $section2Img['alt']; ?>" width="<?php echo $section2Img['width']; ?>" height="<?php echo $section2Img['height']; ?>"></a></div>
-				<?php else: ?>
-				<div class="p3Section3img"><img src="<?php echo $section2Img['url']; ?>" alt="<?php echo $section2Img['alt']; ?>" width="<?php echo $section2Img['width']; ?>" height="<?php echo $section2Img['height']; ?>"></div>
-				<?php endif; ?>
-			</div>
-			<?php if($counter%2 == 0) : ?>
-			<div class="col-sm-12 col-md-6 responsiveMargin">
-				<h2><?php the_sub_field('section2_heading');?></h2>
-				<?php the_sub_field('section2_details');?>
-				<div><a href="#contactPopUpForm" class="commonBtn fancybox-inline"><?php the_sub_field('button_text');?></a></div>
-			</div>
-			<?php endif; ?>
-		</div>
-	</div>
-</div>
-<?php $counter++; ?>
-<?php endwhile; ?>
-<?php endif;?>
+<!-- Section 2 已移除 - 包含 section2_heading 的重复部分，用于全新重新设计 -->
 <?php if( have_rows('products') ):?>
 <div class="xyzProductSection paddTop75 paddBottom35">
 	<div class="container">
