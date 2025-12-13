@@ -28,8 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Simple mobile dropdown handling
+  // Desktop dropdown with hover delay
   const dropdowns = document.querySelectorAll('.dropdown');
+  let dropdownTimeouts = {};
 
   dropdowns.forEach(function(dropdown) {
     const toggle = dropdown.querySelector('.dropdown-toggle');
@@ -43,6 +44,60 @@ document.addEventListener('DOMContentLoaded', function() {
           menu.classList.toggle('show');
         }
       });
+
+      // Desktop hover behavior with delay
+      if (window.innerWidth > 768) {
+        let timeoutId;
+
+        dropdown.addEventListener('mouseenter', function() {
+          clearTimeout(timeoutId);
+          // Clear any existing timeout for this dropdown
+          if (dropdownTimeouts[dropdown]) {
+            clearTimeout(dropdownTimeouts[dropdown]);
+            delete dropdownTimeouts[dropdown];
+          }
+          // Show menu
+          menu.style.opacity = '1';
+          menu.style.visibility = 'visible';
+          menu.style.transform = 'translateY(0)';
+          menu.style.pointerEvents = 'auto';
+        });
+
+        dropdown.addEventListener('mouseleave', function() {
+          // Set a small delay before closing
+          timeoutId = setTimeout(function() {
+            menu.style.opacity = '0';
+            menu.style.visibility = 'hidden';
+            menu.style.transform = 'translateY(12px)';
+            menu.style.pointerEvents = 'none';
+          }, 150); // 150ms delay
+          dropdownTimeouts[dropdown] = timeoutId;
+        });
+
+        // Also listen for mouseenter on the menu itself
+        menu.addEventListener('mouseenter', function() {
+          clearTimeout(timeoutId);
+          if (dropdownTimeouts[dropdown]) {
+            clearTimeout(dropdownTimeouts[dropdown]);
+            delete dropdownTimeouts[dropdown];
+          }
+          // Keep menu visible
+          menu.style.opacity = '1';
+          menu.style.visibility = 'visible';
+          menu.style.transform = 'translateY(0)';
+          menu.style.pointerEvents = 'auto';
+        });
+
+        menu.addEventListener('mouseleave', function() {
+          timeoutId = setTimeout(function() {
+            menu.style.opacity = '0';
+            menu.style.visibility = 'hidden';
+            menu.style.transform = 'translateY(12px)';
+            menu.style.pointerEvents = 'none';
+          }, 150);
+          dropdownTimeouts[dropdown] = timeoutId;
+        });
+      }
     }
   });
 
@@ -186,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  
   console.log('StlPak child theme navigation functions loaded');
 });
 

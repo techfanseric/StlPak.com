@@ -71,7 +71,12 @@ if ( ! defined( 'ABSPATH' ) ) {
       <div class="container">
         <nav class="navbar">
           <div class="logo">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">StlPak</a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+              <img src="<?php echo esc_url( home_url( '/wp-content/uploads/2025/08/cropped-LOGO-4-768x716.png' ) ); ?>" alt="STLPAK Logo" class="logo-image">
+              <span class="logo-text">
+              <span class="logo-text-stl">Stl</span><span class="logo-text-pak">Pak</span>
+            </span>
+            </a>
           </div>
 
           <button class="mobile-menu-toggle" id="mobile-menu-toggle">
@@ -84,94 +89,217 @@ if ( ! defined( 'ABSPATH' ) ) {
             <li class="dropdown">
               <a href="#" class="nav-link dropdown-toggle">Products</a>
               <div class="dropdown-menu">
-                <div class="container">
-                  <ul class="dropdown-list">
-                    <li class="dropdown-category">
-                      <h4 class="category-title">By Product Type</h4>
-                      <div class="category-items">
-                        <a href="<?php echo esc_url( home_url( '/products/egg-packaging' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Egg Packaging</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-main">
+                    <div class="dropdown-section">
+                      <div class="section-header">
+                        <h3 class="section-title">By Product Type</h3>
+                      </div>
+                      <div class="product-cards-grid">
+                        <a href="<?php echo esc_url( home_url( '/clear-egg-carton' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/6-16.png" alt="Egg Packaging" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Secure egg cartons and trays</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Egg Packaging</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Cake Containers</span>
+                        <a href="<?php echo esc_url( home_url( '/clear-pastry-container' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/4-23.png" alt="Cake Containers" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Display and transport solutions</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Pastry Containers</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Clamshell Packaging</span>
+                        <a href="<?php echo esc_url( home_url( '/salad-packaging-containers' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/2-26.png" alt="Clamshell Packaging" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Tamper-evident containers</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Clamshell Packaging</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Cookie Containers</span>
+                        <a href="<?php echo esc_url( home_url( '/blueberry-punnet' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/1-24.png" alt="Blueberry Packaging" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Freshness sealing options</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Blueberry Packaging</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Salad Containers</span>
+                        <a href="<?php echo esc_url( home_url( '/salad-packaging-containers' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/3-23.png" alt="Salad Containers" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Clear food-safe bowls</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Salad Bowls</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Blueberry Packaging</span>
+                        <a href="<?php echo esc_url( home_url( '/cpet-hot-food-tray' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/5-19.png" alt="Food Tray" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">High temperature resistant trays</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Food Trays</div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Strawberry Packaging</span>
+                        <a href="<?php echo esc_url( home_url( '/kraft-bowl' ) ); ?>" class="product-card">
+                          <div class="card-image">
+                            <img src="/wp-content/uploads/2024/05/7-10.png" alt="Paper Packaging" loading="lazy">
+                            <div class="card-overlay">
+                              <p class="overlay-desc">Eco-friendly paper containers</p>
+                            </div>
+                          </div>
+                          <div class="card-title">Paper Packaging</div>
                         </a>
                       </div>
-                    </li>
-                    <li class="dropdown-category">
-                      <h4 class="category-title">By Application</h4>
-                      <div class="category-items">
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Supermarket Retail</span>
+                    </div>
+
+                    <div class="dropdown-section">
+                      <div class="section-header">
+                        <h3 class="section-title">By Application</h3>
+                      </div>
+                      <div class="section-grid">
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="product-item">
+                          <div class="product-icon"></div>
+                          <img class="product-image" src="/wp-content/uploads/2025/12/supermarket_retail_pack@1x.png" alt="Supermarket Retail" loading="lazy">
+                          <div class="product-info">
+                            <div>
+                              <h4>Supermarket Retail</h4>
+                              <p>Retail-ready packaging solutions</p>
+                            </div>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Fresh E-commerce</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="product-item">
+                          <div class="product-icon"></div>
+                          <img class="product-image" src="/wp-content/uploads/2025/12/fresh_ecommerce_pack@1x.png" alt="Fresh E-commerce" loading="lazy">
+                          <div class="product-info">
+                            <div>
+                              <h4>Fresh E-commerce</h4>
+                              <p>Direct-to-consumer packaging</p>
+                            </div>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Gift Packaging</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="product-item">
+                          <div class="product-icon"></div>
+                          <img class="product-image" src="/wp-content/uploads/2025/12/gift_packaging_opt@1x.png" alt="Gift Packaging" loading="lazy">
+                          <div class="product-info">
+                            <div>
+                              <h4>Gift Packaging</h4>
+                              <p>Premium presentation options</p>
+                            </div>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Farmers' Market</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="product-item">
+                          <div class="product-icon"></div>
+                          <img class="product-image" src="/wp-content/uploads/2025/12/farmers_market_pack@1x.png" alt="Farmers' Market" loading="lazy">
+                          <div class="product-info">
+                            <div>
+                              <h4>Farmers' Market</h4>
+                              <p>Local fresh produce packaging</p>
+                            </div>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Food Service</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="product-item">
+                          <div class="product-icon"></div>
+                          <img class="product-image" src="/wp-content/uploads/2025/12/food_service_containers@1x.png" alt="Food Service" loading="lazy">
+                          <div class="product-info">
+                            <div>
+                              <h4>Food Service</h4>
+                              <p>Professional grade containers</p>
+                            </div>
+                          </div>
                         </a>
                       </div>
-                    </li>
-                    <li class="dropdown-category">
-                      <h4 class="category-title">By Material</h4>
-                      <div class="category-items">
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">PET Transparent</span>
+                    </div>
+
+                    <div class="dropdown-section">
+                      <div class="section-header">
+                        <h3 class="section-title">By Material</h3>
+                      </div>
+                      <div class="material-list">
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="material-item">
+                          <span class="material-color pet"></span>
+                          <div class="material-info">
+                            <h4>PET Transparent</h4>
+                            <span class="material-desc">Crystal clear, durable</span>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">PP Colored</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="material-item">
+                          <span class="material-color pp"></span>
+                          <div class="material-info">
+                            <h4>PP Colored</h4>
+                            <span class="material-desc">Vibrant, food-safe</span>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Paper Packaging</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="material-item">
+                          <span class="material-color paper"></span>
+                          <div class="material-info">
+                            <h4>Paper Packaging</h4>
+                            <span class="material-desc">Eco-friendly options</span>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Composite Materials</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="material-item">
+                          <span class="material-color composite"></span>
+                          <div class="material-info">
+                            <h4>Composite Materials</h4>
+                            <span class="material-desc">Multi-layer solutions</span>
+                          </div>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item with-image">
-                          <div class="item-image"></div>
-                          <span class="item-text">Recyclable Plastic</span>
+                        <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="material-item">
+                          <span class="material-color recyclable"></span>
+                          <div class="material-info">
+                            <h4>Recyclable Plastic</h4>
+                            <span class="material-desc">Sustainable packaging choice</span>
+                          </div>
                         </a>
                       </div>
-                    </li>
-                    <li><a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item">View All Products</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="dropdown-item">Custom Design Service</a></li>
-                  </ul>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-sidebar">
+                    <div class="sidebar-section featured">
+                      <h3 class="sidebar-title">Quick Links</h3>
+                      <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="sidebar-item primary">
+                        <span class="item-icon">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/>
+                            <rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/>
+                          </svg>
+                        </span>
+                        <span class="item-text">View All Products</span>
+                        <span class="item-arrow">→</span>
+                      </a>
+                      <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="sidebar-item secondary">
+                        <span class="item-icon">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                          </svg>
+                        </span>
+                        <span class="item-text">Custom Design Service</span>
+                        <span class="item-arrow">→</span>
+                      </a>
+                    </div>
+
+                    <div class="sidebar-section cta">
+                      <div class="cta-content">
+                        <h4>Need Help?</h4>
+                        <p>Our packaging experts are ready to assist you</p>
+                        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="cta-button">Contact Expert</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </li>
