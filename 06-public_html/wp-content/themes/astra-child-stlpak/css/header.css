@@ -913,18 +913,58 @@ button.btn-primary:hover,
         right: 0;
         background: #fff;
         height: calc(100vh - var(--header-height));
-        padding: 24px;
+        padding: 24px 20px;
         overflow-y: auto;
-        align-items: flex-start;
+        align-items: stretch;
         border-top: 1px solid var(--color-border);
     }
-    
+
+    /* Full-screen mode when products dropdown is active */
+    .nav-menu.active.products-expanded {
+        padding: 0;
+    }
+
+    .nav-menu.active.products-expanded .nav-link {
+        display: none; /* Hide all nav links except products */
+    }
+
+    .nav-menu.active.products-expanded .nav-link.products-nav {
+        display: block; /* Keep products link visible */
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 10;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Ensure dropdown menu has enough space on mobile */
+    .nav-menu.active .dropdown-menu.show {
+        max-height: calc(100vh - var(--header-height) - 80px); /* Leave space for products nav */
+        overflow-y: auto;
+    }
+
+    /* Full-screen dropdown mode */
+    .nav-menu.active.products-expanded .dropdown-menu.show {
+        max-height: calc(100vh - var(--header-height) - 80px); /* Full height minus header */
+        overflow-y: auto;
+        margin-top: 0;
+        padding: 0 20px; /* Restore left and right padding */
+    }
+
     .nav-menu.active .nav-link {
         font-size: 20px;
-        padding: 12px 0;
+        padding: 12px 24px;
         width: 100%;
         display: block;
         border-bottom: 1px solid var(--color-border);
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 2px;
+        transition: background-color 0.2s ease;
+    }
+
+    .nav-menu.active .nav-link:hover {
+        background-color: var(--color-bg-surface);
     }
     
     /* Mobile Dropdown Reset */
@@ -932,26 +972,161 @@ button.btn-primary:hover,
         position: static;
         box-shadow: none;
         border: none;
-        padding: 0 0 0 20px;
+        padding: 12px 0;
         display: none; /* Controlled by JS click */
         opacity: 1;
         visibility: visible;
         transform: none;
+        margin: 0 -20px; /* 扩展到菜单边距 */
+        background-color: var(--color-bg-surface);
+        border-radius: 8px;
     }
-    
+
+    /* When dropdown is shown, ensure it has proper scrolling */
     .dropdown-menu.show {
         display: block;
+        /* Use webkit scrollbar styling for better mobile experience */
+        -webkit-overflow-scrolling: touch;
     }
-    
-    .dropdown-menu .container .dropdown-list {
+
+    .dropdown-menu .container {
+        padding: 0 20px;
+    }
+
+    .dropdown-menu .dropdown-content {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 16px;
+    }
+
+    .dropdown-menu .dropdown-main {
+        order: 2;
+    }
+
+    .dropdown-menu .dropdown-sidebar {
+        order: 1;
+    }
+
+    .dropdown-menu .section-header .section-title {
+        font-size: 18px;
+        margin-bottom: 12px;
+        text-align: center;
+        color: var(--color-brand-primary);
+    }
+
+    /* Simplify product cards for mobile */
+    .dropdown-menu .product-cards-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .dropdown-menu .product-card .card-title {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .dropdown-menu .section-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .dropdown-menu .product-item {
+        background: white;
+        padding: 12px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    /* Mobile layout for product items */
+    @media (max-width: 768px) {
+        .dropdown-menu .product-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .dropdown-menu .product-item .product-icon {
+            display: none; /* Remove icon placeholder */
+        }
+
+        .dropdown-menu .product-item .product-image {
+            position: static; /* Remove absolute positioning */
+            margin-bottom: 0; /* Remove spacing */
+            width: auto;
+            height: auto; /* Remove fixed height */
+            object-fit: contain;
+        }
+
+        .dropdown-menu .product-item .product-info {
+            display: block; /* Ensure block layout for mobile */
+            position: static;
+        }
+
+        .dropdown-menu .product-item .product-info h4,
+        .dropdown-menu .product-item .product-info p {
+            margin: 4px 0;
+        }
+
+        .dropdown-menu .product-item .product-info > div {
+            padding-top: 0;
+        }
+    }
+
+    .dropdown-menu .sidebar-section {
+        text-align: center;
+    }
+
+    .dropdown-menu .sidebar-item {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .dropdown-menu .cta-content {
+        text-align: center;
+        padding: 16px;
     }
     
     .dropdown-list > li:last-child {
         border-left: none;
         padding-left: 0;
         margin-left: 0;
+    }
+
+    /* Extra small screens optimization */
+    @media (max-width: 480px) {
+        .nav-menu.active {
+            padding: 20px 16px;
+        }
+
+        .nav-menu.active .nav-link {
+            padding: 14px 20px;
+            font-size: 18px;
+        }
+
+        /* Adjust dropdown height for very small screens */
+        .nav-menu.active .dropdown-menu.show {
+            max-height: 70vh;
+        }
+
+        .dropdown-menu .product-cards-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .dropdown-menu .section-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .dropdown-menu .product-item {
+            padding: 12px;
+        }
+
+        .dropdown-menu .section-header .section-title {
+            font-size: 16px;
+        }
     }
 }

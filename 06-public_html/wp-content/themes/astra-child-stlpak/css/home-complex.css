@@ -235,14 +235,21 @@
 
     /* Feature points mobile layout */
     .anim-entry.delay-3 {
-        flex-direction: column !important;
-        gap: 15px !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        gap: 20px !important;
         max-width: 100% !important;
-        align-items: flex-start !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     .feature-point {
+        flex: 0 0 calc(50% - 10px) !important;
         margin-bottom: 15px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
     }
 
     .feature-icon {
