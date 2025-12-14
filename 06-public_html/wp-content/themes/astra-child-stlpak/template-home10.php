@@ -602,78 +602,97 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<!-- New Contact Section -->
-<section class="contact-global-section">
+<!-- Contact Section -->
+<section class="contact-section">
     <div class="container">
-        <div class="contact-card">
-            <div class="card-body">
-                <div class="form-container text-center">
-                    <h3 class="card-title">Get Product Information & Free Samples</h3>
-                    <p class="card-text">
-                        Fill in your information to receive detailed product catalog and free samples
-                    </p>
+        <div class="contact-content">
+            <!-- Left Column - Contact Information -->
+            <div class="contact-info">
+                <div class="contact-badge">Get Started</div>
+                <h2 class="contact-title">Have a question? <br>Feel free to contact us</h2>
+                <p class="contact-description">
+                    We'd love to talk about how we can help your business. <br>
+                    Our food packaging experts are available 24/7.
+                </p>
 
-                    <form class="contact-form" id="globalContactForm">
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="company" placeholder="Company Name">
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" name="product" required>
-                                <option value="">Select Product Interest</option>
-                                <option value="egg">Egg Packaging</option>
-                                <option value="bakery">Bakery Packaging</option>
-                                <option value="fruit">Fruit Packaging</option>
-                                <option value="other">Other Products</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" name="region">
-                                <option value="">Select Region</option>
-                                <option value="asia">Asia Pacific</option>
-                                <option value="europe">Europe</option>
-                                <option value="america">North America</option>
-                                <option value="other">Other Regions</option>
-                            </select>
-                        </div>
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="sample" checked>
-                                <span class="checkmark"></span>
-                                I would like to receive free samples
-                            </label>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+861732108998">+86 173 2100 8998</a>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-submit">
-                        Get Information & Samples
-                    </button>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:info@stlpak.com">info@stlpak.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Office</h4>
+                            <p>No.88 Changjiang Road, <br>
+                            Zhangjiagang, Jiangsu, China</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="mainContactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-input" name="firstName" placeholder="John" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-input" name="lastName" placeholder="Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Work Email</label>
+                        <input type="email" class="form-input" name="email" placeholder="john@company.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Product Interest</label>
+                        <select class="form-select" name="product" required>
+                            <option value="">Select a product</option>
+                            <option value="egg">Egg Packaging</option>
+                            <option value="fruit">Fruit Containers</option>
+                            <option value="bakery">Bakery Solutions</option>
+                            <option value="custom">Custom Design</option>
+                        </select>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Get In Touch</button>
+                    </div>
+
+                    <p class="form-disclaimer">By submitting this form, you agree to our privacy policy.</p>
                 </form>
-                </div>
-
-                <div class="contact-info text-left">
-                    <div class="info-block">
-                        <h4 class="info-title">International Payment & Shipping:</h4>
-                        <ul class="info-list">
-                            <li>• Accepted: Credit Card, PayPal, Wire Transfer</li>
-                            <li>• Shipping: FOB, CIF, DDP terms available</li>
-                            <li>• Delivery: 7-20 days worldwide</li>
-                        </ul>
-                    </div>
-                    <div class="info-block">
-                        <h4 class="info-title">Contact Us Directly:</h4>
-                        <ul class="info-list">
-                            <li>Global Hotline: <a href="tel:+18558887888">+1-855-888-7888</a></li>
-                            <li>Email: <a href="mailto:global@stlpak.com">global@stlpak.com</a></li>
-                            <li>WeChat/WhatsApp: <a href="tel:+861732108998">+86 173 2100 8998</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

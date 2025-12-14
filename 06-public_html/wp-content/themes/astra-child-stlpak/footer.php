@@ -39,8 +39,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<span class="brand-text-stl">Stl</span><span class="brand-text-pak">Pak</span>
 								</span>
 							</h3>
-							<p class="text-secondary">
-								Professional food packaging manufacturer supporting partner customization, 8 years of manufacturing excellence, serving renowned global brands.
+							<p class="footer-description">
+								Professional food packaging manufacturer supporting partner customization, 8 years of manufacturing excellence.
 							</p>
 						</div>
 
@@ -49,34 +49,58 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<ul class="footer-links">
 								<li><a href="<?php echo home_url('/'); ?>egg-packaging">Egg Packaging</a></li>
 								<li><a href="<?php echo home_url('/'); ?>bakery-packaging">Bakery Packaging</a></li>
-								<li><a href="<?php echo home_url('/'); ?>fruit-packaging">Fruit Packaging</a></li>
-								<li><a href="<?php echo home_url('/'); ?>products">All Products</a></li>
+								<li><a href="<?php echo home_url('/'); ?>salad-packaging-containers">Salad Bowls</a></li>
+								<li><a href="<?php echo home_url('/'); ?>cpet-hot-food-tray">Food Trays</a></li>
 							</ul>
 						</div>
 
 						<div class="footer-section">
-							<h3>Partnership</h3>
+							<h3>Company</h3>
 							<ul class="footer-links">
-								<li><a href="<?php echo home_url('/'); ?>dealer/become-dealer">Become Partner</a></li>
-								<li><a href="<?php echo home_url('/'); ?>dealer/dealer-policy">Partnership Benefits</a></li>
-								<li><a href="<?php echo home_url('/'); ?>dealer/success-cases">Success Stories</a></li>
-								<li><a href="<?php echo home_url('/'); ?>dealer">Partner Program</a></li>
+								<li><a href="<?php echo home_url('/'); ?>about-us">About Us</a></li>
+								<li><a href="<?php echo home_url('/'); ?>partners">Partners</a></li>
+								<li><a href="<?php echo home_url('/'); ?>dealer/become-dealer">Become a Partner</a></li>
+								<li><a href="<?php echo home_url('/'); ?>resources">Resources</a></li>
 							</ul>
 						</div>
 
 						<div class="footer-section">
-							<h3>Global Contact</h3>
-							<ul class="footer-links">
-								<li>Global: +1-855-888-7888</li>
-								<li>Email: global@stlpak.com</li>
-								<li>Shanghai Office: Qingpu District</li>
-								<li>Factory: Yangzhou Economic Zone</li>
-							</ul>
+							<h3>Social</h3>
+							<div class="social-links-grid">
+								<div class="social-links-row">
+									<a href="#" class="social-link" aria-label="LinkedIn">
+										<span class="social-icon">in</span>
+									</a>
+									<a href="#" class="social-link" aria-label="Twitter">
+										<span class="social-icon">tw</span>
+									</a>
+									<a href="#" class="social-link" aria-label="Facebook">
+										<span class="social-icon">fb</span>
+									</a>
+								</div>
+								<div class="social-links-row">
+									<a href="#" class="social-link" aria-label="YouTube">
+										<span class="social-icon">yt</span>
+									</a>
+									<a href="#" class="social-link" aria-label="TikTok">
+										<span class="social-icon">tt</span>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 
 					<div class="footer-bottom">
-						<p>© 2025 StlPak. All rights reserved. | Global Food Packaging Manufacturer</p>
+						<div class="footer-bottom-content">
+							<p class="copyright">© 2025 StlPak. All rights reserved.</p>
+							<div class="footer-links-bottom">
+								<a href="#">Terms</a>
+								<span>·</span>
+								<a href="#">Cookies</a>
+								<span>·</span>
+								<a href="#">Sitemap</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</footer>
