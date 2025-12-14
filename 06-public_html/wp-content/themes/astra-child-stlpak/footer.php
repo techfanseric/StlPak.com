@@ -49,7 +49,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				var stickyTop = jQuery('.divScroll').offset().top;
 				jQuery(window).scroll(function() {
 					var windowTop = jQuery(window).scrollTop();
-					if (stickyTop < windowTop && jQuery(".articleSection, .single .content-area, .tempFAQsPage, #content").height() - 100 + jQuery(".articleSection, .single .content-area, .tempFAQsPage, #content").offset().top - jQuery(".divScroll").height() > windowTop) {
+					if (stickyTop < windowTop && jQuery(".articleSection, .single .content-area, #content").height() - 100 + jQuery(".articleSection, .single .content-area, #content").offset().top - jQuery(".divScroll").height() > windowTop) {
 						jQuery('.divScroll').addClass('side-fixed');
 					} else {
 						jQuery('.divScroll').removeClass('side-fixed');
@@ -71,22 +71,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				});
 			}	
 		});
- 	    // Accordian
-		jQuery('.accordiaBox.active .panel').slideDown();
-		jQuery('.accordiaBox .accordion').on('click', function(){
-			jQuery('.accordiaBox .panel').slideUp();
-			var thisVal = jQuery(this).parent();
-			if (!thisVal.hasClass('active')) {
-				jQuery(this).next().slideDown();
-				jQuery('.accordiaBox').removeClass('active');
-				thisVal.addClass('active');
-			} else {
-				thisVal.removeClass('active');
-				jQuery(this).next().slideUp();
-			}
-			return false;
-		});
-		// Product SideMenu
+ 	    		// Product SideMenu
 		jQuery('#menu-product-sidebar-menu > li.menu-item-has-children:first-child').addClass('active');
 		jQuery('#menu-product-sidebar-menu > li.menu-item-has-children:first-child > a').next().slideDown();
 		jQuery('#menu-product-sidebar-menu > li.menu-item-has-children > a').on('click', function(e){
@@ -418,20 +403,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				}
 			});
 		});
-		//FAQs Search
-		jQuery.expr[':'].containsInsensitive = function(a, i, m) {
-		  return jQuery(a).text().toUpperCase()
-		      .indexOf(m[3].toUpperCase()) >= 0;
-		};
-		jQuery(document).ready(function(){
-		    jQuery(".serchPalette #search").keyup(function(){
-		        search = jQuery(this).val();
-		        jQuery('.accordiaBox, .tempFAQsSection h2').hide();
-				jQuery('.tempFAQsSection').removeClass('paddBottom50');
-		        jQuery('.accordiaBox .accordion:containsInsensitive("'+search+'")').parents('.accordiaBox').show();
-		    });
-		});
-		//PD7 - Readmore
+				//PD7 - Readmore
 		jQuery(document).ready(function () {
 			jQuery(".readMoreText").slideUp();
 			jQuery(".readmoreBtn").on("click", function () {
@@ -549,6 +521,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				}, 1);
 			});
 		});
-	</script>
+
+			</script>
 	</body>
 </html>

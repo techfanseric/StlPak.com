@@ -12,6 +12,19 @@ p:empty{display:none}
 	padding-left:20px;
 	margin: 20px 0;
 }
+
+/* Resource list exception */
+.content-area .resource-list,
+#content .resource-list {
+	padding-left: 0;
+	margin: 0 0 18px;
+}
+
+.content-area .resource-list li,
+#content .resource-list li {
+	padding-left: 0;
+	list-style-type: none;
+}
 a, button, input[type="submit"]{transition:all .3}
 input, textarea, button, select{outline:none}
 h1, h2{margin-bottom: 20px ;}

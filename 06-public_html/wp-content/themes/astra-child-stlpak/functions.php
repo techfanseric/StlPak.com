@@ -91,9 +91,14 @@ function stlpak_enqueue_styles() {
     if (is_page_template('template-landing-page2.php') || is_page_template('template-landing-page4.php') ||
         is_page_template('template-landing-page5.php') || is_page_template('template-landing-page6.php') ||
         is_page_template('template-landing-page7.php') || is_page_template('template-blog.php') ||
-        is_singular('post') || is_page_template('template-faqs-page.php') ||
-        is_page_template('template-why-us.php') || is_page_template('template-video-page.php')) {
+        is_singular('post') || is_page_template('template-why-us.php') || is_page_template('template-video-page.php')) {
         wp_enqueue_style( 'stlpak-landing-css', $theme_dir . '/css/landing.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
+    }
+
+  
+    // Load Resource Center homepage styles
+    if (is_page_template('template-home10.php') || is_front_page()) {
+        wp_enqueue_style( 'stlpak-resource-home-css', $theme_dir . '/css/resource-home.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
     }
 
     // Slick slider CSS (if exists)

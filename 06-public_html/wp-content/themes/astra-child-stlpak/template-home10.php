@@ -280,6 +280,183 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
+
+<!-- Resource Center -->
+<section class="resource-center-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center">
+                    <h2>Resource Center</h2>
+                    <p>Professional packaging knowledge and guidance to help you make informed decisions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Knowledge Base Section -->
+        <div class="knowledge-base-section">
+            <div class="knowledge-header">
+                <div class="header-left">
+                    <i class="fas fa-book"></i>
+                    <div>
+                        <h3>Knowledge Base</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-height-cards">
+                <!-- Product Selection Guides -->
+                <div class="col-md-4">
+                    <div class="kb-category">
+                        <h4>Product Selection Guides</h4>
+                        <p>Expert guidance on choosing the right packaging for your specific needs</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">Egg Packaging Selection Guide (6-30 pieces)</a></li>
+                            <li><a href="/resource-center/">Bakery Packaging Safety Standards</a></li>
+                            <li><a href="/resource-center/">Fruit Packaging Freshness Technology</a></li>
+                            <li><a href="/resource-center/">Takeout Packaging Durability Guide</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">View Guides</a>
+                    </div>
+                </div>
+
+                <!-- Application Scenarios -->
+                <div class="col-md-4">
+                    <div class="kb-category">
+                        <h4>Application Scenarios</h4>
+                        <p>Packaging solutions tailored for different business scenarios</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">Supermarket Retail Packaging Solutions</a></li>
+                            <li><a href="/resource-center/">E-commerce Delivery Packaging</a></li>
+                            <li><a href="/resource-center/">Gift Packaging Design Tips</a></li>
+                            <li><a href="/resource-center/">Food Service Packaging Standards</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">View Solutions</a>
+                    </div>
+                </div>
+
+                <!-- Technical Knowledge -->
+                <div class="col-md-4">
+                    <div class="kb-category">
+                        <h4>Technical Knowledge</h4>
+                        <p>In-depth technical information about packaging materials and processes</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">PET vs PP Material Comparison</a></li>
+                            <li><a href="/resource-center/">Custom Printing Process Guide</a></li>
+                            <li><a href="/resource-center/">Quality Testing Standards</a></li>
+                            <li><a href="/resource-center/">Eco-Friendly Materials Overview</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <div class="faq-header">
+                <div class="header-left">
+                    <i class="fas fa-question-circle"></i>
+                    <div>
+                        <h3>Frequently Asked Questions</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-height-cards">
+                <!-- Product & Pricing Questions -->
+                <div class="col-md-6">
+                    <div class="faq-category">
+                        <h4>Product & Pricing Questions</h4>
+                        <p>Common questions about products, pricing, and ordering</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">What are the standard packaging sizes?</a></li>
+                            <li><a href="/resource-center/">How to determine MOQ for different products?</a></li>
+                            <li><a href="/resource-center/">What factors affect pricing?</a></li>
+                            <li><a href="/resource-center/">Are bulk discounts available?</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">View FAQ</a>
+                    </div>
+                </div>
+
+                <!-- Service & Support Questions -->
+                <div class="col-md-6">
+                    <div class="faq-category">
+                        <h4>Service & Support Questions</h4>
+                        <p>Questions about customization, samples, and support</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">How to request free samples?</a></li>
+                            <li><a href="/resource-center/">What is the custom design process?</a></li>
+                            <li><a href="/resource-center/">How long does production take?</a></li>
+                            <li><a href="/resource-center/">What payment methods are accepted?</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">View FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Guides -->
+        <div class="guides-section">
+            <div class="guides-header">
+                <div class="header-left">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h3>Professional Guides</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-height-cards">
+                <!-- Beginner's Buying Guide -->
+                <div class="col-md-4">
+                    <div class="guide-category">
+                        <h4>Beginner's Buying Guide</h4>
+                        <p>Complete guide for first-time packaging buyers</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">Understanding packaging terminology</a></li>
+                            <li><a href="/resource-center/">Step-by-step purchasing process</a></li>
+                            <li><a href="/resource-center/">Common mistakes to avoid</a></li>
+                            <li><a href="/resource-center/">Budget planning tips</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">Download Guide</a>
+                    </div>
+                </div>
+
+                <!-- Cost Optimization -->
+                <div class="col-md-4">
+                    <div class="guide-category">
+                        <h4>Cost Optimization</h4>
+                        <p>Strategies to optimize packaging costs effectively</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">Material cost analysis</a></li>
+                            <li><a href="/resource-center/">Shipping cost reduction tips</a></li>
+                            <li><a href="/resource-center/">Inventory management strategies</a></li>
+                            <li><a href="/resource-center/">Supplier negotiation tactics</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">View Strategies</a>
+                    </div>
+                </div>
+
+                <!-- Quality Assurance -->
+                <div class="col-md-4">
+                    <div class="guide-category">
+                        <h4>Quality Assurance</h4>
+                        <p>Ensuring quality standards for your packaging</p>
+                        <ul class="resource-list">
+                            <li><a href="/resource-center/">Quality inspection checklist</a></li>
+                            <li><a href="/resource-center/">Testing methods overview</a></li>
+                            <li><a href="/resource-center/">Certification requirements</a></li>
+                            <li><a href="/resource-center/">Supplier quality evaluation</a></li>
+                        </ul>
+                        <a href="/resource-center/" class="btn-text-link">Learn Methods</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php if( get_field('section6') ):?>
 <?php while ( have_rows('section6') ) : the_row();?>
 <?php if( get_sub_field('background') || get_sub_field('heading')):?>
@@ -289,37 +466,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			<div class="col-md-6">
 				<div class="bannerHeading"><?php the_sub_field('heading');?></div>
 				<div class="paddTop10 clrWhite"><?php the_sub_field('text');?></div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
-<?php if( get_field('section7') ):?>
-<?php while ( have_rows('section7') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('faqs')):?>
-<div class="hp10Section7 paddTop70 paddBottom70 greySection">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-md-6">
-				<div class="hp10FAQs">
-				<?php $count = 1; ?>
-				<?php if( get_sub_field('faqs') ):?>
-				<?php while ( have_rows('faqs') ) : the_row();?>
-				<div class="accordiaBox <?php if($count == 1){echo 'active';}?>">
-					<div class="accordion"><?php the_sub_field('title');?></div>
-					<div class="panel"><?php the_sub_field('text');?></div>
-				</div>
-				<?php $count++; ?>
-				<?php endwhile; ?>
-				<?php endif; ?>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-6 responsiveMargin">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="hp10s7Text"><?php the_sub_field('text');?></div>
-				<div class="paddTop25"><a href="#contactPopUpForm" class="commonBtn fancybox-inline"><?php the_sub_field('button_text');?></a></div>
 			</div>
 		</div>
 	</div>
