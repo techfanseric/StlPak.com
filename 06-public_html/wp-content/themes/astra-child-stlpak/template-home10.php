@@ -184,6 +184,74 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <?php endwhile; ?>
 <?php endif; ?>
+
+<!-- STLPAK Quality Features Section -->
+<div class="quality-features-section">
+    <div class="container">
+        <div class="quality-features-grid">
+            <div class="quality-feature-item">
+                <div class="feature-content">
+                    <h3 class="feature-title">Certified Quality</h3>
+                    <p class="feature-description">
+                        ISO9001, ISO14001, ISO22000, FSSC22000, and FDA certified. Every product meets <span class="feature-highlight">strict international food-safety standards</span>, ensuring you receive the highest quality, food-safe packaging for your products.
+                    </p>
+                </div>
+                <div class="video-area">
+                    <div class="video-label">View Certifications</div>
+                </div>
+            </div>
+
+            <div class="quality-feature-item">
+                <div class="feature-content">
+                    <h3 class="feature-title">Cleanroom Production</h3>
+                    <p class="feature-description">
+                        Our fully enclosed, dust-free workshop ensures <span class="feature-highlight">hygienic, food-safe production</span> and cleaner packaging, surpassing most competitors and minimizing contamination risks for your products.
+                    </p>
+                </div>
+                <div class="video-area">
+                    <div class="video-label">Tour Cleanroom</div>
+                </div>
+            </div>
+
+            <div class="quality-feature-item">
+                <div class="feature-content">
+                    <h3 class="feature-title">Multi-Project Services</h3>
+                    <p class="feature-description">
+                        With 40 fully automated vacuum forming machines, plus printing and automated labeling services, we provide an <span class="feature-highlight">efficient one-stop solution</span> to meet your packaging needs at scale.
+                    </p>
+                </div>
+                <div class="video-area">
+                    <div class="video-label">Production Line</div>
+                </div>
+            </div>
+
+            <div class="quality-feature-item">
+                <div class="feature-content">
+                    <h3 class="feature-title">Factory Direct Pricing</h3>
+                    <p class="feature-description">
+                        Purchase directly from our factory and benefit from <span class="feature-highlight">competitive pricing</span>, especially for long-term and bulk orders. No middlemen, just high-quality products at the best price.
+                    </p>
+                </div>
+                <div class="video-area">
+                    <div class="video-label">Pricing Advantage</div>
+                </div>
+            </div>
+
+            <div class="quality-feature-item">
+                <div class="feature-content">
+                    <h3 class="feature-title">Free Samples & Free Molds</h3>
+                    <p class="feature-description">
+                        Get free samples to test quality and suitability. We offer <span class="feature-highlight">free mold creation for many clients</span>, with 79% of molds developed at no cost. This helps reduce upfront costs and supports your product innovation.
+                    </p>
+                </div>
+                <div class="video-area">
+                    <div class="video-label">Sample Service</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php if( get_field('section3') ):?>
 <?php while ( have_rows('section3') ) : the_row();?>
 <?php if( get_sub_field('heading') || get_sub_field('products')):?>
