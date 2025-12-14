@@ -579,7 +579,7 @@ a:empty {visibility: none;}
   }
   ul.hp9Brands {text-align: center;}
   .pc6BannerContent {max-width: 480px;}
-  .hp10s3Content {padding: 10px;}
+  /* .hp10s3Content padding removed - Featured Food Packaging section removed */
   .hp10FAQs .accordiaBox {padding: 0 15px;}
   .hp10FAQs .accordion {
     font-size: 18px;

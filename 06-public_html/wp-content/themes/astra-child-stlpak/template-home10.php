@@ -234,52 +234,118 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 
-<?php if( get_field('section3') ):?>
-<?php while ( have_rows('section3') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('products')):?>
-<div class="hp10Section3 paddTop70 paddBottom40 greySection">
-	<div class="container">
-		<div class="row cust-row rowFlexEnd">
-			<div class="col-sm-12 col-lg-6">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="hp10SubHeading"><?php the_sub_field('sub_heading');?></div>
-			</div>
-			<?php if(get_sub_field('button_text')): ?>
-			<div class="col-sm-12 col-lg-6 hp10CTA pc6CTA"><a href="<?php the_sub_field('button_link');?>" target="_blank"><?php the_sub_field('button_text');?></a></div>
-			<?php endif; ?>
-		</div>
-		<div class="row cust-row text-center paddTop40">
-			<?php $count = 0; ?>
-			<?php $countSM = 0; ?>
-			<?php while ( have_rows('products') ) : the_row();?>
-			<?php $count++; ?>
-			<?php $countSM++; ?>
-			<?php $hp10s3Img = get_sub_field('image') ?>
-			<div class="col-sm-6 col-md-4 paddBottom30">
-				<div class="hp10s3Box">
-					<div class="hp10s3Img"><a href="<?php the_sub_field('link');?>"><img src="<?php echo $hp10s3Img['url']; ?>" alt="<?php echo $hp10s3Img['alt']; ?>" width="<?php echo $hp10s3Img['width']; ?>" height="<?php echo $hp10s3Img['height']; ?>"></a></div>
-					<div class="hp10s3Content">
-						<div class="hp10s3Title"><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></div>
-						<div class="hp10s3Text"><?php the_sub_field('text');?></div>
-						<div class="hp10s3Link"><a href="<?php the_sub_field('link');?>">Readmore</a></div>
-					</div>
-				</div>
-			</div>
-			<?php if($countSM == 2):?>
-				<div class="clearfix visible-sm"></div>
-				<?php $countSM = 0; ?>
-			<?php endif; ?>
-			<?php if($count == 3):?>
-				<div class="clearfix hidden-sm"></div>
-				<?php $count = 0; ?>
-			<?php endif; ?>
-			<?php endwhile; ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
+<!-- Featured Series Section -->
+<section id="products" class="featured-series-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="series-header">
+            <div class="header-content">
+                <span class="sub-title">Our Collection</span>
+                <h2 class="main-title">Featured Series</h2>
+                <p class="description">Premium packaging solutions engineered for both protection and presentation.</p>
+            </div>
+            <div class="header-actions">
+                <button class="nav-btn prev-btn" aria-label="Previous">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
+                </button>
+                <button class="nav-btn next-btn" aria-label="Next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Scrollable Cards -->
+        <div class="series-carousel-container">
+            <div class="series-carousel">
+                <!-- Card 1: Egg Packaging -->
+                <div class="series-card group">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/id/292/600/600" alt="Premium Egg Cartons" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Egg Packaging</div>
+                        <h3 class="card-title">Premium Egg Cartons</h3>
+                        <p class="card-desc">6, 12, 18, 30-piece varieties in PET & Paper Pulp.</p>
+                        <a href="product-category/egg-packaging/" class="card-link">
+                            View Specifications 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Bakery -->
+                <div class="series-card group">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/id/488/600/600" alt="Crystal Clear Cake Boxes" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Bakery</div>
+                        <h3 class="card-title">Crystal Clear Cake Boxes</h3>
+                        <p class="card-desc">Showcase your pastries with high-transparency PET.</p>
+                        <a href="product-category/bakery-packaging/" class="card-link">
+                            View Specifications 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Fruit -->
+                <div class="series-card group">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/id/429/600/600" alt="Vented Berry Punnets" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Fruit</div>
+                        <h3 class="card-title">Vented Berry Punnets</h3>
+                        <p class="card-desc">Optimized airflow for blueberries and strawberries.</p>
+                        <a href="product-category/fruit-vegetable-packaging/" class="card-link">
+                            View Specifications 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 4: Salads -->
+                <div class="series-card group">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/id/493/600/600" alt="Fresh Salad Bowls" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Salads</div>
+                        <h3 class="card-title">Fresh Salad Bowls</h3>
+                        <p class="card-desc">Leak-proof designs for fresh cuts and cold foods.</p>
+                        <a href="product-category/salad-bowls/" class="card-link">
+                            View Specifications 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 5: Takeout -->
+                <div class="series-card group">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/id/425/600/600" alt="Eco-Friendly Containers" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Takeout</div>
+                        <h3 class="card-title">Eco-Friendly Containers</h3>
+                        <p class="card-desc">Durable, stackable, and microwave safe options.</p>
+                        <a href="product-category/takeout-containers/" class="card-link">
+                            View Specifications 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Resource Center -->
 <section class="resource-center-section">
@@ -579,6 +645,29 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize Lucide icons
     document.addEventListener('DOMContentLoaded', function() {
         lucide.createIcons();
+
+        // Featured Series Carousel Logic
+        const carousel = document.querySelector('.series-carousel');
+        const prevBtn = document.querySelector('.series-header .prev-btn');
+        const nextBtn = document.querySelector('.series-header .next-btn');
+
+        if (carousel && prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                const card = carousel.querySelector('.series-card');
+                if (card) {
+                    const cardWidth = card.offsetWidth;
+                    carousel.scrollBy({ left: -(cardWidth + 32), behavior: 'smooth' });
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                const card = carousel.querySelector('.series-card');
+                if (card) {
+                    const cardWidth = card.offsetWidth;
+                    carousel.scrollBy({ left: (cardWidth + 32), behavior: 'smooth' });
+                }
+            });
+        }
     });
 </script>
 

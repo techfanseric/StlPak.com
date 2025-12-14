@@ -724,22 +724,7 @@ ul.hp9Brands li{
 
 /* Home 10 */
 /* hp10s2Box, hp10s2Img, hp10s2Title 样式已移除 - Section 2的特色优势展示组件已清理，用于全新重新设计 */
-.hp10CTA{text-align: right;}
-.hp10s3Box{
-	display: inline-block;
-	max-width: 370px;
-	text-align: left;
-    background: #fcfcfc;
-    border-radius: 5px;
-	overflow: hidden;
-    box-shadow: 0px 0px 4px 2px #efefef;
-    transition: all .3s;
-}
-.hp10s3Box:hover{box-shadow: 2px 2px 8px 2px #dedede;}
-.hp10s3Img{overflow: hidden;}
-.hp10s3Img a{display: block;}
-.hp10s3Box:hover .hp10s3Img a{transform: scale(1.1);}
-.hp10s3Content{padding: 20px;}
+/* hp10CTA, hp10s3Box styles removed - Featured Food Packaging section removed for redesign */
 .hp10Banner {padding: 70px 0 60px;}
 .hp10FAQs {
     border-radius: 5px;

@@ -151,15 +151,51 @@
 }
 
 .social-icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     transition: color 0.3s ease;
 }
 
+/* 所有SVG图标的尺寸 */
+.social-link .social-svg,
+.social-link svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* 描边图标 (LinkedIn, Twitter, Facebook, YouTube) */
+.social-link .social-svg,
+.social-link:not([aria-label="TikTok"]) svg {
+    stroke: rgba(255, 255, 255, 0.8);
+    fill: none;
+    transition: stroke 0.3s ease;
+}
+
+/* 填充图标 (TikTok) */
+.social-link[aria-label="TikTok"] svg path {
+    fill: rgba(255, 255, 255, 0.8) !important;
+    stroke: none;
+}
+
+/* 描边图标悬停效果 */
+.social-link:hover .social-svg,
+.social-link:hover:not([aria-label="TikTok"]) svg {
+    stroke: var(--color-brand-primary);
+}
+
+/* TikTok图标悬停效果 */
+.social-link:hover[aria-label="TikTok"] svg path {
+    fill: var(--color-brand-primary) !important;
+}
+
 .social-link:hover .social-icon {
     color: var(--color-brand-primary);
+}
+
+.social-link:hover .social-svg {
+    stroke: var(--color-brand-primary);
 }
 
 /* Footer description */
