@@ -46,6 +46,15 @@
     pointer-events: none;
 }
 
+.hero-content .container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content .row {
+    width: 100%;
+}
+
 .hero-text-container {
     pointer-events: auto;
     background: rgba(255, 255, 255, 0.0);
@@ -58,7 +67,28 @@
 
 .hero-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: flex-start;
+}
+
+/* Hero Title Styles */
+.hero-text-container h1 {
+    color: #0b1e3b;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: -1.5px;
+    text-align: left;
+}
+
+/* Hero Features Container */
+.hero-text-container .anim-entry.delay-3 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
     justify-content: flex-start;
 }
 
