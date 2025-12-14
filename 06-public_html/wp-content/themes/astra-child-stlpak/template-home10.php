@@ -6,24 +6,6 @@ get_header();
 // Template Name: Home 10
 ?>
 
-<!-- 暂时不显示滑块 -->
-<!-- <div style="display: none;"><?php echo do_shortcode('[smartslider3 slider="2"]'); ?></div> -->
-<?php if( get_field('section1') ):?>
-<div class="hp10Section1 paddTop15 paddBottom15">
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12">
-				<ul class="wus1Slider">
-					<?php while ( have_rows('section1') ) : the_row();?>
-						<?php $wus1Img = get_sub_field('image'); ?>
-						<li class="slide"><img src="<?php echo $wus1Img['url']; ?>" alt="<?php echo $wus1Img['alt']; ?>"></li>
-					<?php endwhile; ?>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
 <?php if( get_field('section2') ):?>
 <?php while ( have_rows('section2') ) : the_row();?>
 <!-- Luminous Intelligence (Seamless Glass) Hero Section -->
@@ -292,78 +274,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				<?php $count = 0; ?>
 			<?php endif; ?>
 			<?php endwhile; ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
-<?php if( get_field('section4') ):?>
-<?php while ( have_rows('section4') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('products')):?>
-<div class="hp10Section4 paddTop70 paddBottom40">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-lg-6">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="hp10SubHeading"><?php the_sub_field('sub_heading');?></div>
-			</div>
-		</div>
-		<div class="row cust-row text-center paddTop40">
-			<?php $count = 0; ?>
-			<?php while ( have_rows('products') ) : the_row();?>
-			<?php $count++; ?>
-			<?php $hp10s4Img = get_sub_field('image') ?>
-			<div class="col-sm-12 col-md-6 paddBottom30">
-				<div class="hp10s4Box hp10s3Box">
-					<div class="hp10s3Img"><a href="<?php the_sub_field('link');?>"><img src="<?php echo $hp10s4Img['url']; ?>" alt="<?php echo $hp10s4Img['alt']; ?>" width="<?php echo $hp10s4Img['width']; ?>" height="<?php echo $hp10s4Img['height']; ?>"></a></div>
-					<div class="hp10s3Content">
-						<div class="hp10s3Title"><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></div>
-						<div class="hp10s3Text"><?php the_sub_field('text');?></div>
-						<div class="hp10s3Link"><a href="<?php the_sub_field('link');?>">Readmore</a></div>
-					</div>
-				</div>
-			</div>
-			<?php if($count == 2):?>
-				<div class="clearfix"></div>
-				<?php $count = 0; ?>
-			<?php endif; ?>
-			<?php endwhile; ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
-<?php if( get_field('section5') ):?>
-<?php while ( have_rows('section5') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('products')):?>
-<div class="hp10Section5 paddTop70 paddBottom40 greySection">
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12 col-lg-offset-1 col-lg-10 paddBottom30">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="hp10SubHeading"><?php the_sub_field('sub_heading');?></div>
-				<?php if(get_sub_field('button_text')):?>
-				<div class="pc6CTA paddTop10"><a href="<?php the_sub_field('button_link');?>" target="_blank"><?php the_sub_field('button_text');?></a></div>
-				<?php endif; ?>
-			</div>
-		</div>
-	</div>
-	<div class="row margin0">
-		<div class="col-sm-12">
-			<ul class="pc6s5Slider">
-				<?php while ( have_rows('products') ) : the_row();?>
-				<li class="slide">
-					<div class="pc6s5Box">
-						<?php $pc6s5Img = get_sub_field('image') ?>
-						<div class="pc6s5Img"><img src="<?php echo $pc6s5Img['url']; ?>" alt="<?php echo $pc6s5Img['alt']; ?>" width="<?php echo $pc6s5Img['width']; ?>" height="<?php echo $pc6s5Img['height']; ?>"></div>
-						<div class="pc6s5Title"><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></div>
-						<div class="pc6s5Link"><a href="<?php the_sub_field('link');?>">Readmore</a></div>
-					</div>
-				</li>
-				<?php endwhile; ?>
-			</ul>
 		</div>
 	</div>
 </div>

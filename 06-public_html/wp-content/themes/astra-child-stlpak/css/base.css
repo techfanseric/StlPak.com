@@ -71,7 +71,7 @@ a:empty {visibility: none;}
   .hp13Col20{width: 20%;}
 }
 @media(min-width: 992px) and (max-width: 1199px){
-  .faqWrapper {padding-left: 0;}
+  /* .faqWrapper {padding-left: 0;} DEPRECATED - was only used in template-home.php homeContactSection */
   .bannerWraper .bannerContent {
 	max-width: 970px;
 	margin-top: 4%;
@@ -227,7 +227,7 @@ a:empty {visibility: none;}
 }
 @media(max-width: 991px){
   .responsiveMargin {margin-top: 30px;}
-  .faqWrapper {margin: 0 auto;}
+  /* .faqWrapper {margin: 0 auto;} DEPRECATED - was only used in template-home.php homeContactSection */
   .footer-adv-overlay .col1 {margin-bottom: 30px;}
   .dblBtn a.commonBtn {margin: 0 10px;}
   .bannerWraper .bannerContent {margin-top: 4%;}
@@ -235,10 +235,10 @@ a:empty {visibility: none;}
   .formSection:before {display: none;}
   .contactPageWraper {background: #f5f5f5;}
   .featuredTitle {padding-top: 20px;}
-  .sec6Box {padding: 20px 20px 0;}
-  .sec5Box {margin: 0 0 30px;}
+  /* .sec6Box {padding: 20px 20px 0;} DEPRECATED - was only used in template-home.php homeSection6 */
+  /* .sec5Box {margin: 0 0 30px;} DEPRECATED - was only used in template-home.php homeSection5 */
   .productContent {padding: 20px;}
-  .faqWrapper {padding-left: 0;}
+  /* .faqWrapper {padding-left: 0;} DEPRECATED - was only used in template-home.php homeContactSection */
   .cBannerContent {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -589,7 +589,7 @@ a:empty {visibility: none;}
     text-align: center;
     margin-top: 10px;
   }
-  ul.pc6s5Slider ul.slick-dots li, ul.wus1Slider ul.slick-dots li {width: 20px;}
+  ul.pc6s5Slider ul.slick-dots li {width: 20px;}
   .pc7s3Tabs ul.tabs li {padding: 12px 10px;}
   .hp11s2BoxWrapper {padding: 35px 20px 270px 20px;}
   .hp11s5Img, .hp11s5Btn {padding-top: 30px;}

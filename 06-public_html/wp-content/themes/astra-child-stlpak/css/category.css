@@ -914,14 +914,14 @@ ul.pc6s5Slider li.slick-slide{margin: 10px 12px;}
 	color: #000;
 }
 .pc6s5Box:hover .pc6s5Link a:before, .hp10s3Box:hover .hp10s3Link a, .hp10s3Box:hover .hp10s3Link a:before{color: #000;}
-ul.pc6s5Slider ul.slick-dots, ul.wus1Slider ul.slick-dots{
+ul.pc6s5Slider ul.slick-dots{
 	margin: 10px 0 0 ;
 	padding: 0 ;
 	list-style-type: none;
 	line-height: 1px
 }
-ul.pc6s5Slider ul.slick-dots li button, ul.wus1Slider ul.slick-dots li button{display: none;}
-ul.pc6s5Slider ul.slick-dots li, ul.wus1Slider ul.slick-dots li{
+ul.pc6s5Slider ul.slick-dots li button{display: none;}
+ul.pc6s5Slider ul.slick-dots li{
     width: 40px;
     height: 3px;
     background-color: #c1c7d0;
@@ -929,7 +929,7 @@ ul.pc6s5Slider ul.slick-dots li, ul.wus1Slider ul.slick-dots li{
     margin: 0 4px;
     border-radius: 4px;
 }
-ul.pc6s5Slider ul.slick-dots li.slick-active, ul.wus1Slider ul.slick-dots li.slick-active{background-color: #000;}
+ul.pc6s5Slider ul.slick-dots li.slick-active{background-color: #000;}
 .pc6Banner{position: relative;}
 .pc6BannerContent {
     position: absolute;
