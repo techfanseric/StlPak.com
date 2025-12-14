@@ -26,8 +26,11 @@
 	.container{width:970px}
 	.container770{width:770px}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
 	.container{width:1170px}
+}
+@media (min-width: 1400px) {
+	.container{width:1320px}
 }
 
 /* Text Alignment */
