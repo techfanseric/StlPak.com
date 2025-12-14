@@ -253,10 +253,6 @@ get_header();
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section8') ):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('brands')): ?>
-<div class="hp11Section8 paddTop40 paddBottom40" <?php if(get_sub_field('background_color')):?>style="background-color: <?php the_sub_field('background_color'); ?>"<?php endif; ?>>
 	<div class="container">
 		<div class="row cust-row">
 			<div class="<?php if( get_sub_field('brands') ){echo 'col-lg-4';}else{echo 'text-center';}?>">

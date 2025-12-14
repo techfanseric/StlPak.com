@@ -355,43 +355,7 @@ if ( ! defined( 'ABSPATH' ) ) {
               }
           }]
 		});
-		// Product Cateogry 6 - Product Slider
-		jQuery('.pc6s5Slider').slick({
-		  dots: true,
-		  infinite: true,
-		  speed: 300,
-		  slidesToShow: 6,
-		  slidesToScroll: 3,
-		  arrows: false,
-		  autoplay: true,
-		  autoplaySpeed: 3000,
-		  responsive: [{
-               breakpoint: 1200,
-               settings: {
-                   slidesToShow: 4,
-				   slidesToScroll: 2,
-               }
-           },{
-               breakpoint: 992,
-               settings: {
-                   slidesToShow: 3,
-				   slidesToScroll: 3,
-               }
-           },{
-               breakpoint: 768,
-               settings: {
-                   slidesToShow: 2,
-				   slidesToScroll: 2,
-               }
-           },{
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1,
-				  slidesToScroll: 1,
-              }
-          }]
-		});
-		//jQuery Counter Animation
+				//jQuery Counter Animation
 		jQuery('.about2SecTitle').each(function () {
 			jQuery(this).prop('Counter',0).animate({
 				Counter: jQuery(this).text()

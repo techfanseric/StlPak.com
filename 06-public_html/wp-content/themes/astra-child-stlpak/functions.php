@@ -43,6 +43,7 @@ function stlpak_enqueue_styles() {
         is_page_template('template-home11.php') || is_page_template('template-home12.php')) {
         // Complex layouts
         wp_enqueue_style( 'stlpak-home-complex-css', $theme_dir . '/css/home-complex.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
+        wp_enqueue_style( 'stlpak-customer-stories-css', $theme_dir . '/css/customer-stories.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
     }
 
     if (is_page_template('template-home13.php') || is_page_template('template-home14.php') ||

@@ -229,33 +229,6 @@ get_header();
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('products')):?>
-<div class="hp15Section8 greySection">
-	<div class="container">
-		<div class="row cust-row paddBottom30">
-			<div class="col-sm-12 col-md-7 col-lg-6">
-				<h2 class="hp15Heading hp15s8Heading"><?php the_sub_field('heading'); ?></h2>
-			</div>
-		</div>
-		<div class="row cust-row text-center">
-			<?php $count = 0; ?>
-			<?php while ( have_rows('products') ) : the_row();?>
-				<?php $count++; ?>
-				<?php $hp15s8Img = get_sub_field('image'); ?>
-				<div class="col-sm-4 paddBottom30">
-					<div class="hp15s8Box">
-						<div class="hp15s8Img"><a href="<?php the_sub_field('link'); ?>"><img src="<?php echo $hp15s8Img['url']; ?>" alt="<?php echo $hp15s8Img['alt']; ?>"></a></div>
-						<div class="hp15s8Title"><a href="<?php the_sub_field('link'); ?>"><?php the_sub_field('title'); ?></a></div>
-						<div class="hp15s8Text"><?php the_sub_field('text'); ?></div>
-						<div class="hp15s8Link paddTop15"><a href="<?php the_sub_field('link'); ?>" class="commonBtn">Learn More</a></div>
-					</div>
-				</div>
-				<?php if($count == 3): ?>
-					<div class="clearfix"></div>
-					<?php $count = 0; ?>
-				<?php endif; ?>
 			<?php endwhile; ?>
 		</div>
 	</div>

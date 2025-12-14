@@ -177,32 +177,6 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if(get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row(); ?>
-<?php if(get_sub_field('title') || get_sub_field('list')):?>
-<div class="hp8Section8 paddTop70 paddBottom70" <?php if(get_sub_field('background')):?>style="background-image: url(<?php the_sub_field('background');?>);"<?php endif; ?>>
-	<div class="container">
-		<div class="row cust-row rowFlex">
-			<div class="col-sm-12 col-md-7 col-lg-8">
-				<h2 class="clrWhite"><?php the_sub_field('title');?></h2>
-				<div class="hp8s8Text"><?php the_sub_field('text');?></div>
-				<div class="paddTop20"><a href="<?php the_sub_field('button_link');?>" class="commonBtn<?php if(get_sub_field('button_link') == "#contactPopUpForm" ){echo ' fancybox-inline';}?>" <?php if(get_sub_field('button_link') != "#contactPopUpForm" ){echo 'target="_blank"';}?>><?php the_sub_field('button_text');?></a></div>
-			</div>
-			<div class="col-sm-12 col-md-5 col-lg-4 responsiveMargin">
-				<div class="row">
-				<?php while ( have_rows('list') ) : the_row();?>
-					<div class="col-sm-6">
-						<div class="hp8s8List"><?php the_sub_field('item');?></div>
-					</div>
-				<?php endwhile; ?>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
 <?php if(get_field('section9')):?>
 <?php while ( have_rows('section9') ) : the_row(); ?>
 <?php if(get_sub_field('title') || get_sub_field('list')):?>

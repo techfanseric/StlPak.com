@@ -210,30 +210,6 @@ get_header();
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('featured_points')):?>
-<div class="hp14Section8">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 text-center paddBottom20">
-				<h2 class="clrWhite"><?php the_sub_field('heading'); ?></h2>
-			</div>
-			<div class="clearfix"></div>
-			<?php while ( have_rows('featured_points') ) : the_row();?>
-			<?php $hp14s8Img = get_sub_field('image'); ?>
-			<div class="col-md-4 paddBottom30">
-				<div class="hp14s1Box">
-					<div class="hp14s8Img"><img src="<?php echo $hp14s8Img['url']; ?>" alt="<?php echo $hp14s8Img['alt']; ?>"></div>
-					<div class="hp14s8Title"><?php the_sub_field('title'); ?></div>
-					<div class="hp14s8Text"><?php the_sub_field('text'); ?></div>
-				</div>
-			</div>
-			<?php endwhile; ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
 <?php if( get_field('section9')):?>

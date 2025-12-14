@@ -206,17 +206,6 @@ get_header();
 </div>
 <?php endif; ?>
 <?php if( get_field('video3_image') || get_field('video3_heading') ):?>
-<div class="h5section8 paddTop90 paddBottom90">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-md-6">
-				<?php $video3Img = get_field('video3_image') ?>
-				<?php $video3Link = get_field('video3_link') ?>
-				<?php if($video2Link != ''): ?>
-				<div class="h5videoBox h5whitePlayIcon"><a href="<?php echo $video3Link; ?>"><img src="<?php echo $video3Img['url']; ?>" alt="<?php echo $video3Img['alt']; ?>" width="<?php echo $video3Img['width']; ?>" height="<?php echo $video3Img['height']; ?>"></a></div>
-				<?php else: ?>
-				<div class="text-center"><img src="<?php echo $video3Img['url']; ?>" alt="<?php echo $video3Img['alt']; ?>" width="<?php echo $video3Img['width']; ?>" height="<?php echo $video3Img['height']; ?>"></div>
-				<?php endif; ?>
 			</div>
 			<div class="col-sm-12 col-md-6 responsiveMargin">
 				<?php while ( have_rows('video_quote_box') ) : the_row();?>

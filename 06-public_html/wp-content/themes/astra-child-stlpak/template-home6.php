@@ -124,31 +124,6 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if( get_field('section8_accordion') || have_rows('get_field')):?>
-<div class="hp6Section8 paddBottom70">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 col-md-6 hp6FaqWraper">
-				<h3><?php the_field('section8_heading'); ?></h3>
-				<?php while ( have_rows('section8_accordion') ) : the_row();?>
-				<div class="accordiaBox">
-					<div class="accordion"><?php the_sub_field('title');?></div>
-					<div class="panel"><?php the_sub_field('text');?></div>
-				</div>
-				<?php endwhile; ?>
-			</div>
-			<div class="col-sm-12 col-md-6 hp6s8Details responsiveMargin">
-				<ul class="hp6Slider img1Slider">
-					<?php while ( have_rows('section8_slider') ) : the_row();?>
-						<?php $hps8Slide = get_sub_field('image'); ?>
-						<li class="slide hp6Section8Slide"><img src="<?php echo $hps8Slide['url']; ?>" alt="<?php echo $hps8Slide['alt']; ?>"></li>
-					<?php endwhile; ?>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
 <?php if( get_field('section9_slider') ):?>
 <div class="hp6Section9 paddBottom70">
 	<div class="container">

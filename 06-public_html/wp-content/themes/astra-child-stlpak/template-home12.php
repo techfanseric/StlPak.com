@@ -215,20 +215,6 @@ get_header();
 	</div>
 </div>
 <?php endif; ?>
-<?php if( get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('image') || get_sub_field('heading')):?>
-<div class="hp12Section8 paddTop70 paddBottom70">
-	<div class="container">
-		<div class="row cust-row">
-			<?php $hp12s8Img = get_sub_field('image'); ?>
-			<div class="col-md-6 hp12s8Img"><img src="<?php echo $hp12s8Img['url']; ?>" alt="<?php echo $hp12s8Img['alt']; ?>"></div>
-			<div class="col-md-6 responsiveMargin hp12s8Content">
-				<h2><?php the_sub_field('heading'); ?></h2>
-				<?php the_sub_field('text'); ?>
-				<?php if(get_sub_field('button_text')): ?>
-				<div class="paddTop10"><a href="<?php the_sub_field('button_link');?>" class="commonBtn<?php if(get_sub_field('button_link') == "#contactPopUpForm" ){echo ' fancybox-inline';}?>" <?php if(get_sub_field('button_link') != "#contactPopUpForm" ){echo 'target="_blank"';}?>><?php the_sub_field('button_text');?></a></div>
-				<?php endif; ?>
 			</div>
 		</div>
 	</div>

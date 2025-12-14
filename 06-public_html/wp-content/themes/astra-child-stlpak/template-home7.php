@@ -203,24 +203,6 @@ get_header();
 	</div>
 </div>
 <?php endif;?>
-<?php if( get_field('section8') ):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('text') ):?>
-<div class="hp7Section8 paddTop75 paddBottom70" <?php if(get_sub_field('background')):?>style="background-image: url(<?php the_sub_field('background');?>);" <?php endif;?>>
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12">
-				<h2 class="hp7s8Title"><?php the_sub_field('heading');?></h2>
-				<div class="hp7s8SubTitle"><?php the_sub_field('sub_heading');?></div>
-				<div class="hp7s8Text paddTop20"><?php the_sub_field('text');?></div>
-				<div class="hp7s8Link paddTop10"><a href="<?php the_sub_field('button_link');?>" class="commonBtn<?php if(get_sub_field('button_link') == "#contactPopUpForm" ){echo ' fancybox-inline';}?>" <?php if(get_sub_field('button_link') != "#contactPopUpForm" ){echo 'target="_blank"';}?>><?php the_sub_field('button_text');?></a></div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif;?>
-<?php endwhile; ?>
-<?php endif;?>
 <?php if( get_field('section9') ):?>
 <?php while ( have_rows('section9') ) : the_row();?>
 <?php if( get_sub_field('heading') || get_sub_field('image') ):?>

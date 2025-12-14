@@ -457,6 +457,135 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
+<!-- Customer Success Stories -->
+<section class="customer-stories-section">
+    <div class="container">
+        <!-- Animated Header -->
+        <div class="stories-header">
+            <div class="header-badge">
+                <i data-lucide="star" class="badge-icon"></i>
+                <span class="badge-text">Success Stories</span>
+            </div>
+            <h2 class="stories-title">
+                Trusted by <span class="highlight-text">Industry Leaders</span> Worldwide
+            </h2>
+            <p class="stories-subtitle">
+                Discover how we help businesses transform their packaging challenges into success stories
+            </p>
+        </div>
+
+        <!-- Success Stories Grid -->
+        <div class="stories-grid">
+            <!-- Global Brand Partners Card -->
+            <div class="story-card global-brands">
+                <h3 class="story-title">
+                    <i data-lucide="building-2" class="title-icon"></i>
+                    Global Brand Partners
+                </h3>
+                <div class="brand-logos">
+                    <div class="brand-placeholder">
+                        <span class="brand-name">Costco Global</span>
+                        <i data-lucide="check" class="check-icon"></i>
+                    </div>
+                    <div class="brand-placeholder">
+                        <span class="brand-name">Sam's Club</span>
+                        <i data-lucide="check" class="check-icon"></i>
+                    </div>
+                </div>
+                <p class="story-description">
+                    Preferred supplier for world's leading retailers, delivering consistent quality and service excellence across continents
+                </p>
+                <div class="card-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">100+</span>
+                        <span class="stat-label">Global Brands</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Asia Pacific Partner Card -->
+            <div class="story-card featured">
+                <h3 class="story-title">
+                    <i data-lucide="users" class="title-icon"></i>
+                    Asia Pacific Partner
+                </h3>
+                <div class="partnership-info">
+                    <span class="partnership-duration">
+                        <i data-lucide="clock" class="duration-icon"></i>
+                        3 Years Partnership
+                    </span>
+                </div>
+                <div class="story-metrics">
+                    <div class="metric">
+                        <i data-lucide="package" class="metric-icon"></i>
+                        <span class="metric-text">Egg & Fruit Packaging</span>
+                    </div>
+                    <div class="metric">
+                        <i data-lucide="dollar-sign" class="metric-icon"></i>
+                        <span class="metric-text">$5M Annual Revenue</span>
+                    </div>
+                    <div class="metric">
+                        <i data-lucide="trending-up" class="metric-icon"></i>
+                        <span class="metric-text">30% Annual Growth</span>
+                    </div>
+                </div>
+                <blockquote class="customer-quote">
+                    <p>"3 years with StlPak: stable quality, timely delivery, competitive pricing helped our rapid growth."</p>
+                </blockquote>
+            </div>
+
+            <!-- E-commerce Supplier Card -->
+            <div class="story-card">
+                <h3 class="story-title">
+                    <i data-lucide="shopping-cart" class="title-icon"></i>
+                    Fresh Food E-commerce
+                </h3>
+                <div class="partnership-info">
+                    <span class="partnership-duration">
+                        <i data-lucide="clock" class="duration-icon"></i>
+                        2 Years Partnership
+                    </span>
+                </div>
+                <div class="story-metrics">
+                    <div class="metric">
+                        <i data-lucide="star" class="metric-icon"></i>
+                        <span class="metric-text">Custom Solutions</span>
+                    </div>
+                    <div class="metric">
+                        <i data-lucide="bar-chart" class="metric-icon"></i>
+                        <span class="metric-text">500K Units/Month</span>
+                    </div>
+                    <div class="metric">
+                        <i data-lucide="check-circle" class="metric-icon"></i>
+                        <span class="metric-text">95% Satisfaction</span>
+                    </div>
+                </div>
+                <blockquote class="customer-quote">
+                    <p>"StlPak's custom service optimized our packaging, 15% cost reduction, excellent customer feedback."</p>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="stories-cta">
+            <p class="cta-text">Ready to create your own success story?</p>
+            <div class="cta-buttons">
+                <a href="dealer/index.html" class="btn btn-primary">View More Stories</a>
+                <a href="#contact" class="btn btn-secondary">Start Your Journey</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    // Initialize Lucide icons
+    document.addEventListener('DOMContentLoaded', function() {
+        lucide.createIcons();
+    });
+</script>
+
 <?php if( get_field('section6') ):?>
 <?php while ( have_rows('section6') ) : the_row();?>
 <?php if( get_sub_field('background') || get_sub_field('heading')):?>
@@ -467,41 +596,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				<div class="bannerHeading"><?php the_sub_field('heading');?></div>
 				<div class="paddTop10 clrWhite"><?php the_sub_field('text');?></div>
 			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
-<?php if( get_field('section8') ):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('products')):?>
-<div class="pc6Section5 paddTop70 paddBottom40">
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12 col-lg-offset-1 col-lg-10 paddBottom30">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="pc6SubHeading"><?php the_sub_field('sub_heading');?></div>
-				<?php if(get_sub_field('button_text')):?>
-				<div class="pc6CTA paddTop10"><a href="<?php the_sub_field('button_link');?>" target="_blank"><?php the_sub_field('button_text');?></a></div>
-				<?php endif; ?>
-			</div>
-		</div>
-	</div>
-	<div class="row margin0">
-		<div class="col-sm-12">
-			<ul class="pc6s5Slider">
-				<?php while ( have_rows('products') ) : the_row();?>
-				<li class="slide">
-					<div class="pc6s5Box">
-						<?php $pc6s5Img = get_sub_field('image') ?>
-						<div class="pc6s5Img"><img src="<?php echo $pc6s5Img['url']; ?>" alt="<?php echo $pc6s5Img['alt']; ?>" width="<?php echo $pc6s5Img['width']; ?>" height="<?php echo $pc6s5Img['height']; ?>"></div>
-						<div class="pc6s5Title"><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></div>
-						<div class="pc6s5Link"><a href="<?php the_sub_field('link');?>">Readmore</a></div>
-					</div>
-				</li>
-				<?php endwhile; ?>
-			</ul>
 		</div>
 	</div>
 </div>

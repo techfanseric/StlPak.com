@@ -26,39 +26,11 @@
     font-weight: 400;
 }
 
-/* Section Headers with inline buttons */
+/* Section Headers - Simplified */
 .knowledge-header,
-.faq-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
+.faq-header,
 .guides-header {
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
-}
-
-.knowledge-header .header-left,
-.faq-header .header-left,
-.guides-header .header-left {
-    display: flex;
-    align-items: center;
-}
-
-/* For guides-header without button, the header-left is the whole header */
-.guides-header .header-left {
-    width: 100%;
-}
-
-.knowledge-header i,
-.faq-header i,
-.guides-header i {
-    font-size: 26px;
-    color: #16529b;
-    margin-right: 14px;
 }
 
 .knowledge-header h3,
@@ -68,6 +40,16 @@
     font-weight: 600;
     color: #03363D;
     margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.knowledge-header h3 i,
+.faq-header h3 i,
+.guides-header h3 i {
+    font-size: 26px;
+    color: #16529b;
+    margin-right: 14px;
 }
 
 .knowledge-header p,
@@ -139,7 +121,6 @@
 
 .kb-category:hover {
     border-color: #e2e8f0;
-    transform: translateY(-2px);
 }
 
 
@@ -150,12 +131,6 @@
 .faq-category:hover,
 .guide-category:hover {
     border-color: #e2e8f0;
-    transform: translateY(-2px);
-}
-
-/* Guide category specific hover effects */
-.guide-category:hover {
-    transform: translateY(-3px);
 }
 
 
@@ -337,7 +312,6 @@
 
 .guide-card:hover {
     border-color: #e2e8f0;
-    transform: translateY(-3px);
 }
 
 .guide-card:hover::before {
@@ -427,23 +401,17 @@
         font-size: 30px;
     }
 
-    .knowledge-header,
-    .faq-header,
-    .guides-header {
+    .knowledge-header h3,
+    .faq-header h3,
+    .guides-header h3 {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 24px;
     }
 
-    .knowledge-header .header-left,
-    .faq-header .header-left,
-    .guides-header .header-left {
-        margin-bottom: 20px;
-    }
-
-    .knowledge-header i,
-    .faq-header i,
-    .guides-header i {
+    .knowledge-header h3 i,
+    .faq-header h3 i,
+    .guides-header h3 i {
         margin-right: 0;
         margin-bottom: 12px;
     }

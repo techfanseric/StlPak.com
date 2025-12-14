@@ -275,7 +275,8 @@
     text-align: left;
 }
 
-.feature-icon {
+/* 只为没有内联样式的 feature-icon 设置默认值 */
+.quality-feature-item .feature-icon:not([style]) {
     color: #8b92a0;
     opacity: 0.7;
     font-size: 20px;
@@ -356,6 +357,11 @@
     border-color: #16529b !important;
     transform: translateY(-2px);
     box-shadow: 0 15px 30px rgba(22, 82, 155, 0.15);
+}
+
+.btn-hero-primary:hover,
+.btn-hero-primary:focus {
+    color: #fff;
 }
 
 .btn-hero-outline:hover {

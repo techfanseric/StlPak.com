@@ -232,34 +232,6 @@ get_header();
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('resources')):?>
-<div class="hp16Section8">
-	<div class="container">
-		<div class="row cust-row">
-			<div class="col-sm-12 paddBottom20">
-				<h2 class="hp16Heading hp16s8Heading"><?php the_sub_field('heading'); ?></h2>
-			</div>
-		</div>
-		<div class="row cust-row text-center">
-			<?php while ( have_rows('resources') ) : the_row();?>
-				<?php $hp16s8Img = get_sub_field('image'); ?>
-				<div class="col-sm-12 col-md-6 paddBottom30">
-					<div class="hp16s8Box">
-						<div class="hp16s8Img"><a href="<?php the_sub_field('link');?>"><img src="<?php echo $hp16s8Img['url']; ?>" alt="<?php echo $hp16s8Img['alt']; ?>" ></a></div>
-						<div class="hp16s8Content">
-							<div class="hp16s8Title"><a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a></div>
-							<div class="hp16s8Text"><?php the_sub_field('text');?></div>
-							<div class="hp16s8Link"><a href="<?php the_sub_field('link');?>">Read More</a></div>
-						</div>
-					</div>
-				</div>
-			<?php endwhile; ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
 <?php if( get_field('section9')):?>

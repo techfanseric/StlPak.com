@@ -836,100 +836,12 @@ ul.pc3TestimonialSlider .slick-dots li.slick-active button{
 	font-weight: 600;
 	color: #000;
 }
-.pc6s2Box:hover .pc6s2Title a, .pc6s5Box:hover .pc6s5Title a, .hp10s3Box:hover .hp10s3Title a{color: #16529b;}
-.pc6CTA a{
-	display: inline-block;
-	padding-left: 20px;
-	position: relative;
-	text-align: center;
-}
-.pc6CTA a:before {
-    position: absolute;
-    content: "\e900";
-    top: 7px;
-    left: 0;
-    width: 14px;
-    height: 14px;
-    background: #16529b;
-    color: #fff;
-    font-size: 10px;
-    font-family: Astra;
-    transform: rotate(270deg);
-    border-radius: 100%;
-    font-weight: 600;
-	transition: all .3s;
-}
-.pc6CTA a:hover:before{transform: rotate(-90deg);}
 .pc6s4Box{padding: 20px;}
 .pc6s4Img {
     display: inline-block;
     max-width: 64px;
     margin-bottom: 15px;
 }
-ul.pc6s5Slider {
-	margin: 0 ;
-	padding: 0 ;
-	list-style-type: none;
-	text-align: center;
-}
-ul.pc6s5Slider li.slick-slide{margin: 10px 12px;}
-.pc6s5Box{
-	display: inline-block;
-	max-width: 290px;
-	border-radius: 5px;
-    box-shadow: 0px 0px 4px 1px #ececec;
-    background-color: #fff;
-	overflow: hidden;
-	transition: all .3s;
-	text-align: left;
-}
-.pc6s5Box:hover{box-shadow: 2px 2px 8px 2px #dedede;}
-.pc6s5Title{padding: 10px;}
-.pc6s5Title a{
-	display: inline-block;
-	font-size: 18px;
-	font-weight: 600;
-	color: #000;
-}
-.pc6s5Link{padding: 0 10px 10px;}
-.pc6s5Link a, .hp10s3Link a{
-	display: inline-block;
-	position: relative;
-	padding-right: 15px;
-}
-.pc6s5Link a:before, .hp10s3Link a:before{
-	position: absolute;
-	content: "\e900";
-	top: 5px;
-	right: 0;
-	font-size: 12px;
-	font-weight: 600;
-	color: #16529b;
-	font-family: Astra;
-	transform: rotate(270deg);
-	transition: all .3s;
-}
-.pc6s5Box:hover .pc6s5Link a{
-	padding-right: 20px;
-	color: #000;
-}
-.pc6s5Box:hover .pc6s5Link a:before, .hp10s3Box:hover .hp10s3Link a, .hp10s3Box:hover .hp10s3Link a:before{color: #000;}
-ul.pc6s5Slider ul.slick-dots{
-	margin: 10px 0 0 ;
-	padding: 0 ;
-	list-style-type: none;
-	line-height: 1px
-}
-ul.pc6s5Slider ul.slick-dots li button{display: none;}
-ul.pc6s5Slider ul.slick-dots li{
-    width: 40px;
-    height: 3px;
-    background-color: #c1c7d0;
-    display: inline-block;
-    margin: 0 4px;
-    border-radius: 4px;
-}
-ul.pc6s5Slider ul.slick-dots li.slick-active{background-color: #000;}
 .pc6Banner{position: relative;}
 .pc6BannerContent {
     position: absolute;

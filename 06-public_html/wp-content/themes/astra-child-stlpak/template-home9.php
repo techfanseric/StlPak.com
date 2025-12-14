@@ -209,46 +209,6 @@ get_header();
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section8')):?>
-<?php while ( have_rows('section8') ) : the_row();?>
-<?php if( get_sub_field('certificate_img') || get_sub_field('slider')):?>
-<div class="hp9Section8 paddTop20 paddBottom50">
-	<div class="container">
-		<div class="row">
-			<div class="hp9s8Wraper">
-				<div class="row">
-					<div class="col-md-5">
-						<div class="hp9s8Content">
-							<?php $hp9s8Cert = get_sub_field('certificate_img'); ?>
-							<div class="hp9s8Cert"><img src="<?php echo $hp9s8Cert['url']; ?>" alt="<?php echo $hp9s8Cert['alt']; ?>"></div>
-							<div class="hp9s8Title"><?php the_sub_field('title'); ?></div>
-							<div class="row">
-								<?php while ( have_rows('certificates') ) : the_row();?>
-								<?php $hp9s8Img = get_sub_field('image'); ?>
-								<div class="col-xs-3 col-sm-3 paddBottom20">
-									<div class="hp9s8Box">
-										<div class="hp9s8Img"><img src="<?php echo $hp9s8Img['url']; ?>" alt="<?php echo $hp9s8Img['alt']; ?>"></div>
-										<div class="hp9s8Text"><?php the_sub_field('title'); ?></div>
-									</div>
-								</div>
-								<?php endwhile; ?>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-7 responsiveMargin">
-						<ul class="homeSlider img1Slider">
-							<?php while ( have_rows('slider') ) : the_row();?>
-								<?php $slider_image = get_sub_field('image') ?>
-								<li class="slide"><img src="<?php echo $slider_image['url']; ?>" alt="<?php echo $slider_image['alt']; ?>"></li>
-							<?php endwhile; ?>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
 <?php if( get_field('section9')):?>
