@@ -23,7 +23,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/slick.css">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/responsive.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/utility.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/contact-section.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/footer-styles.css">
 
 <?php remove_action('wp_head', 'rel_canonical'); ?>
 <?php wp_head(); ?>
@@ -42,14 +44,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
 <!-- 暂时不显示侧边栏 -->
 <!-- <div style="display: none;"><?php echo do_shortcode('[ca-sidebar id="2218"]'); ?></div> -->
-<div class="hidden">
-	<div id="contactPopUpForm">
-		<div class="quickQuote">
-			<div class="qqTitleWrapper"><div class="quickQuoteTitle">Send Your Inquiry Today</div></div>
-			<?php echo do_shortcode('[fluentform id="1"]'); ?>
-		</div>
-	</div>
-</div>
+<!-- Contact popup form removed - new contact form to be implemented here -->
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
 <div 

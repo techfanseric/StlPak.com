@@ -1,0 +1,165 @@
+/* Hide original Astra footer */
+.site-footer {
+    display: none;
+}
+
+/* Footer Styles */
+#footer-container {
+    background: var(--color-text-main);
+    color: #ffffff;
+    padding: 80px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer-particles-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.footer {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Brand title styling */
+.brand-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.brand-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.brand-text-stl {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.brand-text-pak {
+    color: var(--color-brand-primary);
+}
+
+/* Smaller font for section titles except the first one (brand) */
+.footer-section:not(:first-child) h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-section p {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+}
+
+.footer-links a::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--color-brand-primary);
+}
+
+/* Style for non-link items in Global Contact */
+.footer-section:nth-child(4) .footer-links li {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    padding-left: 0;
+    transition: all 0.3s ease;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-container {
+        padding: 60px 0 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section h3 {
+        font-size: 20px;
+    }
+}

@@ -602,21 +602,80 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php endif; ?>
 <?php endwhile; ?>
 <?php endif; ?>
-<?php if( get_field('section9') ):?>
-<?php while ( have_rows('section9') ) : the_row();?>
-<?php if( get_sub_field('heading') || get_sub_field('text')):?>
-<div class="pc6Section6 greySection paddTop70 paddBottom40">
-	<div class="container">
-		<div class="row cust-row text-center">
-			<div class="col-sm-12 col-lg-offset-1 col-lg-10 paddBottom30">
-				<h2><?php the_sub_field('heading');?></h2>
-				<div class="pc6SubHeading"><?php the_sub_field('text');?></div>
-				<div class="paddTop25"><a href="#contactPopUpForm" class="commonBtn fancybox-inline"><?php the_sub_field('button_text');?></a></div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
+<!-- New Contact Section -->
+<section class="contact-global-section">
+    <div class="container">
+        <div class="contact-card">
+            <div class="card-body">
+                <div class="form-container text-center">
+                    <h3 class="card-title">Get Product Information & Free Samples</h3>
+                    <p class="card-text">
+                        Fill in your information to receive detailed product catalog and free samples
+                    </p>
+
+                    <form class="contact-form" id="globalContactForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="company" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="product" required>
+                                <option value="">Select Product Interest</option>
+                                <option value="egg">Egg Packaging</option>
+                                <option value="bakery">Bakery Packaging</option>
+                                <option value="fruit">Fruit Packaging</option>
+                                <option value="other">Other Products</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="region">
+                                <option value="">Select Region</option>
+                                <option value="asia">Asia Pacific</option>
+                                <option value="europe">Europe</option>
+                                <option value="america">North America</option>
+                                <option value="other">Other Regions</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="sample" checked>
+                                <span class="checkmark"></span>
+                                I would like to receive free samples
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Get Information & Samples
+                    </button>
+                </form>
+                </div>
+
+                <div class="contact-info text-left">
+                    <div class="info-block">
+                        <h4 class="info-title">International Payment & Shipping:</h4>
+                        <ul class="info-list">
+                            <li>• Accepted: Credit Card, PayPal, Wire Transfer</li>
+                            <li>• Shipping: FOB, CIF, DDP terms available</li>
+                            <li>• Delivery: 7-20 days worldwide</li>
+                        </ul>
+                    </div>
+                    <div class="info-block">
+                        <h4 class="info-title">Contact Us Directly:</h4>
+                        <ul class="info-list">
+                            <li>Global Hotline: <a href="tel:+18558887888">+1-855-888-7888</a></li>
+                            <li>Email: <a href="mailto:global@stlpak.com">global@stlpak.com</a></li>
+                            <li>WeChat/WhatsApp: <a href="tel:+861732108998">+86 173 2100 8998</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>
