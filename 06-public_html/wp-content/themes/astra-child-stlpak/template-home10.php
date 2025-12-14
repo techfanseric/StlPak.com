@@ -462,15 +462,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="container">
         <!-- Animated Header -->
         <div class="stories-header">
-            <div class="header-badge">
-                <i data-lucide="star" class="badge-icon"></i>
-                <span class="badge-text">Success Stories</span>
-            </div>
             <h2 class="stories-title">
-                Trusted by <span class="highlight-text">Industry Leaders</span> Worldwide
+                Empowering <span class="highlight-text">Global Growth</span>
             </h2>
             <p class="stories-subtitle">
-                Discover how we help businesses transform their packaging challenges into success stories
+                From local farmers to global retail giants, our partners experience measurable growth through superior packaging solutions.
             </p>
         </div>
 
