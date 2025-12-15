@@ -239,27 +239,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- Featured Series Section -->
 <section id="products" class="featured-series-section">
+    <!-- Section Header -->
     <div class="container">
-        <!-- Section Header -->
         <div class="series-header">
             <div class="header-content">
-                <span class="sub-title">Our Collection</span>
                 <h2 class="main-title">Featured Series</h2>
                 <p class="description">Premium packaging solutions engineered for both protection and presentation.</p>
             </div>
             <div class="header-actions">
-                <button class="nav-btn prev-btn" aria-label="Previous">
+                <button class="series-nav-btn prev-btn" aria-label="Previous">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
                 </button>
-                <button class="nav-btn next-btn" aria-label="Next">
+                <button class="series-nav-btn next-btn" aria-label="Next">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                 </button>
             </div>
         </div>
+    </div>
 
-        <!-- Scrollable Cards -->
-        <div class="series-carousel-container">
-            <div class="series-carousel">
+    <!-- Scrollable Cards - 直接在carousel上应用所有样式 -->
+    <div class="series-carousel">
                 <!-- Card 1: Egg Packaging -->
                 <div class="series-card group">
                     <div class="card-image">
@@ -345,7 +344,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </section>
 
@@ -651,10 +649,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Featured Series Carousel Logic
         const carousel = document.querySelector('.series-carousel');
-        const prevBtn = document.querySelector('.series-header .prev-btn');
-        const nextBtn = document.querySelector('.series-header .next-btn');
+        const prevBtn = document.querySelector('.series-header .series-nav-btn.prev-btn');
+        const nextBtn = document.querySelector('.series-header .series-nav-btn.next-btn');
 
         if (carousel && prevBtn && nextBtn) {
+            // 导航按钮功能
             prevBtn.addEventListener('click', () => {
                 const card = carousel.querySelector('.series-card');
                 if (card) {

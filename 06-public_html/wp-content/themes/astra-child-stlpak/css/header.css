@@ -70,7 +70,7 @@ Header styles with专属命名空间
 .stlpak-header .container {
     max-width: 1440px; /* Wider container for modern look */
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 10px;
     height: 100%;
 }
 
@@ -764,7 +764,7 @@ Header styles with专属命名空间
 @media (max-width: 991px) {
     /* Layout Adjustments */
     .stlpak-header .container {
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     /* Logo Adjustments */
@@ -877,7 +877,7 @@ Header styles with专属命名空间
     }
 
     .stlpak-header .dropdown-menu .container {
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     .stlpak-header .dropdown-menu .dropdown-content {

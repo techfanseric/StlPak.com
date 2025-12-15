@@ -1,0 +1,21 @@
+/*
+ Scroll to Top Button Styling - 符合首页设计风格
+优先级确保覆盖Astra主题的默认样式
+*/
+
+/* 使用更高优先级的选择器来覆盖主题样式 */
+.site #ast-scroll-top {
+    border-radius: 12px; /* 符合header和其他首页元素的圆角规范 */
+}
+
+/* 如果需要，可以添加更多变体以确保覆盖 */
+#ast-scroll-top {
+    border-radius: 12px;
+}
+
+/* 确保在所有状态下都保持正确的圆角 */
+#ast-scroll-top,
+#ast-scroll-top:hover,
+#ast-scroll-top:focus {
+    border-radius: 12px;
+}

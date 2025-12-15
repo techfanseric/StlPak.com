@@ -256,7 +256,7 @@
 .hero-text-container {
     pointer-events: auto;
     background: rgba(255, 255, 255, 0.0);
-    padding: 40px;
+    padding: 40px 0;
     border-radius: 30px;
     margin-right: auto;
     position: relative;
@@ -411,7 +411,7 @@
     }
 
     .hero-text-container {
-        padding: 30px 20px !important;
+        padding: 30px 0 !important;
         text-align: center !important;
     }
 

@@ -26,6 +26,9 @@ function stlpak_enqueue_styles() {
     wp_enqueue_style( 'stlpak-header-css', $theme_dir . '/css/header.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
     wp_enqueue_style( 'stlpak-footer-css', $theme_dir . '/css/footer.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
 
+    // Scroll to Top Button styling - 符合首页设计风格
+    wp_enqueue_style( 'stlpak-scroll-top-css', $theme_dir . '/css/scroll-top.css', array('stlpak-base-css'), CHILD_THEME_STLPAK_VERSION, 'all' );
+
     // Smart Home CSS loading - only load what's needed
     if (is_page_template('template-home.php') || is_page_template('template-home2.php') ||
         is_page_template('template-home3.php') || is_front_page()) {
