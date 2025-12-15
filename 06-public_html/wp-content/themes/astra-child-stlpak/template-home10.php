@@ -13,13 +13,16 @@ get_header();
     <!-- WebGL Canvas -->
     <div id="canvas-container"></div>
 
+    <!-- Blur Overlay Mask -->
+    <div class="hero-blur-overlay"></div>
+
     <!-- Content Overlay -->
     <div class="hero-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-11 col-sm-12">
                     <!-- Seamless Glass Container -->
-                    <div class="hero-text-container" style="pointer-events: auto; background: rgba(255, 255, 255, 0.0); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 40px; border-radius: 30px; margin-right: auto;">
+                    <div class="hero-text-container">
 
                         <h1 class="anim-entry delay-2">
                             Leading Food-Grade <br> Packaging Manufacturer <br>

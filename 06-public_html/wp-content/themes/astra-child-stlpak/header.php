@@ -62,7 +62,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	
 	<?php astra_header_before(); ?>
 
-    <header class="header">
+    <header class="stlpak-header header">
       <div class="container">
         <nav class="navbar">
           <div class="logo">
